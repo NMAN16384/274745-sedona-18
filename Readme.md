@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Александр Понизников](https://up.htmlacademy.ru/adaptive/18/user/274745).
-* Наставник: `Неизвестно`.
+* Наставник: Дмитрий Могиль
 
 ---
 
