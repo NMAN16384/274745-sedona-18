@@ -12,39 +12,32 @@
       <div class="base-header-photo__area base-header-photo__image base-header-photo__image--bk-image" >
         <!-- блок меню -->
         <nav class="main-menu">
-          <div class="main-menu__menu-area main-menu__menu-area-opened" >
-            <button class="main-menu__button main-menu__button-close">
-              <img src="img/button-close.svg" alt="Закрыть меню" />
-            </button>
-            <!-- блок стилей области меню (menu-items-style)-->
+          <div class="main-menu__menu-area main-menu__menu-area--opened" >
+            <button class="main-menu__button main-menu__button--close"></button>
+              <!-- блок стилей области меню (menu-items-style)-->
             <ul class="main-menu__menu-items">
               <li class="main-menu__menu-item">
-                <b><a href="index.html">ГЛАВНАЯ</a><b>
+                <a href="index.html">ГЛАВНАЯ</a>
               </li>
               <li class="main-menu__menu-item">
-                <b><a href="#">ФОТО И ВИДЕО</a></b>
+                <a href="#">ФОТО И ВИДЕО</a>
               </li>
               <li class="main-menu__menu-item">
-                <b><a href="form.html">ФОРМА ОТЗЫВА</a></b>
+                <a href="form.html">ФОРМА ОТЗЫВА</a>
               </li>
               <li class="main-menu__menu-item">
-                <b><a href="">HTML ACADEMY</a></b>
+                <a href="">HTML ACADEMY</a>
               </li>         
             </ul>
           </div>
   
-          <button class="main-menu__button main-menu__button-open">
-            <img src="img/button-open.svg" alt="Открыть меню" />
-          </button>
+          <button class="main-menu__button main-menu__button--open"></button>
+
           <a class="base-header__logo" href="index.html">
-            <img class="base-header__logo--image" src="img/sedona-mobile.png" alt="Логотип компании"/>
+            <img>
           </a>
-          <div class="base-header-photo__image base-header-photo__image--sedona">
-            <img src="img/SEDONA_short.png" alt="Sedona"/>
-          </div>
-          <div class="base-header-photo__image image-decoration-down">
-            <img src="img/decoration-down-mobile.png" alt="Дек. элемент"/>
-          </div>
+          <div class="base-header-photo__image base-header-photo__image--sedona"></div>
+          <div class="base-header-photo__image image-decoration-down"></div>
         </div>
 
       </nav>
@@ -65,14 +58,14 @@
             <!-- блок описания фотки -->
             <div class="photo-card">
               <div class="photo-card__image">
-                <img src="img/photo-1-mobile.jpg.png" alt="Дорога" />
+                <img src="img/photo-1-mobile.jpg.png" alt="Дорога">
               </div>
               <h3 class="photo-card__title">НЕРОДНЫЕ ПРОСТОРЫ</h3>
               <p class="photo-card__author">Автор фото: Борис</p>
               <!-- блок лайков -->
               <div class="like-counter">
-                <img class="like-counter__image" src="img/like-icon.svg.png"/>
-                <b>1350</b>
+                <div class="like-counter__image"></div>
+                <p class="like-counter__value">1350</p>
               </div>
 
             </div>
@@ -81,14 +74,14 @@
               <!-- блок описания фотки -->
               <div class="photo-card">
                 <div class="photo-card__image">
-                  <img src="img/photo-2-mobile.jpg.png" alt="Кактус" />
+                  <img src="img/photo-2-mobile.jpg.png" alt="Кактус">
                 </div>
                 <h3 class="photo-card__title">Месная растительность</h3>
                 <p class="photo-card__author">Автор фото: Сергей</p>
                 <!-- блок лайков -->
                 <div class="like-counter">
-                  <img class="like-counter__image" src="img/like-icon.svg.png"/>
-                  <b>143</b>
+                  <div class="like-counter__image"></div>
+                  <p class="like-counter__value">143</p>
                 </div>
   
               </div>
@@ -98,14 +91,14 @@
                 <!-- блок описания фотки -->
                 <div class="photo-card">
                   <div class="photo-card__image">
-                    <img src="img/photo-3-mobile.jpg.png" alt="Дорога" />
+                    <img src="img/photo-3-mobile.jpg.png" alt="Дорога">
                   </div>
                   <h3 class="photo-card__title">Дорога на север</h3>
                   <p class="photo-card__author">Автор фото: Петр</p>
                   <!-- блок лайков -->
                   <div class="like-counter">
-                    <img class="like-counter__image" src="img/like-icon.svg.png"/>
-                    <b>96</b>
+                    <div class="like-counter__image"></div>
+                    <p class="like-counter__value">96</p>
                   </div>
     
                 </div>
@@ -115,14 +108,14 @@
                   <!-- блок описания фотки -->
                   <div class="photo-card">
                     <div class="photo-card__image">
-                      <img src="img/photo-4-mobile.jpg.png" alt="Мост дьявола" />
+                      <img src="img/photo-4-mobile.jpg.png" alt="Мост дьявола">
                     </div>
                     <h3 class="photo-card__title">Мост дьявола</h3>
                     <p class="photo-card__author">Автор фото: Антон</p>
                     <!-- блок лайков -->
                     <div class="like-counter">
-                      <img class="like-counter__image" src="img/like-icon.svg.png"/>
-                      <b>254</b>
+                      <div class="like-counter__image"></div>
+                      <p class="like-counter__value">254</p>
                     </div>
       
                   </div>
@@ -135,26 +128,26 @@
     </main>
     <!-- блок футер -->
     <footer class="main-page-footer">
-        <!--  блок визит седона-->
-        <div class="visitsedona">
-          <h3 class="visitsedona__header">#VISITSEDONA</h3>
-          <a class="visitsedona__button visitsedona__button-twitter">
-            <img src="img/icon-twitter.svg.png" alt="Twitter"/>
-          </a>
-          <a class="visitsedona__button visitsedona__button-facebook">
-              <img src="img/icon-facebook.svg.png" alt="Facebook"/>
-          </a>
-          <a class="visitsedona__button visitsedona__button-youtube">
-            <img src="img/icon-youtube.svg.png" alt="youtube"/>
-          </a>
-          <!-- блок разработчик -->
-          <div class="developer">
-              <p class="developer__text">РАЗРАБОТАННО</p>
-              <img class="developer__image developer__image--htmlacademy" width="64" height="64" src="img/htmlacademy.svg" alt="htmlacademy"/>
-          </div>
-  
+      <!--  блок визит седона-->
+      <div class="visitsedona">
+        <h3 class="visitsedona__header">#VISITSEDONA</h3>
+        <a class="visitsedona__button visitsedona__button-twitter">
+          <img>
+        </a>
+        <a class="visitsedona__button visitsedona__button-facebook">
+          <img>
+        </a>
+        <a class="visitsedona__button visitsedona__button-youtube">
+          <img>
+        </a>
+        <!-- блок разработчик -->
+        <div class="developer">
+          <p class="developer__text">РАЗРАБОТАННО</p>
+          <div class="developer__image"></div>
         </div>
+
+      </div>
   
-      </footer>    
+    </footer>     
   </body>
 </html>
