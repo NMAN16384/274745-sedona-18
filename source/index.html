@@ -7,7 +7,6 @@
     <meta name="description" content="Sedona. Место, где душа поет">
   </head>
   <body style="background-color: cadetblue;">
- 
     <!--блок заголовок-->
     <header class="base-header"> 
       <!-- блок меню -->
@@ -19,10 +18,10 @@
           <!-- блок стилей области меню (menu-items-style)-->
           <ul class="main-menu__menu-items menu-items-style">
             <li class="menu-items-style__item">
-              <b><a href="">ГЛАВНАЯ</a><b>
+              <b><a href="#">ГЛАВНАЯ</a><b>
             </li>
             <li class="menu-items-style__item">
-              <b><a href="">ФОТО И ВИДЕО</a></b>
+              <b><a href="photo.html">ФОТО И ВИДЕО</a></b>
             </li>
             <li class="menu-items-style__item">
               <b><a href="">ФОРМА ОТЗЫВА</a></b>
@@ -37,7 +36,7 @@
         <button class="main-menu__button-open">
           <img src="img/button-open.svg" alt="Открыть меню" />
         </button>
-        <a class="base-header__logo">
+        <a class="base-header__logo" href="index.html">
           <img class="base-header__logo--image" src="img/sedona-mobile.png" alt="Логотип компании"/>
         </a>
       </nav>
@@ -59,10 +58,9 @@
               <img src="img/decoration-down-mobile.png"> 
           </div>
         </div>
-
-        <div class="advantages-title list__item--white">
-          <h3 class="advantages-title__header advantages-title__header-center">СЕДОНА — небольшой  городок в АРИЗОНЕ,  зАСЛУЖИвающий большего!</h3>
-          <p class="advantages-title__number-advantage"></p>
+        <!-- блок о преимуществах-->
+        <div class="advantages-title advantages-title__background--white">
+          <h3 class="advantages-title__header">СЕДОНА — небольшой  городок в АРИЗОНЕ,  зАСЛУЖИвающий большего!</h3>
           <p class="advantages-title__remark">Рассмотрим 5 причин, по которым седона круче, чем гранд каньен</p>
           <div class="advantages-title__image image-decoration-down">
               <img src="img/decoration-down-mobile.png"> 
@@ -74,15 +72,15 @@
       <!-- секция спама или почему здесь лучше чем у всех -->
       <section class="advantages">
         <!-- секция преимущиств -->
-        <ul class="advantages-list advantages-list-style">
+        <ul class="advantages-list">
           <li class="advantages-list__item">
             <!-- блок заголовка -->
-            <div class="advantages-title list__item--blue">
+            <div class="advantages-title advantages-list__background--blue">
               <h3 class="advantages-title__header">НАСТОЯЩИЙ ГОРОДОК</h3>
               <p class="advantages-title__number-advantage"> — №1 — </p>
               <p class="advantages-title__remark">СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
             </div>
-            <div class="advantages-image">
+            <div class="advantages-list__item-image">
               <img src="img/photo-city@1x.png" alt="Изображение котеджа"/>
             </div>
             <!-- блок а что еще у нас есть замечатльного -->
@@ -104,19 +102,19 @@
 
           <li class="advantages-list__item">
             <!-- блок заголовка -->
-            <div class="advantages-title list__item--blue">
+            <div class="advantages-title advantages-list__background--blue">
               <h3 class="advantages-title__header">ТАМ ЕСТЬ МОСТ ДЬЯВАЛА</h3>
               <p class="advantages-title__number-advantage"> — №2 — </p>
               <p class="advantages-title__remark">ДА, ПО НЕМУ МОЖНО ПРОЙТИСЬ ЕСЛИ ВЫ ОСМЕЛИТЕСЬ, КОНЕЧНО</p>
             </div>
-            <div class="advantages-image">
+            <div class="advantages-list__item-image">
               <img src="img/photo-bridge@1x.png" alt="мост дьявала"/>
             </div>
           </li>
 
           <li class="advantages-list__item advantages-list__item--border-down">
             <!-- блок заголовка -->
-            <div class="advantages-title list__item--white">
+            <div class="advantages-title advantages-list__background--lightgray">
               <h3 class="advantages-title__header">НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
               <p class="advantages-title__number-advantage"> — №3 — </p>
               <p class="advantages-title__remark">ВСЕ интересные места находятся очень</p>
@@ -125,7 +123,7 @@
 
           <li class="advantages-list__item advantages-list__item--border-down">
             <!-- блок заголовка -->
-            <div class="advantages-title list__item--white">
+            <div class="advantages-title advantages-list__background--lightgray">
               <h3 class="advantages-title__header">КРАСИВАЯ ДОРОГА</h3>
               <p class="advantages-title__number-advantage"> — №4 — </p>
               <p class="advantages-title__remark">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА  совсем НЕ СКУЧНО!</p>
@@ -134,7 +132,7 @@
 
           <li class="advantages-list__item advantages-list__item--border-down">
             <!-- блок заголовка -->
-            <div class="advantages-title list__item--white">
+            <div class="advantages-title advantages-list__background--lightgray">
               <h3 class="advantages-title__header">МАЛО ТУРИСТОВ</h3>
               <p class="advantages-title__number-advantage"> — №5 — </p>
               <p class="advantages-title__remark">Большинство едет в гранд каньон и толпится там</p>
@@ -167,7 +165,7 @@
         <a class="visitsedona__button visitsedona__button-youtube">
           <img src="img/icon-youtube.svg.png" alt="youtube"/>
         </a>
-        <!-- блок разработчик -->>
+        <!-- блок разработчик -->
         <div class="developer">
             <p class="developer__text">РАЗРАБОТАННО</p>
             <img class="developer__image developer__image--htmlacademy" width="64" height="64" src="img/htmlacademy.svg" alt="htmlacademy"/>
