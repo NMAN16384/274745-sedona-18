@@ -48,75 +48,77 @@
         </div>
       </section>
       <section class="form-back-userdata">
-        <ul class="form-back form-back__list">
-          <li class="form-back__item form-back__item--borderline-top">
-            <h3 class="form-back__item-header">Представтесь</h3>
-            <div class="keyvalue">
-              <p class="keyvalue__lable">ИМЯ*:</p>
-              <input class="keyvalue__input keyvalue__input--format-letter keyvalue__input--value-username">
-            </div>
-            <div class="keyvalue">
-              <p class="keyvalue__lable">Фамилия*:</p>
-              <input class="keyvalue__input keyvalue__input--format-letter keyvalue__input--value-family">
-            </div>
-            <div class="keyvalue">
-              <p class="keyvalue__lable">Отчество*:</p>
-              <input class="keyvalue__input keyvalue__input--format-letter keyvalue__input--value-otchestvo">
-            </div>
-          </li>
-          <li class="form-back__item form-back__item--borderline-top">
-            <h3 class="form-back__item-header">Контактная информация:</h3>
-            <div class="keyvalue">
-              <p class="keyvalue__title">Контактный теелфон*:</p>
-              <input class="keyvalue__input keyvalue__input--format-phone keyvalue__input--value-phone">
-              <p class="keyvalue__lable-image keyvalue__lable-image--phone">ИМЯ*:</p>
-            </div>
-            <div class="keyvalue">
-              <p class="keyvalue__title">Электронная почта*:</p>
-              <input class="keyvalue__input keyvalue__input--format-email keyvalue__input--value-email">
-              <p class="keyvalue__lable-image keyvalue__lable-image--email">Электронная почта*:</p>
-            </div>
-          </li>
-          <li class="form-back__item form-back__item--borderline-top">
-            <h3 class="form-back__item-header">Ваше общее впечатление:</h3>
-            <div class="keyvalue">
-              <input class="keyvalue__radio keyvalue__radio--value-good">
-              <p class="keyvalue__lable">Скорее положительное:</p>
-            </div>
-            <div class="keyvalue">
-              <input class="keyvalue__radio keyvalue__radio--value-bad">
-              <p class="keyvalue__lable">Скорее отрицательное:</p>
-            </div>
-            <div class="keyvalue">
-              <input class="keyvalue__radio keyvalue__radio--value-difficult-to-answer">
-              <p class="keyvalue__lable">Затрудняюсь ответить:</p>
-            </div>
-          </li>
-          <li class="form-back__item form-back__item--borderline-top">
-            <h3 class="form-back__item-header">Посещенные достопримечательносни:</h3>
-            <div class="keyvalue">
-              <input class="keyvalue__check keyvalue__check--value-the-bridge-devil">
-              <p class="keyvalue__lable">Мост Дьявола:</p>
-            </div>
-            <div class="keyvalue">
-              <input class="keyvalue__check keyvalue__check--value-bell-mountain">
-              <p class="keyvalue__lable">Гора-Колокол:</p>
-            </div>
-            <div class="keyvalue">
-              <input class="keyvalue__check keyvalue__check--value-slide-park">
-              <p class="keyvalue__lable">Слайд-парк:</p>
-            </div>
-            <div class="keyvalue">
-              <input class="keyvalue__check keyvalue__check--value-red-rocks">
-              <p class="keyvalue__lable">Красные скалы:</p>
-            </div>
-          </li>
-          <li class="form-back__item form-back__item--borderline-top">
-            <h3 class="form-back__item-header">Опишите свои эмоции:</h3>
-            <textarea class="form-back__item-textbox"></textarea>
-            <button class="form-back__button form-back__button--send"></button>
-          </li>
-        </ul>
+        <form class="form-back" action="https://echo.htmlacademy.ru" method="GET">
+          <ul class="form-back__list">
+            <li class="form-back__item form-back__item--borderline-top">
+              <h3 class="form-back__item-header">Представтесь</h3>
+              <div class="keyvalue">
+                <p class="keyvalue__lable">ИМЯ*:</p>
+                <input type="text" class="keyvalue__input keyvalue__input--format-letter keyvalue__input--value-username" name="value-username">
+              </div>
+              <div class="keyvalue">
+                <p class="keyvalue__lable">Фамилия*:</p>
+                <input type="text" class="keyvalue__input keyvalue__input--format-letter keyvalue__input--value-family" name="value-family">
+              </div>
+              <div class="keyvalue">
+                <p class="keyvalue__lable">Отчество*:</p>
+                <input type="text" class="keyvalue__input keyvalue__input--format-letter keyvalue__input--value-otchestvo" name="value-otchestvo">
+              </div>
+            </li>
+            <li class="form-back__item form-back__item--borderline-top">
+              <h3 class="form-back__item-header">Контактная информация:</h3>
+              <div class="keyvalue">
+                <p class="keyvalue__title">Контактный теелфон*:</p>
+                <input type="text" class="keyvalue__input keyvalue__input--format-phone keyvalue__input--value-phone" name="value-phone">
+                <p class="keyvalue__lable-image keyvalue__lable-image--phone">ИМЯ*:</p>
+              </div>
+              <div class="keyvalue">
+                <p class="keyvalue__title">Электронная почта*:</p>
+                <input type="text" class="keyvalue__input keyvalue__input--format-email keyvalue__input--value-email" name="input--value-email">
+                <p class="keyvalue__lable-image keyvalue__lable-image--email">Электронная почта*:</p>
+              </div>
+            </li>
+            <li class="form-back__item form-back__item--borderline-top">
+              <h3 class="form-back__item-header">Ваше общее впечатление:</h3>
+              <div class="keyvalue">
+                <input type="radio" class="keyvalue__radio keyvalue__radio--value-good" name="radio-impression" value="good">
+                <p class="keyvalue__lable">Скорее положительное:</p>
+              </div>
+              <div class="keyvalue">
+                <input type="radio" class="keyvalue__radio keyvalue__radio--value-bad" name="radio-impression" value="bad">
+                <p class="keyvalue__lable">Скорее отрицательное:</p>
+              </div>
+              <div class="keyvalue">
+                <input type="radio" class="keyvalue__radio keyvalue__radio--value-difficult-to-answer" name="radio-impression" value="difficult-to-answer">
+                <p class="keyvalue__lable">Затрудняюсь ответить:</p>
+              </div>
+            </li>
+            <li class="form-back__item form-back__item--borderline-top">
+              <h3 class="form-back__item-header">Посещенные достопримечательносни:</h3>
+              <div class="keyvalue">
+                <input type="checkbox" class="keyvalue__check keyvalue__check--value-the-bridge-devil" name="check-value-the-bridge-devil">
+                <p class="keyvalue__lable">Мост Дьявола:</p>
+              </div>
+              <div class="keyvalue">
+                <input type="checkbox" class="keyvalue__check keyvalue__check--value-bell-mountain" name="check-value-bell-mountain">
+                <p class="keyvalue__lable">Гора-Колокол:</p>
+              </div>
+              <div class="keyvalue">
+                <input type="checkbox" class="keyvalue__check keyvalue__check--value-slide-park" name="check-value-slide-park">
+                <p class="keyvalue__lable">Слайд-парк:</p>
+              </div>
+              <div class="keyvalue">
+                <input type="checkbox" class="keyvalue__check keyvalue__check--value-red-rocks" name="check-value-red-rocks">
+                <p class="keyvalue__lable">Красные скалы:</p>
+              </div>
+            </li>
+            <li class="form-back__item form-back__item--borderline-top">
+              <h3 class="form-back__item-header">Опишите свои эмоции:</h3>
+              <textarea class="form-back__item-textbox form-back__item-textbox--usertext"></textarea>
+              <button type="submit" class="form-back__button form-back__button--send"></button>
+            </li>
+          </ul>
+        </form>
       </section>
     </main>
     <footer class="main-page-footer">
