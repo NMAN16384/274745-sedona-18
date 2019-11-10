@@ -12,7 +12,7 @@
       <div class="base-header-photo__area base-header-photo__image base-header-photo__image--bk-image" >
         <!-- блок меню -->
         <nav class="main-menu">
-          <div class="main-menu__menu-area main-menu__menu-area--opened" >
+          <div class="main-menu__menu-area main-menu__menu-area--opened">
             <button class="main-menu__button main-menu__button--close"></button>
             <!-- блок стилей области меню (menu-items-style)-->
             <ul class="main-menu__menu-items">
@@ -23,7 +23,7 @@
                 <a href="photo.html">ФОТО И ВИДЕО</a>
               </li>
               <li class="main-menu__menu-item">
-                <a href="#">ФОРМА ОТЗЫВА</a></b>
+                <a href="#">ФОРМА ОТЗЫВА</a>
               </li>
               <li class="main-menu__menu-item">
                 <a href="">HTML ACADEMY</a>
@@ -39,23 +39,95 @@
         </nav>
       </div>
     </header>
-
-    <section class="form-back">
-    </section>
-
+    <main class="form-back-page">
+      <!-- блок описания  -->
+      <section class="form-back-page__about">
+        <div class="form-title">
+          <h3 class="form-title__header">Оставте свой отзыв"></h3>
+            <p class="form-title__remark">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+        </div>
+      </section>
+      <section class="form-back-userdata">
+        <form class="form-back" action="https://echo.htmlacademy.ru" method="GET">
+          <ul class="form-back__list">
+            <li class="form-back__item form-back__item--borderline-top">
+              <h3 class="form-back__item-header">Представтесь</h3>
+              <div class="keyvalue">
+                <p class="keyvalue__lable">ИМЯ*:</p>
+                <input type="text" class="keyvalue__input keyvalue__input--format-letter keyvalue__input--value-username" name="value-username">
+              </div>
+              <div class="keyvalue">
+                <p class="keyvalue__lable">Фамилия*:</p>
+                <input type="text" class="keyvalue__input keyvalue__input--format-letter keyvalue__input--value-family" name="value-family">
+              </div>
+              <div class="keyvalue">
+                <p class="keyvalue__lable">Отчество*:</p>
+                <input type="text" class="keyvalue__input keyvalue__input--format-letter keyvalue__input--value-otchestvo" name="value-otchestvo">
+              </div>
+            </li>
+            <li class="form-back__item form-back__item--borderline-top">
+              <h3 class="form-back__item-header">Контактная информация:</h3>
+              <div class="keyvalue">
+                <p class="keyvalue__title">Контактный теелфон*:</p>
+                <input type="text" class="keyvalue__input keyvalue__input--format-phone keyvalue__input--value-phone" name="value-phone">
+                <p class="keyvalue__lable-image keyvalue__lable-image--phone">ИМЯ*:</p>
+              </div>
+              <div class="keyvalue">
+                <p class="keyvalue__title">Электронная почта*:</p>
+                <input type="text" class="keyvalue__input keyvalue__input--format-email keyvalue__input--value-email" name="input--value-email">
+                <p class="keyvalue__lable-image keyvalue__lable-image--email">Электронная почта*:</p>
+              </div>
+            </li>
+            <li class="form-back__item form-back__item--borderline-top">
+              <h3 class="form-back__item-header">Ваше общее впечатление:</h3>
+              <div class="keyvalue">
+                <input type="radio" class="keyvalue__radio keyvalue__radio--value-good" name="radio-impression" value="good">
+                <p class="keyvalue__lable">Скорее положительное:</p>
+              </div>
+              <div class="keyvalue">
+                <input type="radio" class="keyvalue__radio keyvalue__radio--value-bad" name="radio-impression" value="bad">
+                <p class="keyvalue__lable">Скорее отрицательное:</p>
+              </div>
+              <div class="keyvalue">
+                <input type="radio" class="keyvalue__radio keyvalue__radio--value-difficult-to-answer" name="radio-impression" value="difficult-to-answer">
+                <p class="keyvalue__lable">Затрудняюсь ответить:</p>
+              </div>
+            </li>
+            <li class="form-back__item form-back__item--borderline-top">
+              <h3 class="form-back__item-header">Посещенные достопримечательносни:</h3>
+              <div class="keyvalue">
+                <input type="checkbox" class="keyvalue__check keyvalue__check--value-the-bridge-devil" name="check-value-the-bridge-devil">
+                <p class="keyvalue__lable">Мост Дьявола:</p>
+              </div>
+              <div class="keyvalue">
+                <input type="checkbox" class="keyvalue__check keyvalue__check--value-bell-mountain" name="check-value-bell-mountain">
+                <p class="keyvalue__lable">Гора-Колокол:</p>
+              </div>
+              <div class="keyvalue">
+                <input type="checkbox" class="keyvalue__check keyvalue__check--value-slide-park" name="check-value-slide-park">
+                <p class="keyvalue__lable">Слайд-парк:</p>
+              </div>
+              <div class="keyvalue">
+                <input type="checkbox" class="keyvalue__check keyvalue__check--value-red-rocks" name="check-value-red-rocks">
+                <p class="keyvalue__lable">Красные скалы:</p>
+              </div>
+            </li>
+            <li class="form-back__item form-back__item--borderline-top">
+              <h3 class="form-back__item-header">Опишите свои эмоции:</h3>
+              <textarea name="user-impression" class="form-back__item-textbox form-back__item-textbox--usertext"></textarea>
+              <button type="submit" class="form-back__button form-back__button--send">Отправить отзыв</button>
+            </li>
+          </ul>
+        </form>
+      </section>
+    </main>
     <footer class="main-page-footer">
       <!--  блок визит седона-->
       <div class="visitsedona">
         <h3 class="visitsedona__header">#VISITSEDONA</h3>
-        <a class="visitsedona__button visitsedona__button-twitter">
-          <img>
-        </a>
-        <a class="visitsedona__button visitsedona__button-facebook">
-          <img>
-        </a>
-        <a class="visitsedona__button visitsedona__button-youtube">
-          <img>
-        </a>
+        <a class="visitsedona__button visitsedona__button--twitter"></a>
+        <a class="visitsedona__button visitsedona__button--facebook"></a>
+        <a class="visitsedona__button visitsedona__button--youtube"></a>
         <!-- блок разработчик -->
         <div class="developer">
           <p class="developer__text">РАЗРАБОТАННО</p>
