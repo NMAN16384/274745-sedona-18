@@ -1,0 +1,112 @@
+@import "shared.less";
+@import "variable.less";
+
+.block-image--blue{
+  background-color:@mb_menuitem-bk;
+}
+
+.block-image--h260{
+  height: 260px;
+}
+.block-image--h389{
+  height: 389px;
+}
+.block-image--h19{
+  height: 19px;
+}
+.block-image--h37{
+  height: 37px;
+}
+.block-image--h48x46{
+  height: 48px;
+  width: 46px;
+}
+.block-image--h48x47{
+  height: 48px;
+  width: 47px;
+}
+
+.block-image{
+    position: relative;
+    z-index: -1;
+
+    .block-image__img{
+        .position-absolute();
+        width: 100%;
+    }
+    .block-image__img--text{
+      .position-absolute();
+      margin-top: 10%;
+      margin-left: auto;
+      margin-right: auto;
+  
+      width: 281px;
+      height: 214px;
+      object-fit: contain;
+    }
+    .block-image__img--decor{
+      .position-absolute();
+      width: 100%;
+      object-fit: contain;
+    }
+    .block-image__img--bk{
+      height: 389px;
+      background: url('../img/back-mobile-jpg.png') 50% 50% no-repeat;
+      background-size: cover;
+    }
+    .block-image__img--text{
+      width: 281px;
+      margin-top: 90px;
+      margin-left: 20px;
+      margin-right: 19px;
+      margin-bottom:85px;
+      background: url('../img/text-index-svg.png');
+    }
+    
+    .block-image__img--whiterect{
+      margin-top: 363px;
+      height: 26px;
+      background: url('../img/intro-triangle-svg.png');
+    }
+
+    .block-image__img--whiterect2{
+      margin-top: 0px;
+      background: url('../img/white-copy-2.png');
+    }
+  
+    .block-image__img--bk-home{
+      margin-top: 0px;
+      background: url('../img/photo-city-1-x.png');
+    }
+    
+    .block-image__img--bk-bridge{
+      margin-top: 0px;
+      padding: 0;
+      background: url('../img/photo-bridge-1-x.png');
+    }
+
+    .block-image__img--bk-twiter{
+      position: relative;
+      height: 14px;
+      width: 18px;
+      background: url('../img/icon-twitter-svg.png')  no-repeat;
+
+    }
+   
+    .block-image__img--bk-facebook{
+      position: relative;
+      height: 18px;
+      width: 9px;
+      background: url('../img/icon-facebook-svg.png') no-repeat;
+     }
+    
+    .block-image__img--bk-youtube{
+      position: relative;
+      height: 14px;
+      width: 18px;
+      background: url('../img/icon-youtube-svg.png')  no-repeat;
+    }
+
+  }
+
+  
