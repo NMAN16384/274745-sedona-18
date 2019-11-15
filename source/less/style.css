@@ -189,10 +189,6 @@
 .block-text.block-text--style1 .block-text__text {
   margin-bottom: 10px;
 }
-.block-text.block-text--style1-2 h2,
-.block-text.block-text--style1-2 p {
-  margin: 0;
-}
 .block-text.block-text--style1-2 .block-text__header {
   margin-top: 32px;
   text-align: center;
@@ -434,4 +430,9 @@ body {
   align-items: center;
   margin-left: 3px;
   margin-right: 3px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  max-width: 320px;
 }
