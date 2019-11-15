@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head> 
 <body>
-  <nav class="mainmenu mainmenu">
+   <nav class="mainmenu mainmenu">
     <ul class="mainmenu__items">
       <li class="mainmenu__item mainmenu__item--border-down">
           <a class="menuitem__text" href="#" >Главная</a>
@@ -44,23 +44,29 @@
         <a class="mainmenu__image mainmenu__image--open" href="#"></a>
       </li>
     </ul>
-  </nav>
-  <section class="intro">
-    <div class="block-image block-image--h389">
-      <a class="block-image__img block-image__img--bk"></a>
-      <a class="block-image__img block-image__img--text"></a>
-      <a class="block-image__img block-image__img--whiterect"></a>
+  </nav> 
+
+  <!-- в файле block-image (и не только там) вы используете вложенность, 
+  но это абсолютно бессмысленно - элементы блока в любом случае будут находиться внутри него, 
+  и нигде более. Так что можете с чистой совестью ее убрать. -->
+
+  <section class="intro"> 
+    <div class="block-image--h389">
+      <p class="block-image--bk"></p>
+      <p class="block-image--text"></p>
+      <p class="block-image--whiterect"></p>
     </div>
     <div class="block-text block-text--style1">
       <h2 class="block-text__header">СЕДОНА — небольшой городок в АРИЗОНЕ, зАСЛУЖИвающий большего!</h2>
       <p class="block-text__text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       <div class="block-image block-image--blue block-image--h37">
-          <a class="block-image__img block-image__img--whiterect2"></a>
+          <a class="block-image--whiterect2"></a>
       </div>
     </div>
   </section>
-  <section class="advantages"> 
-    <!-- Город -->
+
+  <section class="advantages">
+
     <div class="advantages__city">
       <div class="block-text block-text--bk-blue  block-text--style2  block-text--fk-white">
         <h2><span class="block-text__header">НАСТОЯЩИЙ ГОРОДОК</span></h2>
@@ -68,7 +74,7 @@
         <p><span class="block-text__text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</span></p>
       </div>
       <div class="block-image block-image--h260">
-        <a class="block-image__img block-image__img--bk-home"></a>
+        <a class="block-image block-image--bk-home"></a>
       </div>
       <div class="advantages__rem">
         <ul class="block-ul">
@@ -93,7 +99,7 @@
         </ul>
       </div>
     </div> 
-    <!-- Мост -->
+
     <div class="advantages__city">
       <div class="block-text block-text--bk-blue  block-text--style2  block-text--fk-white">
         <h2><span class="block-text__header">ТАМ ЕСТЬ Мост дьявола</span></h2>
@@ -101,37 +107,37 @@
         <p><span class="block-text__text">Да, по нему можно пройти! Если вы осмелитесь, конечно</span></p>
       </div>
       <div class="block-image block-image--h260">
-        <a class="block-image__img block-image__img--bk-bridge"></a>
+        <a class="block-image--bk-bridge"></a>
       </div>
     </div>
-     <!-- Не большая площадь -->
-      <div class="advantages__cityarea">
-        <div class="block-text block-text--bk-gray  block-text--style2-1  block-text--fk">
-          <h2><span class="block-text__header">НЕБОЛЬШАЯ ПЛОЩАДЬ</span></h2>
-          <p><span class="block-text__text-number">– №3 –</span></p>
-          <p><span class="block-text__text">ВСЕ интересные места находятся очень близко</span></p>
-        </div>
+
+    <div class="advantages__cityarea">
+      <div class="block-text block-text--bk-gray  block-text--style2-1  block-text--fk">
+        <h2><span class="block-text__header">НЕБОЛЬШАЯ ПЛОЩАДЬ</span></h2>
+        <p><span class="block-text__text-number">– №3 –</span></p>
+        <p><span class="block-text__text">ВСЕ интересные места находятся очень близко</span></p>
       </div>
-     <!-- Красивая дорога -->
-      <div class="advantages__turist">
-        <div class="block-text block-text--bk-gray  block-text--style2-1  block-text--fk">
-          <hr class="block-text__spliter">
-          <h2><span class="block-text__header">КРАСИВАЯ ДОРОГА</span></h2>
-          <p><span class="block-text__text-number">– №4 –</span></p>
-          <p><span class="block-text__text">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</span></p>
-        </div>
+    </div>
+
+    <div class="advantages__turist">
+      <div class="block-text block-text--bk-gray  block-text--style2-1  block-text--fk">
+        <hr class="block-text__spliter">
+        <h2><span class="block-text__header">КРАСИВАЯ ДОРОГА</span></h2>
+        <p><span class="block-text__text-number">– №4 –</span></p>
+        <p><span class="block-text__text">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</span></p>
       </div>
-     <!-- Мало туристов -->
-      <div class="advantages__turist">
-        <div class="block-text block-text--bk-gray  block-text--style2-1  block-text--fk">
-          <hr class="block-text__spliter">
-          <h2><span class="block-text__header">МАЛО ТУРИСТОВ</span></h2>
-          <p><span class="block-text__text-number">– №5 –</span></p>
-          <p><span class="block-text__text">Большинство едет в гранд каньон и толпится там</span></p>
-        </div>
+    </div>
+
+    <div class="advantages__turist">
+      <div class="block-text block-text--bk-gray  block-text--style2-1  block-text--fk">
+        <hr class="block-text__spliter">
+        <h2><span class="block-text__header">МАЛО ТУРИСТОВ</span></h2>
+        <p><span class="block-text__text-number">– №5 –</span></p>
+        <p><span class="block-text__text">Большинство едет в гранд каньон и толпится там</span></p>
       </div>
-     <!-- Заинтересовались -->
-     <div class="advantages__turist">
+    </div>
+    
+    <div class="advantages__turist">
       <div class="block-text block-text--bk-gray  block-text--style1-2  block-text--fk">
         <h2><span class="block-text__header">ЗАИНТЕРЕСОВАЛИСЬ?</span></h2>
         <p><span class="block-text__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</span></p>
@@ -143,22 +149,24 @@
         <img class="freespace-image" src="img/map-mobile-jpg.png" alt="Карта">
       </div>
     </div>
+  
   </section>
+  
   <footer class="visitsedona">
     <h2 class="visitsedona__header">#visitsedona</h2>
     <div class="visitsedona__buttons">
       <div class="visitsedona__buttons--item block-image block-image--blue block-image--h48x46">
-        <a class="block-image__img block-image__img--bk-twiter"></a>
+        <a class="block-image--bk-twiter"></a>
       </div>
       <div class="visitsedona__buttons--item block-image block-image--blue block-image--h48x46">
-        <a class="block-image__img block-image__img--bk-facebook"></a>
+        <a class="block-image--bk-facebook"></a>
       </div>
       <div class="visitsedona__buttons--item block-image block-image--blue block-image--h48x46">
-        <a class="block-image__img block-image__img--bk-youtube"></a>
+        <a class="block-image--bk-youtube"></a>
       </div>
     </div>
   
-  </footer>
+  </footer> 
 </body>
 
 </html>
