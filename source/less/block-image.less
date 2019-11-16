@@ -4,6 +4,7 @@
 
 .block-image--h389t{
   height: 389px;
+  .block-image();
   position: relative;
   z-index: -1;
   * {
@@ -18,19 +19,29 @@
     background-position: center bottom, 20px 90px;
 }
 
+.block-image--back-mobile{
+  height: 438px;
+  .block-image();
+  background:     url('../img/intro-triangle-svg.png') no-repeat,
+  url('../img/back-mobile-jpg.png') no-repeat ;
+  background-size: auto,auto;
+  background-position: center bottom;
+}
 .block-image--blue{
   background-color:@mb_menuitem-bk;
-}
-.block-image(){
-  position: relative;
-  z-index: -1;
-  * {
-    .position-absolute();
-  }
 }
 .block-image--h260{
   height: 260px;
   .block-image();
+}
+
+.block-image--h260t{
+  height: 260px;
+  .block-image();
+  position: relative;
+  background: url('../img/photo-city-1-x.png') 50% 50% no-repeat ;
+  background-size: cover;
+  background-position: center top, 0px 0px;
 }
 
 .block-image--h260t{
@@ -51,8 +62,18 @@
   background: url('../img/map-mobile-jpg.png')  no-repeat;
   background-size: cover;
   background-position: center top, 0px 0px;
+  margin-bottom:00px
 }
 
+.block-image--like{
+  display: block;;
+  position: relative;
+  height:21px;
+  width: 23px;
+  background:url("../img/like-icon-svg.png");
+  background-size: auto;
+  background-position: center top;
+}
 
 .block-image--h19{
   height: 19px;
@@ -132,8 +153,7 @@
 }
 
 .block-image--bk-map{
-
-
   background: url('../img/map-mobile-jpg.png')  no-repeat;
 }
+
   

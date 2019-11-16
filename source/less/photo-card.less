@@ -1,0 +1,50 @@
+@pahoto-card-margin-left:19px;
+
+.photo-card{
+  height: 414px;
+  border-top:1px solid rgb(220,220,220);
+  font-family: PTSans;
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  font-weight: normal;
+
+  &__image{
+    margin-left: @pahoto-card-margin-left;  
+    margin-top: 22px;
+    margin-right: 20px;
+  }
+  &__header{
+    font-size: 20px;
+    margin-top:0px;
+    font-weight: bold;
+    text-transform: lowercase;
+    margin-left: @pahoto-card-margin-left;  
+  }
+  &__author{
+    font-weight: normal;
+    margin-left: @pahoto-card-margin-left;  
+  }
+  &__like{
+    margin-top:5px;
+    margin-left: @pahoto-card-margin-left;  
+    font-weight: normal;
+    &--count{
+      padding: 3px;
+      width: 31px;
+      height: 11px;
+      font-family: PTSans;
+      font-size: 14px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      text-align: left;
+      margin-left: 35px;
+    }
+  }
+}

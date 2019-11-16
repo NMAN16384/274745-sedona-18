@@ -8,6 +8,19 @@
 .fk-black {
   color: #000000;
 }
+.mainmenu--absolute {
+  height: 389px;
+  width: 320px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.mainmenu__item--notactive {
+  height: 57px !important;
+}
 .mainmenu__items--white {
   color: mb_menuitem-fk-white;
 }

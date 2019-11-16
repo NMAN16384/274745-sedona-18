@@ -24,15 +24,53 @@
   right: 0;
   bottom: 0;
 }
+.block-image--h389t * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.block-image--back-mobile {
+  height: 438px;
+  z-index: -1;
+  background: url('../img/intro-triangle-svg.png') no-repeat, url('../img/back-mobile-jpg.png') no-repeat;
+  background-size: auto,auto;
+  background-position: center bottom;
+}
+.block-image--back-mobile * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
 .block-image--blue {
   background-color: #81b3d2;
 }
 .block-image--h260 {
   height: 260px;
-  position: relative;
   z-index: -1;
 }
 .block-image--h260 * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.block-image--h260t {
+  height: 260px;
+  z-index: -1;
+  position: relative;
+  background: url('../img/photo-city-1-x.png') 50% 50% no-repeat;
+  background-size: cover;
+  background-position: center top, 0px 0px;
+}
+.block-image--h260t * {
   display: block;
   position: absolute;
   left: 0;
@@ -63,6 +101,7 @@
   background: url('../img/map-mobile-jpg.png') no-repeat;
   background-size: cover;
   background-position: center top, 0px 0px;
+  margin-bottom: 0px;
 }
 .block-image--h350t * {
   display: block;
@@ -72,9 +111,17 @@
   right: 0;
   bottom: 0;
 }
+.block-image--like {
+  display: block;
+  position: relative;
+  height: 21px;
+  width: 23px;
+  background: url("../img/like-icon-svg.png");
+  background-size: auto;
+  background-position: center top;
+}
 .block-image--h19 {
   height: 19px;
-  position: relative;
   z-index: -1;
 }
 .block-image--h19 * {
@@ -87,7 +134,6 @@
 }
 .block-image--h37 {
   height: 37px;
-  position: relative;
   z-index: -1;
 }
 .block-image--h37 * {
@@ -101,7 +147,6 @@
 .block-image--h48x46 {
   height: 48px;
   width: 46px;
-  position: relative;
   z-index: -1;
 }
 .block-image--h48x46 * {
@@ -115,7 +160,6 @@
 .block-image--h48x47 {
   height: 48px;
   width: 47px;
-  position: relative;
   z-index: -1;
 }
 .block-image--h48x47 * {
