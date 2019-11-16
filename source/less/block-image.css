@@ -5,6 +5,25 @@
   line-height: 0;
   vertical-align: middle;
 }
+.fk-black {
+  color: #000000;
+}
+.block-image--h389t {
+  height: 389px;
+  position: relative;
+  z-index: -1;
+  background: url('../img/intro-triangle-svg.png') no-repeat, url('../img/text-index-svg.png') no-repeat, url('../img/back-mobile-jpg.png') 50% 50% no-repeat;
+  background-size: auto,auto, cover;
+  background-position: center bottom, 20px 90px;
+}
+.block-image--h389t * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
 .block-image--blue {
   background-color: #81b3d2;
 }
@@ -21,12 +40,31 @@
   right: 0;
   bottom: 0;
 }
-.block-image--h389 {
-  height: 389px;
-  position: relative;
+.block-image--h260t {
+  height: 260px;
   z-index: -1;
+  position: relative;
+  background: url('../img/photo-city-1-x.png') 50% 50% no-repeat;
+  background-size: cover;
+  background-position: center top, 0px 0px;
 }
-.block-image--h389 * {
+.block-image--h260t * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.block-image--h350t {
+  height: 350px;
+  z-index: -1;
+  position: relative;
+  background: url('../img/map-mobile-jpg.png') no-repeat;
+  background-size: cover;
+  background-position: center top, 0px 0px;
+}
+.block-image--h350t * {
   display: block;
   position: absolute;
   left: 0;
@@ -89,12 +127,12 @@
   bottom: 0;
 }
 .block-image--text {
-  margin-top: 10%;
-  margin-left: auto;
-  margin-right: auto;
   width: 281px;
-  height: 214px;
-  object-fit: contain;
+  margin-top: 90px;
+  margin-left: 20px;
+  margin-right: 19px;
+  margin-bottom: 85px;
+  background: url('../img/text-index-svg.png');
 }
 .block-image--decor {
   width: 100%;
@@ -106,14 +144,6 @@
   background: url('../img/back-mobile-jpg.png') 50% 50% no-repeat;
   background-size: cover;
 }
-.block-image--text {
-  width: 281px;
-  margin-top: 90px;
-  margin-left: 20px;
-  margin-right: 19px;
-  margin-bottom: 85px;
-  background: url('../img/text-index-svg.png');
-}
 .block-image--whiterect {
   margin-top: 363px;
   height: 26px;
@@ -121,7 +151,7 @@
 }
 .block-image--whiterect2 {
   margin-top: 0px;
-  background: url('../img/white-copy-2.png');
+  background: #81b3d2 url('../img/white-copy-2.png');
 }
 .block-image--bk-home {
   margin-top: 0px;
@@ -149,4 +179,7 @@
   height: 14px;
   width: 18px;
   background: url('../img/icon-youtube-svg.png') no-repeat;
+}
+.block-image--bk-map {
+  background: url('../img/map-mobile-jpg.png') no-repeat;
 }

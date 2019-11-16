@@ -1,0 +1,26 @@
+.block-ul {
+  position: relative;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.block-ul .block-ul--house {
+  position: relative;
+  top: 0;
+  margin-top: 26px;
+  margin-left: 22px;
+  background: url("../img/icon-house-svg.png") no-repeat;
+}
+.block-ul .block-ul--gift {
+  position: relative;
+  margin-top: 0px;
+  margin-left: 25px;
+  background: url("../img/icon-gift-svg.png") no-repeat;
+}
+.block-ul .block-ul--burger {
+  position: relative;
+  top: 0;
+  margin-top: 8px;
+  margin-left: 18px;
+  background: url("../img/icon-burger-svg.png") no-repeat;
+}

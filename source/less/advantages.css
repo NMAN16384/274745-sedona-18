@@ -1,0 +1,51 @@
+.menu-box-shadow {
+  box-shadow: 0px 1px 0 0 rgba(1, 1, 1, 0.2), inset 0px 1px 0 0 rgba(255, 255, 255, 0.2);
+}
+.advantages__city {
+  height: 868px;
+}
+.advantages__city--text {
+  background-color: #81b3d2;
+  height: 191px;
+}
+.advantages__bridge {
+  margin: 0;
+  padding: 0;
+}
+.advantages__bridge-text {
+  background-color: #81b3d2;
+  height: 191px;
+}
+.advantages__cityarea {
+  height: 166px;
+}
+.advantages__road {
+  height: 168px;
+}
+.advantages__turistinfo {
+  height: 167px;
+}
+.advantages__turist {
+  height: 628;
+}
+.advantages__turist--find {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 58px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 02px;
+  margin-bottom: 49px;
+  background-color: #81b3d2;
+  text-transform: uppercase;
+  font-family: PTSans;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
