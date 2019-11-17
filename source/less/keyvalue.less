@@ -1,0 +1,120 @@
+@import "../less/variable";
+@import "../less/external-function.less";
+
+.keyvalue__font-value(){
+  font-family: PTSans;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: @c-font_black;
+}
+
+.keyvalue--radio{
+  margin-top:12px !important;  
+}
+
+.keyvalue{
+  display: flex;
+  text-transform: uppercase;
+  margin-top:20px;
+
+  align-items: center;
+
+  &__lable{
+    .block-info-form--p();
+    margin-left: 21px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    &--top{
+      text-align: left;
+      margin-left: 42px;
+      margin-top:10px;
+      margin-bottom: 0px;
+    }
+  }
+
+  &__input{
+    .keyvalue__font-value();
+    height: 55px;
+    flex-grow: 2;
+    min-width: 100px;
+    margin-left: 14px;
+    margin-right: 20px;
+    border: 0;
+    padding-left: 20px;
+    background-color:#f2f2f2;
+  }
+  &__input--image{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    margin-top:8px;
+    margin-left: 21px;
+    margin-right: 20px;
+    .keyvalue__input{
+      margin-left: 0;
+      margin-right: 0;
+      flex-shrink: 0;
+      flex-grow: 1;
+    }
+  }
+
+  &__input--radio{
+    margin-top:0px;
+    margin-left: 20px;
+    width: 56px;
+    height: 56px; 
+    border-color: black !important; 
+  }
+  
+  &__lable--radio{
+    margin-left: 20px;
+    margin-right:20px;
+    //margin-top:11px;
+    .block-radio-form();
+    text-transform:none;
+  }
+  
+  &__input--check{
+    margin-top:0px;
+    margin-left: 20px;
+    width: 56px;
+    height: 56px; 
+    border-color: black !important; 
+  }
+  
+  &__lable--check{
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top:-10px;
+    .block-radio-form();
+    text-transform:none;
+  }
+
+  &__input-text{
+    border:0;
+    resize: none;
+    background-color:#f2f2f2;
+    margin-top: -6px;
+    margin-left: 20px;
+    margin-right: 22px;
+    height: 155px;
+    width:100%;
+    text-transform:none;
+    .keyvalue__font-value();
+    font-size: 18px;
+    font-weight: bold;
+    padding-top:15px;
+    padding-left:20px;
+    padding-right:15px;
+  }
+
+}
+
+
+

@@ -30,7 +30,24 @@
   text-align: center;
   font-size: 14px;
 }
-.block-radio-form {
+.formback {
+  padding-left: 23px;
+  padding-right: 21px;
+  height: 202px;
+  background-color: #ffffff;
+}
+.formback .formback__title {
+  font-family: PTSans;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  padding-top: 37px;
+  text-transform: uppercase;
+}
+.formback .formback__header {
   font-family: PTSans;
   font-weight: normal;
   font-stretch: normal;
@@ -40,5 +57,16 @@
   text-align: center;
   font-size: 18px;
   font-weight: bold;
-  text-align: left;
+  line-height: 1.44;
+}
+.formback .formback__desk {
+  padding-top: 28px;
+  font-family: PTSans;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 14px;
 }
