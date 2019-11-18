@@ -48,9 +48,6 @@
 .block-text--bk-white {
   background-color: white;
 }
-.block-text--bk-gray {
-  background-color: #efefef;
-}
 .block-text {
   display: inline-block;
   text-align: center;
@@ -85,11 +82,6 @@
   line-height: 2.24;
   letter-spacing: normal;
 }
-.block-text .block-text__spliter {
-  margin-left: 20px;
-  margin-right: 20px;
-  opacity: 0.3;
-}
 .block-text__spliter {
   margin: 0;
   padding: 0;
@@ -117,104 +109,4 @@
   margin-bottom: 35px;
   margin-left: 20px;
   margin-right: 20px;
-}
-.block-text--advantage-list .block-text__header {
-  margin-top: 9px;
-  margin-left: 48px;
-  text-align: left;
-  font-weight: bold;
-}
-.block-text--advantage-list .block-text__text {
-  font-family: PTSans;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: left;
-  margin-top: 16px;
-  margin-bottom: 17px;
-  padding-left: 49px;
-  padding-right: 32px;
-}
-.block-text.block-text--city {
-  background-color: #81b3d2;
-}
-.block-text.block-text--city .block-text__header {
-  padding-top: 39px;
-  margin: 0px;
-  display: block;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-}
-.block-text.block-text--city .block-text__text-number {
-  display: block;
-  margin-top: 13px;
-}
-.block-text.block-text--city .block-text__text {
-  padding-left: 20px;
-  padding-right: 20px;
-  font-family: PTSans;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-}
-.block-text.block-text--bridge {
-  background-color: #81b3d2;
-}
-.block-text.block-text--bridge .block-text__header {
-  padding-top: 38px;
-  display: block;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-}
-.block-text.block-text--bridge .block-text__text-number {
-  margin-top: 14px;
-  margin-bottom: 18px;
-}
-.block-text.block-text--bridge .block-text__text {
-  padding-left: 20px;
-  padding-right: 20px;
-  font-family: PTSans;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-}
-.block-text--simpleblock .block-text__header {
-  margin-top: 26px;
-  margin-left: 32px;
-  margin-right: 33px;
-  margin-bottom: 10px;
-}
-.block-text--simpleblock .block-text__text-number,
-.block-text--simpleblock .block-text__text {
-  font-family: PTSans;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-}
-.block-text--simpleblock .block-text__text-number {
-  margin-top: 0px;
-  margin-bottom: 14px;
-}
-.block-text--simpleblock .block-text__text {
-  margin-left: 13px;
-  margin-right: 13px;
-  margin-bottom: 28px;
-  padding-left: 20px;
-  padding-right: 20px;
 }

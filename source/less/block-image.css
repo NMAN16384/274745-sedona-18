@@ -113,38 +113,6 @@
   right: 0;
   bottom: 0;
 }
-.block-image--h260t {
-  height: 260px;
-  z-index: -1;
-  position: relative;
-  background: url('../img/photo-city-1-x.png') 50% 50% no-repeat;
-  background-size: cover;
-  background-position: center top, 0px 0px;
-}
-.block-image--h260t * {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-}
-.block-image--h260t {
-  height: 260px;
-  z-index: -1;
-  position: relative;
-  background: url('../img/photo-city-1-x.png') 50% 50% no-repeat;
-  background-size: cover;
-  background-position: center top, 0px 0px;
-}
-.block-image--h260t * {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-}
 .block-image--h350t {
   height: 350px;
   z-index: -1;
@@ -235,11 +203,6 @@
 .block-image--bk-home {
   margin-top: 0px;
   background: url('../img/photo-city-1-x.png');
-}
-.block-image--bk-bridge {
-  margin-top: 0px;
-  padding: 0;
-  background: url('../img/photo-bridge-1-x.png');
 }
 .block-image--bk-twiter {
   position: relative;

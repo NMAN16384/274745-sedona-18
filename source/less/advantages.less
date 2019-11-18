@@ -1,34 +1,245 @@
 @import "variable.less";
+@import "external-function.less";
 
 .advantages{
+  
+}
+.advantages__city{
+  height:868px;
+  .advantage__header{
+    padding-top:61px-22px;
+    margin:0px;    
+  }
+  .advantage__number{
+    margin-top: 13px;
+    margin-bottom: 20px;
+  }
+  .advantage__text{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.advantage{
+  text-align: center;
+}
+
+.advantage--fk-white{
+  color:@c-white;
+}
+
+.advantage--fk-black{
+  color:@c-black;
+}
+
+.advantage--bk-base{
+  background-color:@c-base;
+}
+
+.advantage--bk-gray{
+  background-color:@c-gray;
+}
+
+
+.advantage--city-height{
+  height:194px;
+}
+
+.advantage__header{
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.44;
+}
+.advantage__number{
+  display: block;
+  margin-top: 13px;
+  margin-bottom: 20px;
+}
+.advantage__text{
+  display: block;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.advantage__image(){
+  .block-image();
+  position: relative;
+}
+
+.advantage__image{
+  .advantage__image();
+}
+
+.advantage__image--city{
+  height: 260px;
+  background: url('../img/photo-city-1-x.png') 50% 50% no-repeat ;
+  background-size: cover;
+  background-position: center top, 0px 0px;
+}
+
+.advantages__bridge{
+  text-transform: uppercase;
+  .advantage__header{
+    padding-top:38px;
+    font-size: 18px;
+  }
+  .advantage__text-number{
+    margin-top:14px;
+    margin-bottom: 18px;
+  }
+  .advantage__text{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.advantage--bridge-height{
+  height:191px;
+}
+
+.advantage__image--bridge{
+  height: 260px;
+  background: url('../img/photo-bridge-1-x.png');
+  background-size: cover;
+}
+
+.advantages__cityarea,.advantages__road, .advantages__turistinfo{
+  text-transform: uppercase;
+  .advantage__header{
+    padding-top: 26px;
+    margin-left:32px;
+    margin-right:33px;
+    margin-bottom:10px;
+  }
+  .advantage__number{
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom:12px;
+  }
+  .advantage__text{
+    padding-left: 35px;
+    padding-right: 35px;
+
+    margin-top:0px;
+    margin-bottom: 14px;
+  }
+}
+
+.advantage--cityarea-height{
+  height: 168px;
+}
+
+.advantages__isgood{
+  text-transform: uppercase;
+  .advantage__header{
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.24;
+    margin-top: 30px;
+  }
+  .advantage__text{
+    font-size: 14px;
+    line-height: 1.71;
+    
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.advantages__isgood--height{
 
 }
 
 .advantages__rem{
+
+}
+.advantage__list{
+  position: relative;
+  list-style-type: none;
+  padding:0px;
+  margin:0px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.advantage__item{
+
 }
 
-.advantages__city{
-  height:868px;
+.advantage-item{
 }
 
-.advantages__city--text{
-  background-color:@mb_menuitem-bk;
-  height:191px;
+.advantage__spliter{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 0.3;
 }
 
-.advantages__bridge{
-  margin:0;
-  padding: 0;
+.advantage-item--house{
+  position: relative;
+  background: url("../img/icon-house-svg.png") no-repeat;
+  background-position: 22px -8px;
+  //top:25px;
+  //left: 21px;
 }
+.advantage-item--gift{
+  position: relative;
+  background: url("../img/icon-gift-svg.png") no-repeat;
+  background-position: 24px -16px;
+  //top:32px;
+  //left: 24px;
+}
+.advantage-item--burger{
+  position: relative;
+  background: url("../img/icon-burger-svg.png") no-repeat;
+ 
+  //top: 44px;
+  //left: 22px;
+}
+
+.advantage-item__header{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.44;
+  margin-top: 34px;
+  margin-left:70px;
+  margin-bottom: 10px;
+}
+.advantage-item__text{
+  font-size: 14px;
+  line-height: 1.5;
+
+  margin-left:70px;
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .advantages__bridge-text{
   background-color:@mb_menuitem-bk;
   height:191px;
 }
 
-.advantages__cityarea{
-  height: 166px;
-}
+
 .advantages__road{
   height: 168px;
 }
