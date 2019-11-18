@@ -337,6 +337,14 @@
   background: #e6e6e6 url('../img/mail-svg.png') no-repeat;
   background-position: center;
 }
+.block-image--bk-academ {
+  position: relative;
+  margin-left: 10px;
+  height: 34px;
+  width: 27px;
+  background: url('../img/htmlacademy-svg.png') no-repeat;
+  background-position: center;
+}
 .block-text--fk-white {
   color: #ffffff;
 }
@@ -734,7 +742,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 36px;
-  margin-bottom: 36px;
+  margin-bottom: 42px;
 }
 .visitsedona__buttons--item {
   display: flex;
@@ -744,14 +752,42 @@ body {
   margin-right: 3px;
   z-index: 2;
 }
+.visitsedona__dev {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: PTSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url('../fonts/ptsans.woff2') format('woff2'), url('../fonts/ptsans.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url('../fonts/ptsansbold.woff2') format('woff2'), url('../fonts/ptsansbold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
 body {
+  font-family: 'PTSans';
   padding: 0;
   margin: 0;
   max-width: 320px;
-  background-color: teal;
 }
 h2,
 p {
+  font-family: 'PTSans';
   margin: 0;
   padding: 0;
 }
@@ -1403,4 +1439,20 @@ p {
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
+}
+.intro {
+  height: 3890px;
+  position: relative;
+  z-index: -1;
+  background: url('../img/intro-triangle-svg.png') no-repeat, url('../img/text-index-svg.png') no-repeat, url('../img/back-mobile-jpg.png') 50% 50% no-repeat;
+  background-size: auto,auto, cover;
+  background-position: center bottom, 20px 90px;
+}
+.intro * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }

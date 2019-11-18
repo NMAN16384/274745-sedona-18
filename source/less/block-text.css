@@ -97,42 +97,6 @@
   margin-right: 20px;
   opacity: 1;
 }
-.block-text.block-text--style1 {
-  width: 320px;
-  height: 204px;
-}
-.block-text.block-text--style1 h2,
-.block-text.block-text--style1 p {
-  margin: 0;
-}
-.block-text.block-text--style1 .block-text__header {
-  margin: 0;
-  display: block;
-  margin-top: 40px;
-  margin-left: 32px;
-  width: 255px;
-  height: 78px;
-  font-family: PTSans;
-  font-size: 18px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.446;
-  letter-spacing: normal;
-  text-align: center;
-}
-.block-text.block-text--style1 .block-text__text {
-  margin: 0;
-  display: block;
-  margin-top: 40px;
-  margin-left: 32px;
-  width: 257px;
-  height: 45px;
-  margin-top: 30px;
-  line-height: 1.85;
-  font-size: 14px;
-  font-weight: normal;
-}
 .block-text.block-text--find .block-text__header {
   margin-top: 30px;
   font-size: 21px;

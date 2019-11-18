@@ -1,5 +1,55 @@
 @import "variable";
+@import "external-function.less";
 
-.intro1{
-  background-color:@c-bk_white;
+.intro-5p{
+  .block-info-form--base();
+  text-align: center;
+}
+
+.intro-5p__image{
+  height: 389px;
+  .block-image();
+  position: relative;
+  z-index: -1;
+  * {
+    .position-absolute();
+  }
+
+  background: 
+    url('../img/intro-triangle-svg.png') no-repeat,
+    url('../img/text-index-svg.png') no-repeat,
+    url('../img/back-mobile-jpg.png') 50% 50% no-repeat ;
+    background-size: auto,auto, cover;
+    background-position: center bottom, 20px 90px;
+}
+
+.intro-5p__blocktext{
+  height: 162px;
+  text-transform: uppercase;
+}
+.intro-5p__header{
+  font-size: 18px;
+  line-height: 1.446;
+  font-weight: bold;
+
+  margin-top:39px;
+  margin-left:30px;
+  margin-right: 30px;
+  height: 78px;
+}
+.intro-5p__text{
+  line-height: 1.85;
+  font-size: 14px;
+
+  margin-top:40px;
+  margin-left: 32px;
+  margin-top:30px;
+}
+.intro-5p__decoration{
+
+  .block-image();
+  background: @mb_menuitem-bk url('../img/white-copy-2.png');
+
+  margin-top: 0px;
+  height: 37px;
 }
