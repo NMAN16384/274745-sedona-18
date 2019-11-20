@@ -10,9 +10,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -22,9 +22,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 14px;
 }
 .block-radio-form {
@@ -32,9 +32,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   text-align: left;
@@ -47,8 +47,8 @@
   margin: 0px;
 }
 .advantages__city .advantage__number {
-  margin-top: 13px;
-  margin-bottom: 20px;
+  margin-top: 11px;
+  margin-bottom: 15px;
 }
 .advantages__city .advantage__text {
   padding-left: 20px;
@@ -60,36 +60,32 @@
 .advantage--fk-white {
   color: white;
 }
+.advantage--fk-black {
+  color: black;
+}
 .advantage--bk-base {
   background-color: #81b3d2;
 }
+.advantage--bk-gray {
+  background-color: #efefef;
+}
 .advantage--city-height {
-  height: 191px;
+  height: 194px;
 }
 .advantage__header {
+  display: block;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
 }
 .advantage__number {
-  margin-top: 13px;
-  margin-bottom: 20px;
-}
-.advantage__text {
   font-size: 14px;
   line-height: 1.5;
 }
-.advantage__image {
-  z-index: -1;
-  position: relative;
-}
-.advantage__image * {
+.advantage__text {
   display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  font-size: 14px;
+  line-height: 1.5;
 }
 .advantage__image--city {
   height: 260px;
@@ -97,12 +93,78 @@
   background-size: cover;
   background-position: center top, 0px 0px;
 }
-.advantage__list {
-  position: relative;
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
+.advantages__bridge {
   text-transform: uppercase;
+}
+.advantages__bridge .advantage__header {
+  padding-top: 40px;
+  font-size: 18px;
+}
+.advantages__bridge .advantage__number {
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+.advantages__bridge .advantage__text {
+  padding-top: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.advantage--bridge-height {
+  height: 191px;
+}
+.advantage__image--bridge {
+  height: 260px;
+  background: url('../img/photo-bridge-1-x.png');
+  background-position: -102px 0px;
+  background-size: cover;
+}
+.advantages__cityarea,
+.advantages__road,
+.advantages__turistinfo {
+  text-transform: uppercase;
+}
+.advantages__cityarea .advantage__header,
+.advantages__road .advantage__header,
+.advantages__turistinfo .advantage__header {
+  padding-top: 26px;
+  margin-left: 32px;
+  margin-right: 33px;
+  margin-bottom: 10px;
+}
+.advantages__cityarea .advantage__number,
+.advantages__road .advantage__number,
+.advantages__turistinfo .advantage__number {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.advantages__cityarea .advantage__text,
+.advantages__road .advantage__text,
+.advantages__turistinfo .advantage__text {
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: 2px;
+  margin-bottom: 12px;
+}
+.advantage--cityarea-height {
+  height: 168px;
+}
+.advantages__isgood {
+  text-transform: uppercase;
+}
+.advantages__isgood .advantage__header {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.24;
+  margin-top: 30px;
+}
+.advantages__isgood .advantage__text {
+  font-size: 14px;
+  line-height: 1.71;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .advantage__list {
   position: relative;
@@ -112,52 +174,52 @@
   text-transform: uppercase;
   text-align: left;
 }
+.advantage-item {
+  margin-top: 16px;
+  padding-left: 50px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+.advantage__spliter {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 0.3;
+}
 .advantage-item--house {
   position: relative;
-  top: 0;
-  margin-top: 26px;
-  margin-left: 22px;
   background: url("../img/icon-house-svg.png") no-repeat;
+  top: 14px;
+  left: 21px;
 }
 .advantage-item--gift {
   position: relative;
   background: url("../img/icon-gift-svg.png") no-repeat;
-  top: 0;
-  margin-top: 26px;
-  margin-left: 22px;
+  top: 26px;
+  left: 24px;
 }
 .advantage-item--burger {
   position: relative;
   background: url("../img/icon-burger-svg.png") no-repeat;
-  top: 0;
-  margin-top: 26px;
-  margin-left: 22px;
+  top: 38px;
+  left: 22px;
 }
 .advantage-item__header {
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
-  margin-top: 9px;
-  margin-left: 48px;
+  padding-bottom: 4px;
 }
 .advantage-item__text {
   font-size: 14px;
   line-height: 1.5;
-  margin-top: 16px;
-  margin-bottom: 17px;
-  padding-left: 49px;
-  padding-right: 32px;
-}
-.advantages__bridge {
-  margin: 0;
-  padding: 0;
+  margin-top: 10px;
+  padding-right: 30px;
 }
 .advantages__bridge-text {
   background-color: #81b3d2;
   height: 191px;
-}
-.advantages__cityarea {
-  height: 166px;
 }
 .advantages__road {
   height: 168px;
@@ -166,28 +228,49 @@
   height: 167px;
 }
 .advantages__turist {
-  height: 628;
-}
-.advantages__turist--find {
   display: flex;
   justify-content: center;
+  background-color: #81b3d2;
+  color: #ffffff;
   align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.24;
   height: 58px;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 02px;
   margin-bottom: 49px;
-  background-color: #81b3d2;
-  text-transform: uppercase;
-  font-family: PTSans;
-  font-size: 21px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.24;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ffffff;
+}
+.advantages__turist-img {
+  height: 350px;
+  z-index: -1;
+  position: relative;
+  background: url('../img/map-mobile-jpg.png') no-repeat;
+  background-size: cover;
+  background-position: center top, 0px 0px;
+  margin-bottom: 0px;
+}
+.advantages__turist-img * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.block-image {
+  z-index: -1;
+}
+.block-image * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }
 .block-image--h389t {
   height: 389px;
@@ -260,24 +343,8 @@
   right: 0;
   bottom: 0;
 }
-.block-image--h350t {
-  height: 350px;
-  z-index: -1;
-  position: relative;
-  background: url('../img/map-mobile-jpg.png') no-repeat;
-  background-size: cover;
-  background-position: center top, 0px 0px;
-  margin-bottom: 0px;
-}
-.block-image--h350t * {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-}
 .block-image--like {
+  z-index: 1;
   display: block;
   position: relative;
   height: 21px;
@@ -301,28 +368,10 @@
 .block-image--h48x46 {
   height: 48px;
   width: 46px;
-  z-index: -1;
-}
-.block-image--h48x46 * {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
 }
 .block-image--h48x47 {
   height: 48px;
   width: 47px;
-  z-index: -1;
-}
-.block-image--h48x47 * {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
 }
 .block-image--text {
   width: 281px;
@@ -350,11 +399,6 @@
 .block-image--bk-home {
   margin-top: 0px;
   background: url('../img/photo-city-1-x.png');
-}
-.block-image--bk-bridge {
-  margin-top: 0px;
-  padding: 0;
-  background: url('../img/photo-bridge-1-x.png');
 }
 .block-image--bk-twiter {
   position: relative;
@@ -392,6 +436,7 @@
   background-position: center;
 }
 .block-image--bk-academ {
+  z-index: 1;
   position: relative;
   margin-left: 10px;
   height: 34px;
@@ -404,9 +449,6 @@
 }
 .block-text--bk-white {
   background-color: white;
-}
-.block-text--bk-gray {
-  background-color: #efefef;
 }
 .block-text {
   display: inline-block;
@@ -442,11 +484,6 @@
   line-height: 2.24;
   letter-spacing: normal;
 }
-.block-text .block-text__spliter {
-  margin-left: 20px;
-  margin-right: 20px;
-  opacity: 0.3;
-}
 .block-text__spliter {
   margin: 0;
   padding: 0;
@@ -474,79 +511,6 @@
   margin-bottom: 35px;
   margin-left: 20px;
   margin-right: 20px;
-}
-.block-text--advantage-list .block-text__header {
-  margin-top: 9px;
-  margin-left: 48px;
-  text-align: left;
-  font-weight: bold;
-}
-.block-text--advantage-list .block-text__text {
-  font-family: PTSans;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: left;
-  margin-top: 16px;
-  margin-bottom: 17px;
-  padding-left: 49px;
-  padding-right: 32px;
-}
-.block-text.block-text--bridge {
-  background-color: #81b3d2;
-}
-.block-text.block-text--bridge .block-text__header {
-  padding-top: 38px;
-  display: block;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-}
-.block-text.block-text--bridge .block-text__text-number {
-  margin-top: 14px;
-  margin-bottom: 18px;
-}
-.block-text.block-text--bridge .block-text__text {
-  padding-left: 20px;
-  padding-right: 20px;
-  font-family: PTSans;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-}
-.block-text--simpleblock .block-text__header {
-  margin-top: 26px;
-  margin-left: 32px;
-  margin-right: 33px;
-  margin-bottom: 10px;
-}
-.block-text--simpleblock .block-text__text-number,
-.block-text--simpleblock .block-text__text {
-  font-family: PTSans;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-}
-.block-text--simpleblock .block-text__text-number {
-  margin-top: 0px;
-  margin-bottom: 14px;
-}
-.block-text--simpleblock .block-text__text {
-  margin-left: 13px;
-  margin-right: 13px;
-  margin-bottom: 28px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 .mainmenu--absolute {
   height: 389px;
@@ -577,12 +541,13 @@
   position: relative;
   vertical-align: middle;
   font-family: PTSans;
-  font-size: 18px;
-  font-weight: bold;
+  font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 2.22;
   letter-spacing: normal;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 2.22;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
@@ -682,6 +647,12 @@ body {
   box-shadow: 0px 1px 0 0 rgba(1, 1, 1, 0.2), inset 0px 1px 0 0 rgba(255, 255, 255, 0.2);
 }
 .visitsedona {
+  font-family: PTSans;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
   height: 233px;
   background-color: white;
 }
@@ -690,47 +661,41 @@ body {
 }
 .visitsedona__header {
   margin-top: 0px;
-  padding-top: 31px;
+  padding-top: 34px;
   text-transform: uppercase;
-  font-family: PTSans;
   font-size: 21px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.24;
-  letter-spacing: normal;
   text-align: center;
-  color: #000000;
+  color: black;
 }
 .visitsedona__buttons {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 36px;
+  margin-top: 40px;
   margin-bottom: 42px;
 }
-.visitsedona__buttons--item {
+.visitsedona__button {
+  background-color: #81b3d2;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 3px;
   margin-right: 3px;
-  z-index: 2;
+  z-index: 1;
+  width: 46px;
+  height: 48px;
 }
 .visitsedona__dev {
   margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: PTSans;
   font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.86;
-  letter-spacing: normal;
   text-align: center;
-  color: #000000;
+  color: black;
 }
 @font-face {
   font-family: 'PTSans';
@@ -754,6 +719,7 @@ body {
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
+  outline: 1px solid lightgray;
 }
 h2,
 p {
@@ -767,29 +733,21 @@ p {
 .photoinfo__desc {
   height: 188px;
 }
-.photoinfo__desc .photoinfo__desc--header {
+.photoinfo__header {
   padding-top: 37px;
-  font-family: PTSans;
   font-size: 18px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.44;
-  letter-spacing: normal;
   text-align: center;
   text-transform: uppercase;
 }
-.photoinfo__desc .photoinfo__desc--text {
+.photoinfo__text {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
-  font-family: PTSans;
   font-size: 13px;
-  font-weight: normal;
   font-stretch: expanded;
-  font-style: normal;
   line-height: 1.71;
-  letter-spacing: normal;
   text-align: center;
   text-transform: uppercase;
 }
@@ -797,148 +755,18 @@ p {
   height: 502px;
   border-top: 1px solid #dcdcdc;
 }
-.photoinfo__video .photoinfo__desc--header {
-  padding-top: 33px;
-  font-family: PTSans;
-  font-size: 18px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.44;
-  letter-spacing: normal;
-  text-align: center;
-  text-transform: uppercase;
-}
-.photoinfo__video .photoinfo__desc--text {
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-family: PTSans;
-  font-size: 13px;
-  font-weight: normal;
-  font-stretch: expanded;
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: normal;
-  text-align: center;
-  text-transform: uppercase;
-}
 .photoinfo__video .photoinfo__video--timeless {
   size: 10px;
   width: 20px;
   height: 10px;
   color: aqua;
 }
-.photoinfo__video .photoinfo__videoplayer {
-  margin-top: 37px;
-  height: 201px;
-  z-index: -1;
-  position: relative;
-  z-index: 1;
-  background: url('../img/video-mobile@1x.jpg') no-repeat;
-  background-size: contain;
-  background-position: center top, 0px 0px;
-}
-.photoinfo__video .photoinfo__videoplayer * {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-}
-.photoinfo__video .photoinfo__videoplayer--box {
-  margin-top: 156px;
-  height: 45px;
-  width: 280px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #000000;
-  opacity: 0.6;
-}
-.photoinfo__video .photoinfo__videoplayer--volume-scale {
-  z-index: 10;
-  margin-top: 178px;
-  margin-left: 43px;
-  width: 235px;
-  height: 3px;
-  background-color: white;
-  opacity: 0.2;
-}
-.photoinfo__video .photoinfo__videoplayer--volume-slider {
-  z-index: 10;
-  border-radius: 50%;
-  margin-top: 175px;
-  margin-left: 78px;
-  width: 9px;
-  height: 9px;
-  background-color: white;
-}
-.photoinfo__video .photoinfo__videoplayer--box2 {
-  margin-top: 201px;
-  height: 68px;
-  width: 280px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #000000;
-  opacity: 0.08;
-}
-.photoinfo__video .photoinfo__videoplayer--replay {
-  margin-left: 45px;
-  margin-top: 223px;
-  height: 20px;
-  z-index: -1;
-  background: url('../img/replay-svg.png') no-repeat;
-}
-.photoinfo__video .photoinfo__videoplayer--replay * {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-}
-.photoinfo__video .photoinfo__videoplayer--subtitles {
-  margin-left: 194px;
-  margin-top: 225px;
-  height: 20px;
-  z-index: -1;
-  background: url('../img/icon-video-subtitles.svg') no-repeat;
-}
-.photoinfo__video .photoinfo__videoplayer--subtitles * {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-}
-.photoinfo__video .photoinfo__videoplayer--fullscreen {
-  margin-left: 257px;
-  margin-top: 224px;
-  height: 20px;
-  z-index: -1;
-  background: url('../img/fullscreen-svg.png') no-repeat;
-}
-.photoinfo__video .photoinfo__videoplayer--fullscreen * {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-}
 .photo-card {
   height: 414px;
   border-top: 1px solid #dcdcdc;
-  font-family: PTSans;
   font-size: 14px;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.71;
-  letter-spacing: normal;
   text-align: left;
-  font-weight: normal;
 }
 .photo-card__image {
   margin-left: 19px;
@@ -961,17 +789,13 @@ p {
   margin-left: 19px;
   font-weight: normal;
 }
-.photo-card__like--count {
+.photo-card__like-count {
   padding: 3px;
   width: 31px;
   height: 11px;
-  font-family: PTSans;
   font-size: 14px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.71;
-  letter-spacing: normal;
   text-align: left;
   margin-left: 35px;
 }
@@ -986,9 +810,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   padding-top: 37px;
   text-transform: uppercase;
 }
@@ -997,9 +821,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -1010,9 +834,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 14px;
 }
 .keyvalue--radio {
@@ -1029,9 +853,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 14px;
   margin-left: 21px;
   margin-top: auto;
@@ -1090,9 +914,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   text-align: left;
@@ -1113,9 +937,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   text-align: left;
@@ -1153,9 +977,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
 }
 .formuser .formuser__header {
   padding-top: 18px;
@@ -1164,9 +988,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -1178,9 +1002,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -1194,9 +1018,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
 }
 .formuser--contact .formuser__header {
   padding-top: 18px;
@@ -1205,9 +1029,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -1219,9 +1043,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -1235,9 +1059,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
 }
 .formuser--impression .formuser__header {
   padding-top: 18px;
@@ -1246,9 +1070,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -1260,9 +1084,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -1274,9 +1098,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -1290,9 +1114,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
 }
 .formuser--whatsee .formuser__header {
   padding-top: 18px;
@@ -1301,9 +1125,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -1315,9 +1139,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -1329,9 +1153,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -1345,9 +1169,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
 }
 .formuser--callback .formuser__header {
   padding-top: 18px;
@@ -1356,9 +1180,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -1370,9 +1194,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -1384,9 +1208,9 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -1415,8 +1239,8 @@ p {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
+  line-height: 1.71;
   text-align: center;
 }
 .intro-5p__image {
@@ -1470,6 +1294,105 @@ p {
   height: 37px;
 }
 .intro-5p__decoration * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.videoplayer {
+  margin-top: 37px;
+  height: 201px;
+  z-index: -1;
+  position: relative;
+  z-index: 1;
+  background: url('../img/video-mobile@1x.jpg') no-repeat;
+  background-size: contain;
+  background-position: center top, 0px 0px;
+}
+.videoplayer * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.videoplayer--box {
+  margin-top: 156px;
+  height: 45px;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+  opacity: 0.6;
+}
+.videoplayer--volume-scale {
+  z-index: 10;
+  margin-top: 178px;
+  margin-left: 43px;
+  width: 235px;
+  height: 3px;
+  background-color: white;
+  opacity: 0.2;
+}
+.videoplayer--volume-slider {
+  z-index: 10;
+  border-radius: 50%;
+  margin-top: 175px;
+  margin-left: 78px;
+  width: 9px;
+  height: 9px;
+  background-color: white;
+}
+.videoplayer--box2 {
+  margin-top: 201px;
+  height: 68px;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+  opacity: 0.08;
+}
+.videoplayer--replay {
+  margin-left: 45px;
+  margin-top: 223px;
+  height: 20px;
+  z-index: -1;
+  background: url('../img/replay-svg.png') no-repeat;
+}
+.videoplayer--replay * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.videoplayer--subtitles {
+  margin-left: 194px;
+  margin-top: 225px;
+  height: 20px;
+  z-index: -1;
+  background: url('../img/icon-video-subtitles.svg') no-repeat;
+}
+.videoplayer--subtitles * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.videoplayer--fullscreen {
+  margin-left: 257px;
+  margin-top: 224px;
+  height: 20px;
+  z-index: -1;
+  background: url('../img/fullscreen-svg.png') no-repeat;
+}
+.videoplayer--fullscreen * {
   display: block;
   position: absolute;
   left: 0;

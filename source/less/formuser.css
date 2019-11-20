@@ -8,39 +8,41 @@
 .fk-black {
   color: #000000;
 }
-.block-info-form--h2 {
+.block-radio-form {
   font-family: PTSans;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
-  line-height: 1.44;
-}
-.block-info-form--p {
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: normal;
-  text-align: center;
-  font-size: 14px;
+  text-align: left;
 }
 .block-radio-form {
   font-family: PTSans;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   text-align: left;
+}
+.block-info-form--h2 {
+  font-family: PTSans;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  line-height: 1.71;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.44;
 }
 .formuser {
   border-top: 1px solid #dcdcdc;
@@ -51,9 +53,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
 }
 .formuser .formuser__header {
   padding-top: 18px;
@@ -62,9 +64,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -76,9 +78,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -92,9 +94,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
 }
 .formuser--contact .formuser__header {
   padding-top: 18px;
@@ -103,9 +105,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -117,9 +119,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -133,9 +135,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
 }
 .formuser--impression .formuser__header {
   padding-top: 18px;
@@ -144,9 +146,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -158,9 +160,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -172,9 +174,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -188,9 +190,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
 }
 .formuser--whatsee .formuser__header {
   padding-top: 18px;
@@ -199,9 +201,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -213,9 +215,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -227,9 +229,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -243,9 +245,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
 }
 .formuser--callback .formuser__header {
   padding-top: 18px;
@@ -254,9 +256,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -268,9 +270,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -282,9 +284,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;

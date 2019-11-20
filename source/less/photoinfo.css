@@ -8,35 +8,61 @@
 .fk-black {
   color: #000000;
 }
+.block-info-form--h2 {
+  font-family: PTSans;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  line-height: 1.71;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.44;
+}
+.block-info-form--p {
+  font-family: PTSans;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  line-height: 1.71;
+  font-size: 14px;
+}
+.block-radio-form {
+  font-family: PTSans;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  line-height: 1.71;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
 .photoinfo {
   background-color: white;
 }
 .photoinfo__desc {
   height: 188px;
 }
-.photoinfo__desc .photoinfo__desc--header {
+.photoinfo__header {
   padding-top: 37px;
-  font-family: PTSans;
   font-size: 18px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.44;
-  letter-spacing: normal;
   text-align: center;
   text-transform: uppercase;
 }
-.photoinfo__desc .photoinfo__desc--text {
+.photoinfo__text {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
-  font-family: PTSans;
   font-size: 13px;
-  font-weight: normal;
   font-stretch: expanded;
-  font-style: normal;
   line-height: 1.71;
-  letter-spacing: normal;
   text-align: center;
   text-transform: uppercase;
 }
@@ -44,134 +70,9 @@
   height: 502px;
   border-top: 1px solid #dcdcdc;
 }
-.photoinfo__video .photoinfo__desc--header {
-  padding-top: 33px;
-  font-family: PTSans;
-  font-size: 18px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.44;
-  letter-spacing: normal;
-  text-align: center;
-  text-transform: uppercase;
-}
-.photoinfo__video .photoinfo__desc--text {
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-family: PTSans;
-  font-size: 13px;
-  font-weight: normal;
-  font-stretch: expanded;
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: normal;
-  text-align: center;
-  text-transform: uppercase;
-}
 .photoinfo__video .photoinfo__video--timeless {
   size: 10px;
   width: 20px;
   height: 10px;
   color: aqua;
-}
-.photoinfo__video .photoinfo__videoplayer {
-  margin-top: 37px;
-  height: 201px;
-  z-index: -1;
-  position: relative;
-  z-index: 1;
-  background: url('../img/video-mobile@1x.jpg') no-repeat;
-  background-size: contain;
-  background-position: center top, 0px 0px;
-}
-.photoinfo__video .photoinfo__videoplayer * {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-}
-.photoinfo__video .photoinfo__videoplayer--box {
-  margin-top: 156px;
-  height: 45px;
-  width: 280px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #000000;
-  opacity: 0.6;
-}
-.photoinfo__video .photoinfo__videoplayer--volume-scale {
-  z-index: 10;
-  margin-top: 178px;
-  margin-left: 43px;
-  width: 235px;
-  height: 3px;
-  background-color: white;
-  opacity: 0.2;
-}
-.photoinfo__video .photoinfo__videoplayer--volume-slider {
-  z-index: 10;
-  border-radius: 50%;
-  margin-top: 175px;
-  margin-left: 78px;
-  width: 9px;
-  height: 9px;
-  background-color: white;
-}
-.photoinfo__video .photoinfo__videoplayer--box2 {
-  margin-top: 201px;
-  height: 68px;
-  width: 280px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #000000;
-  opacity: 0.08;
-}
-.photoinfo__video .photoinfo__videoplayer--replay {
-  margin-left: 45px;
-  margin-top: 223px;
-  height: 20px;
-  z-index: -1;
-  background: url('../img/replay-svg.png') no-repeat;
-}
-.photoinfo__video .photoinfo__videoplayer--replay * {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-}
-.photoinfo__video .photoinfo__videoplayer--subtitles {
-  margin-left: 194px;
-  margin-top: 225px;
-  height: 20px;
-  z-index: -1;
-  background: url('../img/icon-video-subtitles.svg') no-repeat;
-}
-.photoinfo__video .photoinfo__videoplayer--subtitles * {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-}
-.photoinfo__video .photoinfo__videoplayer--fullscreen {
-  margin-left: 257px;
-  margin-top: 224px;
-  height: 20px;
-  z-index: -1;
-  background: url('../img/fullscreen-svg.png') no-repeat;
-}
-.photoinfo__video .photoinfo__videoplayer--fullscreen * {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
 }

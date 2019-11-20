@@ -1,14 +1,9 @@
 .photo-card {
   height: 414px;
   border-top: 1px solid #dcdcdc;
-  font-family: PTSans;
   font-size: 14px;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.71;
-  letter-spacing: normal;
   text-align: left;
-  font-weight: normal;
 }
 .photo-card__image {
   margin-left: 19px;
@@ -31,17 +26,13 @@
   margin-left: 19px;
   font-weight: normal;
 }
-.photo-card__like--count {
+.photo-card__like-count {
   padding: 3px;
   width: 31px;
   height: 11px;
-  font-family: PTSans;
   font-size: 14px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.71;
-  letter-spacing: normal;
   text-align: left;
   margin-left: 35px;
 }
