@@ -2,6 +2,13 @@
 @import "variable.less";
 @import "external-function.less";
 
+.block-image{
+  z-index: -1;
+  * {
+    .position-absolute();
+  }
+}
+
 .block-image--h389t{
   height: 389px;
   .block-image();
@@ -49,16 +56,6 @@
   .block-image();
 }
 
-.block-image--h350t{
-  height: 350px;
-  .block-image();
-  position: relative;
-  background: url('../img/map-mobile-jpg.png')  no-repeat;
-  background-size: cover;
-  background-position: center top, 0px 0px;
-  margin-bottom:00px
-}
-
 .block-image--like{
   display: block;;
   position: relative;
@@ -76,12 +73,10 @@
 .block-image--h48x46{
   height: 48px;
   width: 46px;
-  .block-image();
 }
 .block-image--h48x47{
   height: 48px;
   width: 47px;
-  .block-image();
 }
 
 .block-image--text{
@@ -153,6 +148,7 @@
 }
 
 .block-image--bk-academ{
+  z-index: 1;
   position: relative;
   margin-left: 10px;
   height: 34px;

@@ -13,9 +13,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
@@ -25,9 +25,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 14px;
 }
 .block-radio-form {
@@ -35,9 +35,9 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.71;
   letter-spacing: normal;
   text-align: center;
+  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   text-align: left;
@@ -188,6 +188,12 @@
   text-transform: uppercase;
   text-align: left;
 }
+.advantage-item {
+  margin-top: 16px;
+  padding-left: 50px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
 .advantage__spliter {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -198,31 +204,32 @@
 .advantage-item--house {
   position: relative;
   background: url("../img/icon-house-svg.png") no-repeat;
-  background-position: 22px -8px;
+  top: 14px;
+  left: 21px;
 }
 .advantage-item--gift {
   position: relative;
   background: url("../img/icon-gift-svg.png") no-repeat;
-  background-position: 24px -16px;
+  top: 26px;
+  left: 24px;
 }
 .advantage-item--burger {
   position: relative;
   background: url("../img/icon-burger-svg.png") no-repeat;
+  top: 38px;
+  left: 22px;
 }
 .advantage-item__header {
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
-  margin-top: 34px;
-  margin-left: 70px;
-  margin-bottom: 10px;
+  padding-bottom: 4px;
 }
 .advantage-item__text {
   font-size: 14px;
   line-height: 1.5;
-  margin-left: 70px;
-  margin-top: 14px;
-  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-right: 30px;
 }
 .advantages__bridge-text {
   background-color: #81b3d2;
@@ -235,26 +242,41 @@
   height: 167px;
 }
 .advantages__turist {
-  height: 628;
-}
-.advantages__turist--find {
   display: flex;
   justify-content: center;
+  background-color: #81b3d2;
+  color: #ffffff;
   align-items: center;
+  font-family: PTSans;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.24;
   height: 58px;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 02px;
   margin-bottom: 49px;
-  background-color: #81b3d2;
-  text-transform: uppercase;
-  font-family: PTSans;
-  font-size: 21px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.24;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ffffff;
+}
+.advantages__turist-img {
+  height: 350px;
+  z-index: -1;
+  position: relative;
+  background: url('../img/map-mobile-jpg.png') no-repeat;
+  background-size: cover;
+  background-position: center top, 0px 0px;
+  margin-bottom: 0px;
+}
+.advantages__turist-img * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }

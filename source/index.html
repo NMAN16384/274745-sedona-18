@@ -23,7 +23,7 @@
         <a href="#" class="menuitem__text">HTML Academy</a>
       </li>
       <li class="mainmenu__item mainmenu__item--notactive mainmenu__item--bk-color-white">
-        <a class="mainmenu__image--logo" href="#">
+        <a class="mainmenu__image mainmenu__image--logo" href="#">
           <img src="img/sedona-mobile.png" alt="Logo">
         </a>
         <a class="mainmenu__image mainmenu__image--open" href="#"></a>
@@ -58,19 +58,24 @@
       </div>
       <div class="advantages__rem">
         <ul class="advantage__list">
-          <li class="advantage__item advantage-item advantage-item--house">
-            <h2 class="advantage-item__header"><span>Жилье</span></h2>
-            <p class="advantage-item__text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          <li class="advantage__item advantage-item--house">
+            <div class="advantage-item">
+              <h2 class="advantage-item__header">Жилье</h2>
+              <p class="advantage-item__text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+            </div>
           </li>
-          <li class="advantage__item advantage-item advantage-item--gift">
-            <h2 class="advantage-item__header"><span >СУВЕНИРЫ</span></h2>
-            <p class="advantage-item__text">Не только китайского, но и местного производства!</p>
-          </li>
-          <!--
-          <li class="advantage__item advantage-item advantage-item--burger">
-            <h2 class="advantage-item__header"><span>ЕДА</span></h2>
-            <p class="advantage-item__text">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
-          </li> -->
+          <li class="advantage__item advantage-item--gift">
+            <div class="advantage-item">
+              <h2 class="advantage-item__header">СУВЕНИРЫ</h2>
+              <p class="advantage-item__text">Не только китайского, но и местного производства!</p>
+            </div>
+          </li> 
+          <li class="advantage__item advantage-item--burger">
+            <div class="advantage-item">
+              <h2 class="advantage-item__header">ЕДА</h2>
+              <p class="advantage-item__text">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+            </div>
+         </li>
         </ul>
       </div>
     </div>
@@ -105,58 +110,44 @@
     <div class="advantages__turistinfo">
       <div class="advantage advantage--cityarea-height advantage--bk-gray advantage--fk-black">
         <hr class="advantage__spliter">
-        <h2><span class="advantage__header">МАЛО ТУРИСТОВ</span></h2>
-        <p><span class="advantage__number">– №5 –</span></p>
-        <p><span class="advantage__text">Большинство едет в гранд каньон и толпится там</span></p>
+        <h2 class="advantage__header">МАЛО ТУРИСТОВ</h2>
+        <p class="advantage__number">– №5 –</p>
+        <p class="advantage__text">Большинство едет в гранд каньон и толпится там</p>
       </div>
     </div>
-
+    
     <div class="advantages__isgood">
       <div class="advantage advantages__isgood--height advantage--bk-white advantage--fk-black">
-        <h2><span class="advantage__header">ЗАИНТЕРЕСОВАЛИСЬ?</span></h2>
-        <p><span class="advantage__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</span></p>
+        <h2 class="advantage__header">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
+        <p class="advantage__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
       </div>
 
-      <div class="advantages__turist--find">
-        <a class="advantages__turist--button">Найти гостиницу</a>
+      <div class="advantages__turist">
+        <a class="advantages__turist-find">Найти гостиницу</a>
       </div>
-      <div class="block-image--h350t">
+      <div class="advantages__turist-img">
       </div>
     </div>
-<!-- 
-    <div class="advantages__isgood">
-      <div class="block-text block-text--find  block-text--fk">
-        <h2><span class="block-text__header">ЗАИНТЕРЕСОВАЛИСЬ?</span></h2>
-        <p><span class="block-text__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</span></p>
-      </div>
-      <div class="advantages__turist--find">
-        <a class="advantages__turist--button">Найти гостиницу</a>
-      </div>
-      <div class="block-image--h350t">
-      </div>
-    </div> -->
-
   </section>
 
   <footer class="visitsedona">
     <h2 class="visitsedona__header">#visitsedona</h2>
     <div class="visitsedona__buttons">
-      <div class="visitsedona__buttons--item block-image--blue block-image--h48x46">
-        <a class="block-image--bk-twiter"></a>
+      <div class="visitsedona__button">
+        <a class="block-image block-image--bk-twiter"></a>
       </div>
-      <div class="visitsedona__buttons--item block-image--blue block-image--h48x47">
-        <a class="block-image--bk-facebook"></a>
+      <div class="visitsedona__button">
+        <a class="block-image block-image--bk-facebook"></a>
       </div>
-      <div class="visitsedona__buttons--item block-image--blue block-image--h48x46">
-        <a class="block-image--bk-youtube"></a>
+      <div class="visitsedona__button">
+        <a class="block-image block-image--bk-youtube"></a>
       </div>
     </div>
-    <div class="visitsedona__dev">
-      <p class="visitsedona__dev--text">РАЗРАБОТАННО</p>
-      <div class="block-image--bk-academ"></div>
+    <div class="visitsedona__dev" >
+      <p class="visitsedona__dev-text">РАЗРАБОТАННО</p>
+      <div  class="block-image block-image--bk-academ"></div>
     </div>
   </footer>
-
 
   </body>
 </html>

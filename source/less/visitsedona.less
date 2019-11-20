@@ -1,6 +1,8 @@
 @import "variable.less";
+@import "external-function.less";
 
 .visitsedona{
+    .font-base();
     height: 233px;
     background-color: white;
 }
@@ -10,21 +12,15 @@
 }
 
 .visitsedona__header{
-
     margin-top: 0px;
-    padding-top: 31px;
+    padding-top: 34px;
     text-align: center;
     text-transform: uppercase;
-    font-family: PTSans;
     font-size: 21px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.24;
-    letter-spacing: normal;
     text-align: center;
-    color: #000000;
-
+    color: @c-black;
 }
 
 .visitsedona__buttons
@@ -32,30 +28,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 36px;
+    margin-top: 40px;
     margin-bottom: 42px;
 }
-.visitsedona__buttons--item{
+.visitsedona__button{
+  background-color: @c-base;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 3px;
   margin-right: 3px;
-  z-index: 2;
+  z-index: 1;
+
+  width: 46px;
+  height: 48px;
 }
 .visitsedona__dev{
     margin-top:10px;
     display: flex;
     justify-content: center;
-    align-items: center;
 
-    font-family: PTSans;
+    align-items: center;
     font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.86;
-    letter-spacing: normal;
     text-align: center;
-    color: #000000;
+    color: @c-black;
 }
