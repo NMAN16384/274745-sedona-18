@@ -1,31 +1,24 @@
 .menu-box-shadow {
   box-shadow: 0px 1px 0 0 rgba(1, 1, 1, 0.2), inset 0px 1px 0 0 rgba(255, 255, 255, 0.2);
 }
-.freespace-image {
-  line-height: 0;
-  vertical-align: middle;
-}
-.fk-black {
-  color: #000000;
-}
 .formback {
   padding-left: 23px;
   padding-right: 21px;
   height: 202px;
   background-color: #ffffff;
 }
-.formback .formback__title {
+.formback__title {
   text-align: center;
   padding-top: 37px;
   text-transform: uppercase;
 }
-.formback .formback__header {
+.formback__header {
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
   color: black;
 }
-.formback .formback__desk {
+.formback__desk {
   padding-top: 28px;
   width: 276px;
   height: 140px;

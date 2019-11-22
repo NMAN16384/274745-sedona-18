@@ -1,27 +1,22 @@
-@import "external-function.less";
-
-.photoinfo{
-  background-color:white;
+.photoinfo {
+  background-color: white;
 }
-.photoinfo__desc{
+.photoinfo__desc {
   height: 188px;
 }
-
-.photoinfo__header{
+.photoinfo__header {
   padding-top: 36px;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
-  color: @c-black2;
+  color: black;
   text-align: center;
   text-transform: uppercase;
 }
-
-.photoinfo__header--margin-small
-{
+.photoinfo__header--margin-small {
   padding-top: 32px;
 }
-.photoinfo__text{
+.photoinfo__text {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
@@ -31,13 +26,11 @@
   text-align: center;
   text-transform: uppercase;
 }
-
-.photoinfo__text--lr-small{
+.photoinfo__text--lr-small {
   padding-left: 40px;
   padding-right: 40px;
 }
-
-.photoinfo__video{
-  height: 492px+6px;
-  border-top:1px solid @c-gray;
+.photoinfo__video {
+  height: 498px;
+  border-top: 1px solid #efefef;
 }

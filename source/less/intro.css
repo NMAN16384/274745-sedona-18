@@ -1,13 +1,6 @@
 .menu-box-shadow {
   box-shadow: 0px 1px 0 0 rgba(1, 1, 1, 0.2), inset 0px 1px 0 0 rgba(255, 255, 255, 0.2);
 }
-.freespace-image {
-  line-height: 0;
-  vertical-align: middle;
-}
-.fk-black {
-  color: #000000;
-}
 .intro-5p {
   text-align: center;
 }

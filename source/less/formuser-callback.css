@@ -1,13 +1,6 @@
 .menu-box-shadow {
   box-shadow: 0px 1px 0 0 rgba(1, 1, 1, 0.2), inset 0px 1px 0 0 rgba(255, 255, 255, 0.2);
 }
-.freespace-image {
-  line-height: 0;
-  vertical-align: middle;
-}
-.fk-black {
-  color: #000000;
-}
 .formuser-callback {
   font-family: PTSans;
   font-weight: normal;
@@ -15,7 +8,7 @@
   font-style: normal;
   letter-spacing: normal;
   text-align: center;
-  border: 1px solid #efefef;
+  border-top: 1px solid #efefef;
   padding-left: 18px;
   padding-right: 20px;
   padding-bottom: 38px;
@@ -36,6 +29,8 @@
   height: 58px;
   background-color: #81b3d2;
   border: none;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 .formuser-callback__header {
   text-transform: uppercase;

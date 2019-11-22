@@ -1,56 +1,50 @@
-@import "variable.less";
-@import "external-function.less";
-
-.visitsedona{
-  .font-base();
+.visitsedona {
+  font-family: PTSans;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
   height: 233px;
   background-color: white;
 }
-
-.visitsedona__buttons--bk{
-  background-color:#81b3d2;
+.visitsedona__buttons--bk {
+  background-color: #81b3d2;
 }
-
-.visitsedona__header{
+.visitsedona__header {
   margin-top: 0px;
   padding-top: 37px;
-
-  text-align: center;
   text-transform: uppercase;
   font-size: 21px;
   font-weight: bold;
   line-height: 1.24;
   text-align: center;
-  color: @c-black;
+  color: black;
 }
-
-.visitsedona__buttons
-{
+.visitsedona__buttons {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 36px;
   margin-bottom: 38px;
 }
-
-.visitsedona__button{
-  background-color: @c-base;
+.visitsedona__button {
+  background-color: #81b3d2;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 3px;
   margin-right: 3px;
   z-index: 1;
-
   width: 46px;
   height: 48px;
 }
-.visitsedona__dev{
+.visitsedona__dev {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 14px;
   line-height: 1.86;
   text-align: center;
-  color: @c-black;
+  color: black;
 }
