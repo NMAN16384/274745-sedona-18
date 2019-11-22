@@ -8,47 +8,7 @@
 .fk-black {
   color: #000000;
 }
-.block-info-form--h2 {
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: normal;
-  text-align: center;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-}
-.block-info-form--p {
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: normal;
-  text-align: center;
-  font-size: 14px;
-}
-.block-radio-form {
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: normal;
-  text-align: center;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: left;
-}
 .intro-5p {
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: normal;
   text-align: center;
 }
 .intro-5p__image {
@@ -58,14 +18,6 @@
   background: url('../img/intro-triangle-svg.png') no-repeat, url('../img/text-index-svg.png') no-repeat, url('../img/back-mobile-jpg.png') 50% 50% no-repeat;
   background-size: auto,auto, cover;
   background-position: center bottom, 20px 90px;
-}
-.intro-5p__image * {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
 }
 .intro-5p__image * {
   display: block;
@@ -96,16 +48,7 @@
   margin-top: 30px;
 }
 .intro-5p__decoration {
-  z-index: -1;
   background: #81b3d2 url('../img/white-copy-2.png');
   margin-top: 0px;
   height: 37px;
-}
-.intro-5p__decoration * {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
 }

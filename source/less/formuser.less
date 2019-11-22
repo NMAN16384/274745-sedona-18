@@ -1,169 +1,59 @@
 @import "../less/variable";
 @import "../less/external-function.less";
 
-
-
-.block-info-form--base(){
-  .font-base();
-  line-height: 1.71;
-}
-.block-radio-form{
-  .block-info-form--base();
-  font-size: 18px;
-  font-weight: bold;
-  text-align: left;
-}
-
-.block-radio-form{
-  .block-info-form--base();
-  font-size: 18px;
-  font-weight: bold;
-  text-align: left;
-}
-
-
-.block-info-form--h2{
-  .block-info-form--base();
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-}
-
+@height-item:58px;
 
 .formuser{
-  border-top:1px solid @c-seporator-line;
-  height:304px;
-  background-color: @mb_menuitem-white;
   text-transform: uppercase;
-  .block-info-form--base();
+  padding-left: 21px;
+  padding-right: 20px;
+  padding-bottom: 6px;
 
-  .formuser__header{
-    padding-top:18px;
-    padding-bottom: 4px;
-    .block-info-form--h2();
-  }
-
-  .formuser__header--top{
-    padding-top:18px;
-    padding-bottom: 10px;
-    .block-info-form--h2();
-  }
-  
+  border-top: 1px solid @c-gray;
 }
 
-.formuser--contact{
-  border-top:1px solid @c-seporator-line;
-  height:286px;
-  background-color: @mb_menuitem-white;
-  text-transform: uppercase;
-  .block-info-form--base();
-
-  .formuser__header{
-    padding-top:18px;
-    padding-bottom: 4px;
-    .block-info-form--h2();
-  }
-
-  .formuser__header--top{
-    padding-top:18px;
-    padding-bottom: 10px;
-    .block-info-form--h2();
-  }
-}
-
-.formuser--impression{
-  border-top:1px solid @c-seporator-line;
-  height:286px;
-  background-color: @mb_menuitem-white;
-  text-transform: uppercase;
-  .block-info-form--base();
-
-  .formuser__header{
-    padding-top:18px;
-    padding-bottom: 4px;
-    .block-info-form--h2();
-  }
-
-  .formuser__header--top{
-    padding-top:18px;
-    padding-bottom: 10px;
-    .block-info-form--h2();
-  }
-  .formuser__header--radio{
-    padding-top:18px;
-    padding-bottom: 10px;
-    .block-info-form--h2();
-  }
-}
-
-
-.formuser--whatsee{
-  border-top:1px solid @c-seporator-line;
-  height:409px;
-  background-color: @mb_menuitem-white;
-  text-transform: uppercase;
-  .block-info-form--base();
-
-  .formuser__header{
-    padding-top:18px;
-    padding-bottom: 4px;
-    .block-info-form--h2();
-  }
-
-  .formuser__header--top{
-    padding-top:18px;
-    padding-bottom: 10px;
-    .block-info-form--h2();
-  }
-  .formuser__header--check{
-    padding-top:18px;
-    padding-bottom: 10px;
-    .block-info-form--h2();
-  }
-}
-
-
-.formuser--callback{
-  border-top:1px solid @c-seporator-line;
-  height:372px;
-  background-color: @mb_menuitem-white;
-  text-transform: uppercase;
-  .block-info-form--base();
-
-  .formuser__header{
-    padding-top:18px;
-    padding-bottom: 4px;
-    .block-info-form--h2();
-  }
-
-  .formuser__header--top{
-    padding-top:18px;
-    padding-bottom: 10px;
-    .block-info-form--h2();
-  }
-  .formuser__header--check{
-    padding-top:18px;
-    padding-bottom: 10px;
-    .block-info-form--h2();
-  }
-
-  .formuser__button{
-    bottom: 0 !important;
-    background-color: @mb_menuitem-bk;
-    min-width: 280px;
-    margin-top: 38px;
-    padding-left: 19px;
-    padding-right: 21px;
-    height: 58px;
-    text-transform:uppercase;
-    font-family: PTSans;
-    font-size: 21px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.24;
-    letter-spacing: normal;
+.formuser__header{
     text-align: center;
-    color:@mb_menuitem-bk-white;
-  }
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.44;
+
+    margin-top:18px;
+    margin-bottom: 21px;
 }
+
+.formuser__wrap{
+    display: flex;
+    align-items: center;
+}
+
+.formuser-item{
+    margin-bottom: 18px;
+}
+
+.formuser-item__lable{
+  font-size: 14px;
+  line-height: 1.86;
+  text-align: left;
+}
+
+.formuser-item__input{
+    width: 100%;
+    margin-left: 16px;
+    height: @height-item;
+    padding-left: 22px;
+    border: 0;
+    background-color: @c-gray-light;
+
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.44;
+    text-align: left;
+    color: @c-black2;
+}
+
+.formuser-item__input--name{
+
+}
+

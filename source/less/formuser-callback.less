@@ -1,0 +1,64 @@
+@import "variable.less";
+@import "external-function";
+
+@height-item:58px;
+
+.formuser-callback{
+  .font-base();
+  border:1px solid @c-gray;
+  padding-left: 18px;
+  padding-right: 20px;
+  padding-bottom: 38px;
+}
+
+.formuser-callback__button{
+  .font-base();
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.24;
+  text-align: center;
+  color: @c-white;
+
+  width: 100%;
+  height: @height-item;
+  background-color: @c-base;
+  border: none;
+}
+
+.formuser-callback__header{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.44;
+  text-align: center;
+  color:@c-black2;
+
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.formuser-callback__wrap{
+  display: flex;
+}
+
+.formuser-callback-item{
+
+}
+
+.formuser-callback-item__text{
+  flex-grow: 1;
+  height: 120px;
+  resize: none;
+
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.44;
+  text-align: left;
+  color: @c-black2;
+  background:@c-gray;
+  border:0;
+ 
+  padding: 20px;
+  margin-bottom: 51px;
+}

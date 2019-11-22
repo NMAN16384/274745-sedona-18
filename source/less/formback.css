@@ -8,28 +8,6 @@
 .fk-black {
   color: #000000;
 }
-.block-info-form--h2 {
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: normal;
-  text-align: center;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-}
-.block-info-form--p {
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: normal;
-  text-align: center;
-  font-size: 14px;
-}
 .formback {
   padding-left: 23px;
   padding-right: 21px;
@@ -37,36 +15,21 @@
   background-color: #ffffff;
 }
 .formback .formback__title {
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: normal;
   text-align: center;
   padding-top: 37px;
   text-transform: uppercase;
 }
 .formback .formback__header {
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: normal;
-  text-align: center;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
+  color: black;
 }
 .formback .formback__desk {
   padding-top: 28px;
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: normal;
-  text-align: center;
+  width: 276px;
+  height: 140px;
   font-size: 14px;
+  line-height: 1.71;
+  color: black;
 }

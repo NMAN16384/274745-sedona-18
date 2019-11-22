@@ -8,305 +8,44 @@
 .fk-black {
   color: #000000;
 }
-.block-radio-form {
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: left;
-}
-.block-radio-form {
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: left;
-}
-.block-info-form--h2 {
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-}
 .formuser {
-  border-top: 1px solid #dcdcdc;
-  height: 304px;
-  background-color: #ffffff;
   text-transform: uppercase;
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
+  padding-left: 21px;
+  padding-right: 20px;
+  padding-bottom: 6px;
+  border-top: 1px solid #efefef;
 }
-.formuser .formuser__header {
-  padding-top: 18px;
-  padding-bottom: 4px;
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
+.formuser__header {
   text-align: center;
-  line-height: 1.71;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-}
-.formuser .formuser__header--top {
-  padding-top: 18px;
-  padding-bottom: 10px;
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-}
-.formuser--contact {
-  border-top: 1px solid #dcdcdc;
-  height: 286px;
-  background-color: #ffffff;
   text-transform: uppercase;
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
-}
-.formuser--contact .formuser__header {
-  padding-top: 18px;
-  padding-bottom: 4px;
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
+  margin-top: 18px;
+  margin-bottom: 21px;
 }
-.formuser--contact .formuser__header--top {
-  padding-top: 18px;
-  padding-bottom: 10px;
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
+.formuser__wrap {
+  display: flex;
+  align-items: center;
 }
-.formuser--impression {
-  border-top: 1px solid #dcdcdc;
-  height: 286px;
-  background-color: #ffffff;
-  text-transform: uppercase;
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
+.formuser-item {
+  margin-bottom: 18px;
 }
-.formuser--impression .formuser__header {
-  padding-top: 18px;
-  padding-bottom: 4px;
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
+.formuser-item__lable {
+  font-size: 14px;
+  line-height: 1.86;
+  text-align: left;
 }
-.formuser--impression .formuser__header--top {
-  padding-top: 18px;
-  padding-bottom: 10px;
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-}
-.formuser--impression .formuser__header--radio {
-  padding-top: 18px;
-  padding-bottom: 10px;
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-}
-.formuser--whatsee {
-  border-top: 1px solid #dcdcdc;
-  height: 409px;
-  background-color: #ffffff;
-  text-transform: uppercase;
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
-}
-.formuser--whatsee .formuser__header {
-  padding-top: 18px;
-  padding-bottom: 4px;
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-}
-.formuser--whatsee .formuser__header--top {
-  padding-top: 18px;
-  padding-bottom: 10px;
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-}
-.formuser--whatsee .formuser__header--check {
-  padding-top: 18px;
-  padding-bottom: 10px;
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-}
-.formuser--callback {
-  border-top: 1px solid #dcdcdc;
-  height: 372px;
-  background-color: #ffffff;
-  text-transform: uppercase;
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
-}
-.formuser--callback .formuser__header {
-  padding-top: 18px;
-  padding-bottom: 4px;
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-}
-.formuser--callback .formuser__header--top {
-  padding-top: 18px;
-  padding-bottom: 10px;
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-}
-.formuser--callback .formuser__header--check {
-  padding-top: 18px;
-  padding-bottom: 10px;
-  font-family: PTSans;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  line-height: 1.71;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-}
-.formuser--callback .formuser__button {
-  bottom: 0 !important;
-  background-color: #81b3d2;
-  min-width: 280px;
-  margin-top: 38px;
-  padding-left: 19px;
-  padding-right: 21px;
+.formuser-item__input {
+  width: 100%;
+  margin-left: 16px;
   height: 58px;
-  text-transform: uppercase;
-  font-family: PTSans;
-  font-size: 21px;
+  padding-left: 22px;
+  border: 0;
+  background-color: #f2f2f2;
+  font-size: 18px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.24;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ffffff;
+  line-height: 1.44;
+  text-align: left;
+  color: black;
 }
