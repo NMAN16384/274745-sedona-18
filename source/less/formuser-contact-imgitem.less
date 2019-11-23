@@ -1,0 +1,35 @@
+@import "../less/variable";
+
+.formuser-contact-imgitem{
+  height: @height-item;
+}
+
+.formuser-contact-imgitem__input{
+  width: 100%;
+  border: 0;
+  background-color: @c-gray-light;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.44;
+  text-align: left;
+  color: @c-black2;
+
+  padding-left: 22px;
+}
+
+.formuser-contact-imgitem__image{
+  min-width: @height-item;
+  height: @height-item;
+  position: relative;
+  z-index: 2;
+}
+
+.formuser-contact-imgitem__image--phone{
+  background: #e6e6e6  url('../img/phone-svg.png')  no-repeat;
+  background-position: center;
+}
+
+.formuser-contact-imgitem__image--email{
+  background: #e6e6e6  url('../img/mail-svg.png')  no-repeat;
+  background-position: center;
+}
