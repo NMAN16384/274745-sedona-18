@@ -1,0 +1,29 @@
+ .menu-box-shadow {
+  box-shadow: 0px 1px 0 0 rgba(1, 1, 1, 0.2), inset 0px 1px 0 0 rgba(255, 255, 255, 0.2);
+} 
+
+.formback {
+  padding-left: 23px;
+  padding-right: 21px;
+  height: 202px;
+  background-color: #ffffff;
+}
+.formback__title {
+  text-align: center;
+  padding-top: 37px;
+  text-transform: uppercase;
+}
+.formback__header {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.44;
+  color: black;
+}
+.formback__desk {
+  padding-top: 28px;
+  width: 276px;
+  height: 140px;
+  font-size: 14px;
+  line-height: 1.71;
+  color: black;
+}

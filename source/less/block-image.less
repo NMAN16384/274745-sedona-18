@@ -1,0 +1,106 @@
+@import "shared.less";
+@import "variable.less";
+@import "external-function.less";
+
+.block-image{
+  z-index: -1;
+  * {
+    .position-absolute();
+  }
+}
+
+.block-image--back-mobile2{
+  height: 438px;
+  .block-image();
+  background:     url('../img/intro-triangle-svg.png') no-repeat,
+  url('../img/back-mobile-jpg.png') no-repeat ;
+  background-size: auto,auto;
+  background-position: center bottom;
+}
+.block-image--back-mobile{
+  height: 438px;
+  .block-image();
+  background: 
+    url('../img/intro-triangle-svg.png') no-repeat,
+    url('../img/SEDONA.png') no-repeat,
+    url('../img/back-mobile-jpg.png') no-repeat ;
+  background-size: 
+    auto,
+    auto,
+    auto;
+  background-position: center bottom,46px 331px;
+}
+
+.block-image--like{
+  z-index: 1;
+  display: block;;
+  position: relative;
+  height:21px;
+  width: 23px;
+  background:url("../img/like-icon-svg.png");
+  background-size: auto;
+  background-position: center top;
+}
+
+.block-image--bk{
+  margin: 0;
+  height: 389px;
+  background: url('../img/back-mobile-jpg.png') 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.block-image--whiterect{
+  margin-top: 363px;
+  height: 26px;
+  background: url('../img/intro-triangle-svg.png');
+}
+.block-image--bk-home{
+  margin-top: 0px;
+  background: url('../img/photo-city-1-x.png');
+}
+.block-image--bk-twiter{
+  position: relative;
+  height: 14px;
+  width: 18px;
+  background: url('../img/icon-twitter-svg.png')  no-repeat;
+}
+.block-image--bk-facebook{
+  position: relative;
+  height: 18px;
+  width: 9px;
+  background: url('../img/icon-facebook-svg.png') no-repeat;
+}
+.block-image--bk-youtube{
+  position: relative;
+  height: 14px;
+  width: 18px;
+  background: url('../img/icon-youtube-svg.png')  no-repeat;
+}
+
+.block-image--bk-phone{
+  z-index: 2;
+  position: relative;
+  height: 58px;
+  width: 58px;
+  background: #e6e6e6  url('../img/phone-svg.png')  no-repeat;
+  background-position: center;
+}
+
+.block-image--bk-mail{
+  position: relative;
+  z-index: 2;
+  height: 58px;
+  width: 58px;
+  background: #e6e6e6  url('../img/mail-svg.png')  no-repeat;
+  background-position: center;
+}
+
+.block-image--bk-academ{
+  z-index: 1;
+  position: relative;
+  margin-left: 10px;
+  height: 34px;
+  width: 27px;
+  background:   url('../img/htmlacademy-svg.png')  no-repeat;
+  background-position: center;
+}
