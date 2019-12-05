@@ -84,23 +84,6 @@
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .advantages__bridge-text{
   background-color:@mb_menuitem-bk;
   height:191px;
@@ -142,7 +125,7 @@
 
 .advantages__turist-img{
   height: 350px;
-  .block-image();
+  //.block-image();
   position: relative;
   background: url('../img/map-mobile-jpg.png')  no-repeat;
   background-size: cover;
@@ -150,3 +133,34 @@
   margin-bottom:00px
 }
  
+
+@media (min-width: 768px) and (max-width:1200px)  {
+  .advantages__city{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .advantages__city{
+    height: auto;
+  }
+
+  .advantage--city-height{
+    height: 256px !important;
+    width: 256px;
+  }
+
+  .advantage__image--city{
+    min-width: 200px;
+    flex-grow: 1;
+  }
+
+  .intro-5p__decoration{
+    display: none;
+  }
+
+  .advantage__list{
+    display: flex;
+
+  }
+}

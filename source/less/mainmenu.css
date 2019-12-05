@@ -56,11 +56,9 @@
   background: linear-gradient(to top, #6c96b0 0%, #81b3d2 7%);
 }
 .mainmenu__items .mainmenu__item:hover:not(.mainmenu__item--notactive) {
-  box-shadow: 0px 1px 0 0 rgba(1, 1, 1, 0.2), inset 0px 1px 0 0 rgba(255, 255, 255, 0.2);
   background-color: #669ec0;
 }
 .mainmenu__items .mainmenu__item:active:not(.mainmenu__item--notactive) {
-  box-shadow: 0px 1px 0 0 rgba(1, 1, 1, 0.2), inset 0px 1px 0 0 rgba(255, 255, 255, 0.2);
   background-color: #5496bd;
 }
 .mainmenu__items .mainmenu__item a {
@@ -69,6 +67,12 @@
 .mainmenu__items .mainmenu__item a:visited,
 .mainmenu__items .mainmenu__item a:link {
   color: #ffffff;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .mainmenu__items .mainmenu__item a:visited,
+  .mainmenu__items .mainmenu__item a:link {
+    color: black;
+  }
 }
 .mainmenu__items .mainmenu__image {
   display: block;
@@ -83,6 +87,7 @@
   bottom: 0;
   margin-top: auto;
   margin-bottom: auto;
+  z-index: 2;
   background-image: url("../img/icon-cross.png");
 }
 .mainmenu__items .mainmenu__image--open {
@@ -109,11 +114,87 @@
 }
 .menuitem__text {
   cursor: pointer;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
   font-size: 18px;
   font-weight: bold;
   line-height: 2.22;
   text-align: center;
+}
+.mainmenu__logo {
+  position: relative;
+  margin-top: -58px;
+  display: flex;
+  justify-content: center;
+  background-color: white !important;
+}
+.mainmenu__item--o10 {
+  order: 10;
+}
+.mainmenu__item--o20 {
+  order: 20;
+}
+.mainmenu__item--o30 {
+  order: 30;
+}
+.mainmenu__item--o40 {
+  order: 40;
+}
+.mainmenu__item--oLogo {
+  order: 50;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .mainmenu__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .mainmenu__items {
+    min-width: 768px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .mainmenu__items .mainmenu__item--oLogo {
+    order: 25;
+    padding-right: 10px;
+  }
+  .mainmenu__items .mainmenu__image--open,
+  .mainmenu__items .mainmenu__image--close {
+    display: none;
+  }
+  .mainmenu__item {
+    height: 56px !important;
+  }
+  .menuitem__text {
+    width: 100%px;
+    font-family: PTSans;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+  }
+  .mainmenu__image--logo img {
+    content: url("../img/logo-sedona-tablet.svg");
+  }
+  .mainmenu__item {
+    max-width: 153px;
+    background: white !important;
+  }
+  .mainmenu__item {
+    border: none !important;
+    background: white !important;
+  }
+  -webkit-sh .mainmenu__item:hover:not(.mainmenu__item--notactive) {
+    border: none !important;
+  }
+  .mainmenu__item a {
+    text-decoration: none;
+  }
 }

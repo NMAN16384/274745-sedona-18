@@ -1,8 +1,26 @@
-.body {
-  outline: 1px solid lightgray;
-}
 h2,
 p {
   margin: 0;
   padding: 0;
+}
+body {
+  font-family: 'PTSans';
+  padding: 0;
+  margin: 0;
+  font-family: PTSans;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  outline: 1px solid lightgray;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    max-width: 320px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  body {
+    max-width: 768px;
+  }
 }

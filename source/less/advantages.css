@@ -1,0 +1,135 @@
+.advantages__city {
+  height: 868px;
+}
+.advantages__city .advantage__header {
+  padding-top: 39px;
+  margin: 0px;
+}
+.advantages__city .advantage__number {
+  margin-top: 11px;
+  margin-bottom: 15px;
+}
+.advantages__city .advantage__text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.advantages__bridge {
+  text-transform: uppercase;
+}
+.advantages__bridge .advantage__header {
+  padding-top: 40px;
+  font-size: 18px;
+}
+.advantages__bridge .advantage__number {
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+.advantages__bridge .advantage__text {
+  padding-top: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.advantages__cityarea,
+.advantages__road,
+.advantages__turistinfo {
+  text-transform: uppercase;
+}
+.advantages__cityarea .advantage__header,
+.advantages__road .advantage__header,
+.advantages__turistinfo .advantage__header {
+  padding-top: 26px;
+  margin-left: 32px;
+  margin-right: 33px;
+  margin-bottom: 10px;
+}
+.advantages__cityarea .advantage__number,
+.advantages__road .advantage__number,
+.advantages__turistinfo .advantage__number {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.advantages__cityarea .advantage__text,
+.advantages__road .advantage__text,
+.advantages__turistinfo .advantage__text {
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: 2px;
+  margin-bottom: 12px;
+}
+.advantages__isgood {
+  text-transform: uppercase;
+}
+.advantages__isgood .advantage__header {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.24;
+  margin-top: 30px;
+}
+.advantages__isgood .advantage__text {
+  font-size: 14px;
+  line-height: 1.71;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.advantages__bridge-text {
+  background-color: #81b3d2;
+  height: 191px;
+}
+.advantages__road {
+  height: 168px;
+}
+.advantages__turistinfo {
+  height: 167px;
+}
+.advantages__turist {
+  display: flex;
+  justify-content: center;
+  background-color: #81b3d2;
+  color: #ffffff;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.24;
+  height: 58px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 02px;
+  margin-bottom: 49px;
+}
+.advantages__turist-img {
+  height: 350px;
+  position: relative;
+  background: url('../img/map-mobile-jpg.png') no-repeat;
+  background-size: cover;
+  background-position: center top, 0px 0px;
+  margin-bottom: 0px;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .advantages__city {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .advantages__city {
+    height: auto;
+  }
+  .advantage--city-height {
+    height: 256px !important;
+    width: 256px;
+  }
+  .advantage__image--city {
+    min-width: 200px;
+    flex-grow: 1;
+  }
+  .intro-5p__decoration {
+    display: none;
+  }
+  .advantage__list {
+    display: flex;
+  }
+}
