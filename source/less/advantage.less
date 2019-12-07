@@ -1,3 +1,5 @@
+@import "variable";
+
 .advantage{
   text-align: center;
 }
@@ -73,7 +75,10 @@
   margin:0px;
   text-transform: uppercase;
   text-align: left;
+
+
 }
+
 .advantage__item{
 
 }
@@ -89,18 +94,110 @@
 .advantage__item--house{
   position: relative;
   background: url("../img/icon-house-svg.png") no-repeat;
+  background-size: 37px 36px;
   top:14px;
   left: 21px;
 }
 .advantage__item--gift{
   position: relative;
   background: url("../img/icon-gift-svg.png") no-repeat;
+  background-size: 32px 38px;
   top:26px;
   left: 24px;
 }
 .advantage__item--burger{
   position: relative;
   background: url("../img/icon-burger-svg.png") no-repeat;
+  background-size: 40px 35px;
   top: 38px;
   left: 22px;
+}
+
+
+
+@media (min-width: 768px) and (max-width:1200px)  {
+
+  .advantage__list{
+    
+  } 
+
+  .advantage__item{
+    display: inline-block;
+  }
+  
+  .advantage__item--house{
+    top:0px;
+    left: 0px;
+    background-size: 75px 72px;
+    background-position-x: 90px;
+    background-position-y: 60px;
+    order: 1;
+  }
+  .advantage__item--burger{
+    top:0px;
+    left: 0px;
+    background-size: 77px 68px;
+    background-position-x: 84px;
+    background-position-y: 63px;
+    order: 2;
+  }
+
+  .advantage__item{
+    margin-left: 0px;
+  }
+  .advantage__item--burger .advantage-item{
+    margin-left: -20px;
+  }
+
+  .advantage__item--gift{
+    top:0px;
+    left: 0px;
+    background-size: 64px 75px;
+    background-position-x: 77px;
+    background-position-y: 57px;
+    order: 3;
+  }
+  .advantage__image--city {
+    height: 256px;
+  }
+
+  .advantage__image--bridge{
+    width: 512px;
+    height: 256px;
+    background-position: 0px 0px;
+  }
+
+  .advantage--bridge-height{
+    height: 256px;
+    width: 256px;
+  }
+
+  .advantages .advantage__header{
+    padding-top: 46px;
+    padding-left: 53px;
+    padding-right: 53px;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.24;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .advantages .advantage__number{
+    font-family: PTSans;
+    margin-top: 9px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: @c-white;
+  }
+  .advantages .advantage__text{
+    width: 162px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: @c-white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

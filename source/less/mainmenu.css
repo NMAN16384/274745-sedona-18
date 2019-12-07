@@ -9,7 +9,7 @@
   bottom: 0;
 }
 .mainmenu__item--notactive {
-  height: 57px !important;
+  height: 57px;
 }
 .mainmenu__items--white {
   color: mb_menuitem-fk-white;
@@ -165,8 +165,8 @@
   .mainmenu__items .mainmenu__image--close {
     display: none;
   }
-  .mainmenu__item {
-    height: 56px !important;
+  .mainmenu__items li.mainmenu__item {
+    height: 56px;
   }
   .menuitem__text {
     width: 100%px;
