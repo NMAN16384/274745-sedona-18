@@ -1,5 +1,9 @@
 @pahoto-card-margin-left:19px;
 
+@import "shared.less";
+@import "variable.less";
+@import "external-function.less";
+
 .photo-card{
   height: 414px;
   border-top:1px solid rgb(220,220,220);
@@ -39,4 +43,73 @@
   line-height: 1.71;
   text-align: left;
   margin-left: 35px;
+}
+
+.photo-card__like-img{
+  * {
+    .position-absolute();
+  }
+  z-index: 1;
+  display: block;;
+  position: relative;
+  height:21px;
+  width: 23px;
+  background:url("../img/like-icon-svg.png") no-repeat;
+  background-size: auto;
+  background-position: left top;
+}
+
+
+@media (min-width: 768px) and (max-width:1200px) {
+
+  .photoinfo div.photo-card{
+    border-top:none;
+  }
+
+  .photoinfo  .photo-card {
+    background: #f2f2f2;
+    height: 348px;
+    .photo-card__image{
+      width: 324px;
+      height: 267px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+  .photoinfo  :nth-child(2).photo-card {
+    .photo-card__image{
+      padding: 0;
+      margin: 0;
+    }
+    background: #f2f2f2;
+    height: 480px;
+    img{
+      width: 648px;
+      height: 400px;
+      content: url("../img/photo-1-tablet-jpg.png");
+    }
+  }
+
+  .photo-card__header{
+    padding-left:2px;
+  }
+
+  .photoinfo .photo-card__wrap{
+    display: flex;
+  }
+  .photo-card__author{
+    padding-left:2px;
+    flex-grow: 2;
+  }
+  .photo-card__like{
+    margin-top: -12px;
+    width: 83px;
+    text-align: left;
+  }
+  .photo-card__like-count{
+    margin: 0;
+    padding-left: 31px;
+  }
+
+
 }

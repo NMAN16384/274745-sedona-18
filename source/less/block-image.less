@@ -22,13 +22,13 @@
   .block-image();
   background: 
     url('../img/intro-triangle-svg.png') no-repeat,
-    url('../img/SEDONA.png') no-repeat,
+    url('../img/sedona.svg') no-repeat,
     url('../img/back-mobile-jpg.png') no-repeat ;
   background-size: 
     auto,
-    auto,
+    229px 39px,
     auto;
-  background-position: center bottom,46px 331px;
+  background-position: center bottom,46px 231px;
 }
 
 .block-image--like{
@@ -37,7 +37,7 @@
   position: relative;
   height:21px;
   width: 23px;
-  background:url("../img/like-icon-svg.png");
+  background:url("../img/like-icon-svg.png") no-repeat;
   background-size: auto;
   background-position: center top;
 }
@@ -103,4 +103,14 @@
   width: 27px;
   background:   url('../img/htmlacademy-svg.png')  no-repeat;
   background-position: center;
+}
+
+
+@media (min-width: 768px) and (max-width:1200px)  {
+  .block-image--back-mobile{
+    height: 290px;
+    background-position: center bottom, 155px 90px;
+    background-size: auto, 456px 90px, auto;
+  }
+
 }

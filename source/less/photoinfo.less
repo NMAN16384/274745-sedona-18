@@ -41,3 +41,44 @@
   height: 492px+6px;
   border-top:1px solid @c-gray;
 }
+.photoinfo-wrapper{
+
+
+}
+
+@media (min-width: 768px) and (max-width:1200px) {
+  .photoinfo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 60px;
+    padding-right: 60px;
+
+  }
+
+  .photoinfo__desc{
+    height: 247px;
+    width: 100%;
+
+  }
+
+  .photoinfo .photoinfo__header{
+    margin-top:38px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0.87;
+    color: @c-black;
+  }
+  .photoinfo .photoinfo__text{
+    margin-top: 2px;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: @c-black;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+ 
+}
