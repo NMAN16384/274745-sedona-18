@@ -17,7 +17,7 @@
   height: 194px;
 }
 .advantage--cityarea-height {
-  height: 168px;
+  height: 167px;
 }
 .advantage--bridge-height {
   height: 191px;
@@ -57,6 +57,10 @@
   text-transform: uppercase;
   text-align: left;
 }
+.advantage__item {
+  height: 110px;
+  width: 280px;
+}
 .advantage__spliter {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -68,56 +72,65 @@
   position: relative;
   background: url("../img/icon-house-svg.png") no-repeat;
   background-size: 37px 36px;
-  top: 14px;
-  left: 21px;
+  top: 26px;
+  left: 23px;
 }
 .advantage__item--gift {
   position: relative;
   background: url("../img/icon-gift-svg.png") no-repeat;
   background-size: 32px 38px;
-  top: 26px;
-  left: 24px;
+  top: 44px;
+  left: 26px;
 }
 .advantage__item--burger {
   position: relative;
   background: url("../img/icon-burger-svg.png") no-repeat;
   background-size: 40px 35px;
-  top: 38px;
-  left: 22px;
+  top: 52px;
+  left: 19px;
 }
 @media (min-width: 768px) and (max-width: 1200px) {
+  .advantage--cityarea-height {
+    height: 256px;
+  }
+  .advantage--bridge-height {
+    height: 256px;
+    width: 256px;
+  }
   .advantage__item {
-    display: inline-block;
+    min-width: 156px;
+    width: 100%;
+    margin-top: 30px;
   }
   .advantage__item--house {
     top: 0px;
     left: 0px;
     background-size: 75px 72px;
     background-position-x: 90px;
-    background-position-y: 60px;
+    background-position-y: 30px;
     order: 1;
   }
   .advantage__item--burger {
     top: 0px;
     left: 0px;
     background-size: 77px 68px;
-    background-position-x: 84px;
-    background-position-y: 63px;
+    background-position-x: 88px;
+    background-position-y: 33px;
     order: 2;
-  }
-  .advantage__item {
-    margin-left: 0px;
-  }
-  .advantage__item--burger .advantage-item {
-    margin-left: -20px;
   }
   .advantage__item--gift {
     top: 0px;
     left: 0px;
     background-size: 64px 75px;
-    background-position-x: 77px;
-    background-position-y: 57px;
+    background-position-x: 94px;
+    background-position-y: 27px;
     order: 3;
+  }
+  .advantage__item {
+    margin-left: 0px;
+  }
+  .advantage__item--burger .advantage-item {
+    margin-left: 0px;
   }
   .advantage__image--city {
     height: 256px;
@@ -127,36 +140,31 @@
     height: 256px;
     background-position: 0px 0px;
   }
-  .advantage--bridge-height {
-    height: 256px;
-    width: 256px;
+  .advantages__cityarea .advantage__header,
+  .advantages__road .advantage__header,
+  .advantages__turistinfo .advantage__header {
+    padding-top: 43px;
+    height: 60px;
+    margin-bottom: 2px;
   }
-  .advantages .advantage__header {
-    padding-top: 46px;
-    padding-left: 53px;
-    padding-right: 53px;
-    font-size: 21px;
+  .advantages__cityarea .advantage__number,
+  .advantages__road .advantage__number,
+  .advantages__turistinfo .advantage__number {
+    margin-top: 0px;
+  }
+  .advantages__isgood .advantage__header {
+    padding-top: 26px;
+    font-size: 30px;
     font-weight: bold;
-    line-height: 1.24;
-    margin-left: auto;
-    margin-right: auto;
+    line-height: 0.87;
+    color: #000000;
   }
-  .advantages .advantage__number {
-    font-family: PTSans;
-    margin-top: 9px;
+  .advantages__isgood .advantage__text {
+    padding-top: 11px;
+    width: 100%;
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 1.71;
     text-align: center;
-    color: white;
-  }
-  .advantages .advantage__text {
-    width: 162px;
-    font-size: 14px;
-    line-height: 1.5;
-    text-align: center;
-    color: white;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    color: black;
   }
 }

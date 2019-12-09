@@ -1,5 +1,6 @@
 .intro-5p {
   text-align: center;
+  height: 627px;
 }
 .intro-5p__image {
   height: 389px;
@@ -33,16 +34,19 @@
 .intro-5p__text {
   line-height: 1.85;
   font-size: 14px;
-  margin-top: 40px;
-  margin-left: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
   margin-top: 30px;
 }
 .intro-5p__decoration {
   background: #81b3d2 url('../img/white-copy-2.png');
-  margin-top: 0px;
+  margin-top: 1px;
   height: 37px;
 }
 @media (min-width: 768px) and (max-width: 1200px) {
+  .intro-5p {
+    height: 724px;
+  }
   .intro-5p__image {
     height: 518px;
     background: url('../img/intro-triangle-svg@2x.png') no-repeat, url('../img/text-index-svg@2x.png') no-repeat, url('../img/back-desktop-jpg.png') 50% 50% no-repeat;
@@ -73,5 +77,8 @@
     color: black;
     margin-left: auto;
     margin-right: auto;
+  }
+  .intro-5p__decoration {
+    display: none;
   }
 }

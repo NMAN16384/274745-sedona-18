@@ -5,13 +5,15 @@
   
 }
 .advantages__city{
-  height:868px;
+  height:870px;
+}
+.advantages__city,.advantages__bridge{
   .advantage__header{
-    padding-top:61px-22px;
+    padding-top:61px-20px;
     margin:0px;    
   }
   .advantage__number{
-    margin-top: 11px;
+    margin-top: 10px;
     margin-bottom: 15px;
   }
   .advantage__text{
@@ -27,11 +29,9 @@
     font-size: 18px;
   }
   .advantage__number{
-    padding-top:10px;
     padding-bottom: 0px;
   }
   .advantage__text{
-    padding-top: 16px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -40,32 +40,32 @@
 .advantages__cityarea,.advantages__road, .advantages__turistinfo{
   text-transform: uppercase;
   .advantage__header{
-    padding-top: 26px;
-    margin-left:32px;
-    margin-right:33px;
-    margin-bottom:10px;
+    padding-top: 25px;
+    margin-bottom:9px;
   }
   .advantage__number{
-    font-size: 14px;
+    font-size: 15.4px;
     line-height: 1.5;
-    margin-bottom:15px;
+    margin-bottom:14px;
   }
   .advantage__text{
     padding-left: 35px;
     padding-right: 35px;
     margin-top:2px;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
   }
 }
 
 .advantages__isgood{
   text-transform: uppercase;
+
   .advantage__header{
     font-size: 21px;
     font-weight: bold;
     line-height: 1.24;
     margin-top: 30px;
   }
+
   .advantage__text{
     font-size: 14px;
     line-height: 1.71;
@@ -76,19 +76,11 @@
     margin-right: 20px;
   }
 }
-.advantages__isgood--height{
-
-}
-
-.advantages__rem{
-
-}
 
 .advantages__bridge-text{
   background-color:@mb_menuitem-bk;
   height:191px;
 }
-
 
 .advantages__road{
   height: 168px;
@@ -104,8 +96,6 @@
   color: @mb_menuitem-fk-white;
   align-items: center;
 
-
-
   text-align: center;
   text-transform: uppercase;
   font-size: 21px;
@@ -119,13 +109,8 @@
   margin-bottom:49px;
 }
 
-.advantages__turist-find{
-  
-}
-
 .advantages__turist-img{
   height: 350px;
-  //.block-image();
   position: relative;
   background: url('../img/map-mobile-jpg.png')  no-repeat;
   background-size: cover;
@@ -133,26 +118,35 @@
   margin-bottom:00px
 }
  
+@media (min-width: 320px) and (max-width:767px)  {
+  
+    .advantage__header br, .advantage__text br{
+      display: none;
+  }
+}
 
 @media (min-width: 768px) and (max-width:1200px)  {
 
   .advantages .advantage__header{
-    padding-top: 46px;
-    padding-left: 53px;
-    padding-right: 53px;
     font-size: 21px;
     font-weight: bold;
     line-height: 1.24;
+    padding-top:46px;
+  }
+
+  .advantages .advantage__header{
     margin-left: auto;
     margin-right: auto;
   }
+
   .advantages .advantage__number{
-    font-family: PTSans;
     margin-top: 9px;
     font-size: 14px;
     line-height: 1.5;
     text-align: center;
     color: @c-white;
+    margin-left: auto;
+    margin-right: auto;
   }
   .advantages .advantage__text{
     width: 162px;
@@ -169,15 +163,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  }
-
-  .advantages__city{
     height: auto;
-  }
-
-  .advantage--city-height{
-    height: 256px !important;
-    width: 256px;
+    .advantage--city-height{
+      height: 256px !important;
+      width: 256px;
+    }
   }
 
   .advantage__image--city{
@@ -185,56 +175,51 @@
     flex-grow: 1;
   }
 
-  .intro-5p__decoration{
-    display: none;
-  }
-
-  .advantage__list{
-    display: flex;
-
-  }
-
   .advantages__rem{
+    outline: violet;
     height: 330px;
+    width: 100%;
+    .advantage__list{
+      display: flex;
+    }
   }
 
   .advantages__bridge{
     display: flex;
     flex-direction: row-reverse;
-
-    .advantage__header{
-        padding-top:40px;
-        font-size: 18px;
-      }
-      .advantage__number{
-        padding-bottom: 0px;
-        padding-top: 0px;
-      }
-      .advantage__text{
-        padding-bottom: 0px;
-        padding-top: 0px;
-        padding-left: 20px;
-        padding-right: 20px;
-      }
   }
+
 
   .advantages__wrap{
     background-color: @c-gray;
     display: flex;
+  }
+
+  .advantages__wrap p.advantage__number, .advantages__wrap p.advantage__text{
+    color:@c-black2;
+  }
+
+  .advantages__cityarea, .advantages__road, .advantages__turistinfo{
+    width: 256px;
     height: 256px;
   }
 
   .advantages__isgood{
     height: 668px;
+    .advantages__isgood--height{
+      height: 170px;
+    }
   }
 
-  .advantages__isgood--height{
-    height: 170px;
-  }
   .advantages__turist{
     margin-left: 155px;
     margin-right: 155px;
     margin-bottom: 58px;
   }
+
+  .advantages__turist-img{
+    background: url('../img/map-tablet-jpg.png')  no-repeat;
+  }
+
 }
 

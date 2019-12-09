@@ -26,7 +26,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 36px;
-  margin-bottom: 38px;
+  margin-bottom: 40px;
 }
 .visitsedona__button {
   background-color: #81b3d2;
@@ -48,23 +48,71 @@
   text-align: center;
   color: black;
 }
+.visitsedona__dev-academ {
+  z-index: 1;
+  position: relative;
+  margin-left: 8px;
+  margin-top: 0px;
+  height: 34px;
+  width: 27px;
+  background: url('../img/htmlacademy-svg.png') no-repeat;
+  background-position: center;
+}
+.visitsedona__dev-academ * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
 @media (min-width: 768px) and (max-width: 1200px) {
   .visitsedona {
+    height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
   .visitsedona__header {
-    padding-top: 0px;
-    margin-top: 16px;
+    flex-grow: 0;
+    text-align: left;
+    padding-top: 16px;
+    padding-left: 28px;
+    width: 180px;
   }
   .visitsedona div.visitsedona__buttons {
     height: 0px;
     margin-top: 30px;
+    padding-left: -6px;
   }
-  .visitsedona div.visitsedona__dev {
-    height: 0px;
-    margin-top: 30px;
-    padding-right: 10px;
+  .visitsedona__dev-text {
+    padding-right: 4px;
+  }
+  .visitsedona__dev {
+    flex-grow: 0;
+    text-align: left;
+    padding-left: 28px;
+    width: 180px;
+  }
+  .visitsedona__dev-text {
+    padding-bottom: 2px ;
+  }
+  .visitsedona__dev-academ {
+    z-index: 1;
+    position: relative;
+    margin-left: 8px;
+    margin-top: 0px;
+    height: 34px;
+    width: 27px;
+    background: url('../img/htmlacademy-svg.png') no-repeat;
+    background-position: center;
+  }
+  .visitsedona__dev-academ * {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
   }
 }

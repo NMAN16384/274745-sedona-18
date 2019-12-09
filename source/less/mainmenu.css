@@ -9,7 +9,7 @@
   bottom: 0;
 }
 .mainmenu__item--notactive {
-  height: 57px;
+  height: 55px;
 }
 .mainmenu__items--white {
   color: mb_menuitem-fk-white;
@@ -113,6 +113,7 @@
   margin-right: auto;
 }
 .menuitem__text {
+  padding-bottom: 4px;
   cursor: pointer;
   width: 100%;
   font-size: 18px;
@@ -136,11 +137,15 @@
 .mainmenu__item--o30 {
   order: 30;
 }
-.mainmenu__item--o40 {
+.mainmenu__item.mainmenu__item--o40 {
+  height: 53px !important;
   order: 40;
 }
 .mainmenu__item--oLogo {
   order: 50;
+}
+.mainmenu__item.mainmenu__item--oLogo {
+  height: 56px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .mainmenu__items {
@@ -173,17 +178,16 @@
     font-family: PTSans;
     font-size: 14px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.86;
-    letter-spacing: normal;
     text-align: center;
+    padding-bottom: 2px;
     color: black;
   }
   .mainmenu__image--logo img {
     content: url("../img/logo-sedona-tablet.svg");
   }
   .mainmenu__item {
+    height: 54px;
     max-width: 153px;
     background: white !important;
   }

@@ -3,6 +3,7 @@
 
 .intro-5p{
   text-align: center;
+  height: 627px;
 }
 
 .intro-5p__image{
@@ -40,16 +41,15 @@
 .intro-5p__text{
   line-height: 1.85;
   font-size: 14px;
-
-  margin-top:40px;
-  margin-left: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
   margin-top:30px;
 }
 
 .intro-5p__decoration{
 
   background: @mb_menuitem-bk url('../img/white-copy-2.png');
-  margin-top: 0px;
+  margin-top: 1px;
   height: 37px;
 }
 
@@ -57,7 +57,7 @@
 @media (min-width: 768px) and (max-width:1200px)  {
 
   .intro-5p{
-
+    height: 724px;
   }
   .intro-5p__image{
     height: 518px;
@@ -67,7 +67,7 @@
       url('../img/text-index-svg@2x.png')  no-repeat,
       url('../img/back-desktop-jpg.png') 50% 50% no-repeat ;
       background-size: 99.99% 57px ,460px 350px, cover;
-      background-position: center bottom, 50% 46%;
+      background-position: center bottom, 50.0% 46%;
   }
   .intro-5p__blocktext{
     height: 195px;
@@ -93,6 +93,9 @@
     color: @c-black;
     margin-left: auto;
     margin-right: auto;
+  }
+  .intro-5p__decoration{
+    display: none;
   }
 
 }
