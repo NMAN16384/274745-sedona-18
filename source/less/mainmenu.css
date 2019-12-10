@@ -68,7 +68,7 @@
 .mainmenu__items .mainmenu__item a:link {
   color: #ffffff;
 }
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) {
   .mainmenu__items .mainmenu__item a:visited,
   .mainmenu__items .mainmenu__item a:link {
     color: black;
@@ -138,7 +138,7 @@
   order: 30;
 }
 .mainmenu__item.mainmenu__item--o40 {
-  height: 53px !important;
+  height: 53px;
   order: 40;
 }
 .mainmenu__item--oLogo {
@@ -154,7 +154,11 @@
     flex-wrap: wrap;
   }
 }
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) {
+  .mainmenu__item.mainmenu__item--o40 {
+    height: 54px;
+    order: 40;
+  }
   .mainmenu__items {
     min-width: 768px;
     width: auto;
@@ -171,7 +175,7 @@
     display: none;
   }
   .mainmenu__items li.mainmenu__item {
-    height: 56px;
+    height: 54px;
   }
   .menuitem__text {
     width: 100%px;
@@ -200,5 +204,19 @@
   }
   .mainmenu__item a {
     text-decoration: none;
+  }
+}
+@media (min-width: 1280px) {
+  .mainmenu__image--logo img {
+    content: url("../img/logo-sedona-desktop.svg");
+  }
+  .mainmenu__items {
+    width: 1200px;
+    padding-left: 40px;
+    justify-content: stretch;
+  }
+  .photo-wrap .mainmenu__items .mainmenu__item {
+    max-width: none;
+    height: 57px;
   }
 }

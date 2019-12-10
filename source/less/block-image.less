@@ -9,14 +9,14 @@
   }
 }
 
-.block-image--back-mobile2{
-  height: 438px;
-  .block-image();
-  background:     url('../img/intro-triangle-svg.png') no-repeat,
-  url('../img/back-mobile-jpg.png') no-repeat ;
-  background-size: auto,auto;
-  background-position: center bottom;
-}
+// .block-image--back-mobile2{
+//   height: 438px;
+//   .block-image();
+//   background:     url('../img/intro-triangle-svg.png') no-repeat,
+//   url('../img/back-mobile-jpg.png') no-repeat ;
+//   background-size: auto,auto;
+//   background-position: center bottom;
+// }
 .block-image--back-mobile{
   height: 438px;
   .block-image();
@@ -106,11 +106,29 @@
 }
 
 
-@media (min-width: 768px) and (max-width:1200px)  {
+@media (min-width: 768px) {
   .block-image--back-mobile{
-    height: 290px;
+    //height: 290px;
+    height: 344px;
     background-position: center bottom, 155px 90px;
     background-size: auto, 456px 90px, auto;
+  }
+
+}
+
+@media (min-width: 1280px) {
+  .block-image--back-mobile{
+    height: 358px;
+    .block-image();
+    background: 
+      url('../img/intro-triangle-svg.svg') no-repeat,
+      url('../img/sedona.svg') no-repeat,
+      url('../img/back-desktop-jpg.png') no-repeat ;
+    background-size: 
+      auto,
+      459px,
+      auto;
+    background-position: center bottom,370px 160px;
   }
 
 }

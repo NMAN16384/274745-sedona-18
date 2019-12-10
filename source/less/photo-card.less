@@ -29,13 +29,14 @@
   margin-left: @pahoto-card-margin-left;  
 }
 .photo-card__like{
-  margin-top:5px;
+  margin-top:7px;
   margin-left: @pahoto-card-margin-left;  
   font-weight: normal;
 }
 
 .photo-card__like-count{
   padding: 3px;
+  padding-left: 2px;
   width: 31px;
   height: 11px;
   font-size: 14px;
@@ -60,7 +61,7 @@
 }
 
 
-@media (min-width: 768px) and (max-width:1200px) {
+@media (min-width: 768px) {
 
   .photoinfo div.photo-card{
     border-top:none;
@@ -84,9 +85,8 @@
     background: #f2f2f2;
     height: 480px;
     img{
-      width: 648px;
-      height: 400px;
-      content: url("../img/photo-1-tablet-jpg.png");
+       width: 648px;
+       height: 400px;
     }
   }
 
@@ -110,6 +110,60 @@
     margin: 0;
     padding-left: 31px;
   }
+}
 
+@media (min-width: 1280px) {
+  .photoinfo  :nth-child(2).photo-card {
+
+    .photo-card__about{
+      width: 1200px;
+    }
+
+    position: relative;
+    .photo-card__image{
+      padding: 0;
+      margin: 0;
+    }
+    height: 400px;
+    img{
+       width: 1200px;
+       height: 400px;
+    }
+  }
+
+  .photoinfo  .photo-card {
+    .photo-card__about{
+      width: 400px;
+    }
+    position: relative;
+    height: 267px;
+    .photo-card__image{
+      width: 400px;
+      height: 267px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  .photo-card__header{
+    color:white;
+  }
+  .photo-card__author{
+    color:white;
+  }  
+  .photo-card__like-count{
+    color:white;
+  }
+
+
+  .photo-card__about{
+    position: absolute;
+    //background-color: black;
+    //opacity: 0.3;
+    background: rgba( 0,0,0,0.3);
+    bottom:0px;
+    padding-top: 7px;
+    padding-bottom: 17px;
+  }
 
 }
