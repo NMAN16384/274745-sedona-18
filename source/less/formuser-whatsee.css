@@ -1,4 +1,5 @@
 .formuser-whatsee {
+  position: relative;
   border-top: 1px solid #efefef;
   padding-left: 13px;
   padding-right: 20px;
@@ -20,15 +21,55 @@
   margin-top: 12px;
   margin-bottom: 16px;
 }
-.formuser-whatsee-item__input {
-  height: 58px;
-  width: 58px;
+@media (min-width: 768px) {
+  .formuser-whatsee__header {
+    min-width: 767px;
+  }
+  .formuser-whatsee {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 480px;
+  }
 }
-.formuser-whatsee-item__lable {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-  text-align: left;
-  color: black;
-  margin-left: 20px;
+@media (min-width: 1280px) {
+  .formuser-whatsee__header {
+    min-width: 100%;
+  }
+  .formuser-whatsee {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .formuser-whatsee__wrap.formuser-whatsee-item {
+    width: 230px;
+  }
+}
+@media (min-width: 1280px) and (min-width: 1280px) {
+  .formuser-whatsee__header {
+    text-align: center;
+  }
+  .formuser-whatsee__header::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: burlywood;
+  }
+  .formuser-whatsee__header::after {
+    content: "";
+    position: absolute;
+    top: 31px;
+    right: 30px;
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: burlywood;
+  }
 }

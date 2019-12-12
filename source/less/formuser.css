@@ -19,24 +19,29 @@
   display: flex;
   align-items: center;
 }
-.formuser-item {
-  margin-bottom: 18px;
-}
-.formuser-item__lable {
-  font-size: 14px;
-  line-height: 1.86;
-  text-align: left;
-}
-.formuser-item__input {
-  width: 100%;
-  margin-left: 16px;
-  height: 58px;
-  padding-left: 22px;
-  border: 0;
-  background-color: #f2f2f2;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-  text-align: left;
-  color: black;
+@media (min-width: 768px) {
+  .form-back {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .formuser-impression,
+  .formuser {
+    width: 307px;
+  }
+  .formuser-impression {
+    order: -1;
+    border-right: 1px solid gray;
+    margin-left: 2px;
+  }
+  .formuser-contact {
+    width: 100%;
+  }
+  .formuser-whatsee {
+    width: 100%;
+  }
+  .formuser-callback {
+    width: 100%;
+  }
 }

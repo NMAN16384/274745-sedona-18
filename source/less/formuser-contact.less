@@ -2,7 +2,21 @@
 
 @height-item:58px;
 
+::placeholder { /* Firefox, Chrome, Opera */ 
+  color: black; 
+} 
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+  color: black; 
+} 
+
+::-ms-input-placeholder { /* Microsoft Edge */ 
+  color: black; 
+} 
+
+
 .formuser-contact{
+  position: relative;
   text-transform: uppercase;
   border-top: 1px solid @c-gray;
   padding-left:21px;
@@ -22,3 +36,53 @@
   margin-top: 19px;
   margin-bottom: 20px;
 }
+
+
+@media (min-width: 768px){
+  
+ 
+  .formuser-contact__header{
+    text-align: center;
+    &::before{
+      content:"";
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      display: block;
+      width: 100px;
+      height: 1px;
+      background-color: burlywood;
+    }
+    &::after{
+      content:"";
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      display: block;
+      width: 100px;
+      height: 1px;
+      background-color: burlywood;
+    }
+  }
+}
+
+@media (min-width: 768px){
+  .formuser-contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .formuser-contact__wrap{
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .formuser-contact__header
+  {
+    width: 100%;
+  }
+}
+

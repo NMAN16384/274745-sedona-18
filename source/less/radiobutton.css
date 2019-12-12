@@ -1,0 +1,54 @@
+.radiobutton {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 46px;
+  padding-top: 24px;
+  line-height: 26px;
+}
+.radiobutton:hover .radiobutton__lable,
+.radiobutton:hover .radiobutton__lable::after {
+  background-color: #e5e5e5;
+}
+.radiobutton:active .radiobutton__lable {
+  background-color: #e5e5e5;
+}
+.radiobutton:active .radiobutton__lable::after {
+  background-color: #e5e5e5;
+  opacity: 0.3;
+}
+.radiobutton__input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+  cursor: pointer;
+  border: none;
+}
+.radiobutton__lable {
+  display: flex;
+  height: 58px;
+  width: 58px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.radiobutton__lable::after {
+  display: block;
+  content: "";
+  height: 24px;
+  width: 24px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+}
+.radiobutton .radiobutton__input:checked + .radiobutton__lable::after {
+  background-color: black;
+}
+@media (min-width: 768px) {
+  .radiobutton {
+    height: 58px;
+    padding-top: 20px;
+  }
+}

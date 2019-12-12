@@ -567,7 +567,7 @@ template {
 }
 .block-image--bk-home {
   margin-top: 0px;
-  background: url('../img/rcity-1-x.png');
+  background: url('../img/photo-city-1-x.png');
 }
 .block-image--bk-twiter {
   position: relative;
@@ -621,9 +621,21 @@ template {
 }
 @media (min-width: 1280px) {
   .block-image--back-mobile {
-    height: 344px;
-    background-position: center bottom, 155px 90px;
-    background-size: auto, 456px 90px, auto;
+    height: 358px;
+    z-index: -1;
+    background: url('../img/intro-triangle-svg.svg') no-repeat, url('../img/sedona.svg') no-repeat, url('../img/back-desktop-jpg.png') no-repeat;
+    background-size: auto,
+      459px,
+      auto;
+    background-position: center bottom,370px 160px;
+  }
+  .block-image--back-mobile * {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
   }
 }
 .mainmenu--absolute {
@@ -839,11 +851,13 @@ template {
     content: url("../img/logo-sedona-desktop.svg");
   }
   .mainmenu__items {
-    width: 1280px;
+    width: 1200px;
+    padding-left: 40px;
     justify-content: stretch;
   }
-  .mainmenu__item {
+  .photo-wrap .mainmenu__items .mainmenu__item {
     max-width: none;
+    height: 57px;
   }
 }
 .visitsedona {
@@ -1042,6 +1056,37 @@ template {
     color: black;
   }
 }
+@media (min-width: 1280px) {
+  .photoinfo__desc {
+    height: 286px;
+    width: 100%;
+  }
+  .photoinfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .photoinfo .photoinfo__text {
+    text-align: center;
+    padding-left: 380px;
+    padding-right: 380px;
+  }
+  .photoinfo__video {
+    margin-top: 4px;
+    height: 856px;
+    border: none;
+  }
+  .photoinfo__video .photoinfo__header {
+    margin-top: 34px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0.87;
+    color: black;
+  }
+}
 .photo-card {
   height: 414px;
   border-top: 1px solid #dcdcdc;
@@ -1145,6 +1190,52 @@ template {
     padding-left: 31px;
   }
 }
+@media (min-width: 1280px) {
+  .photoinfo :nth-child(2).photo-card {
+    position: relative;
+    height: 400px;
+  }
+  .photoinfo :nth-child(2).photo-card .photo-card__about {
+    width: 1200px;
+  }
+  .photoinfo :nth-child(2).photo-card .photo-card__image {
+    padding: 0;
+    margin: 0;
+  }
+  .photoinfo :nth-child(2).photo-card img {
+    width: 1200px;
+    height: 400px;
+  }
+  .photoinfo .photo-card {
+    position: relative;
+    height: 267px;
+  }
+  .photoinfo .photo-card .photo-card__about {
+    width: 400px;
+  }
+  .photoinfo .photo-card .photo-card__image {
+    width: 400px;
+    height: 267px;
+    padding: 0;
+    margin: 0;
+  }
+  .photo-card__header {
+    color: white;
+  }
+  .photo-card__author {
+    color: white;
+  }
+  .photo-card__like-count {
+    color: white;
+  }
+  .photo-card__about {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    bottom: 0px;
+    padding-top: 7px;
+    padding-bottom: 17px;
+  }
+}
 .formback {
   padding-left: 23px;
   padding-right: 21px;
@@ -1170,6 +1261,30 @@ template {
   line-height: 1.71;
   color: black;
 }
+@media (min-width: 768px) {
+  .formback__header {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0.87;
+    color: #000000;
+  }
+  .formback {
+    padding-top: 40px;
+    padding-left: 23px;
+    padding-right: 21px;
+    height: 194px;
+    background-color: #ffffff;
+    outline: 1px solid black;
+  }
+  .formback__desk {
+    width: 100%;
+    padding-top: 32px;
+    height: 140px;
+    font-size: 14px;
+    line-height: 1.71;
+    color: black;
+  }
+}
 .formuser {
   height: 298px;
   text-transform: uppercase;
@@ -1190,6 +1305,32 @@ template {
 .formuser__wrap {
   display: flex;
   align-items: center;
+}
+@media (min-width: 768px) {
+  .form-back {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .formuser-impression,
+  .formuser {
+    width: 307px;
+  }
+  .formuser-impression {
+    order: -1;
+    border-right: 1px solid gray;
+    margin-left: 2px;
+  }
+  .formuser-contact {
+    width: 100%;
+  }
+  .formuser-whatsee {
+    width: 100%;
+  }
+  .formuser-callback {
+    width: 100%;
+  }
 }
 .intro-5p {
   text-align: center;
@@ -1420,7 +1561,61 @@ template {
     background-color: white;
   }
 }
+@media (min-width: 1280px) {
+  .videoplayer {
+    background: url('../img/video-desktop-jpg.png') no-repeat;
+    background-position-x: center;
+    height: 499px;
+    margin-top: 71px;
+  }
+  .videoplayer__box {
+    margin-top: auto;
+    height: 92px;
+    width: 800px;
+  }
+  .videoplayer__volume-scale {
+    width: 540px;
+    margin-top: 452px;
+    margin-left: 292px;
+  }
+  .videoplayer__volume-slider {
+    margin-top: 449px;
+    margin-left: 405px;
+    background-color: white;
+  }
+  .videoplayer__replay {
+    z-index: 1;
+    margin-top: 442px;
+    margin-left: 234px;
+    background-color: white;
+  }
+  .videoplayer__subtitles {
+    z-index: 1;
+    margin-top: 443px;
+    margin-left: 874px;
+    background-color: white;
+  }
+  .videoplayer__fullscreen {
+    z-index: 1;
+    margin-top: 443px;
+    margin-left: 937px;
+    background-color: white;
+  }
+}
+::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: black;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: black;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: black;
+}
 .formuser-contact {
+  position: relative;
   text-transform: uppercase;
   border-top: 1px solid #efefef;
   padding-left: 21px;
@@ -1437,6 +1632,31 @@ template {
   padding-right: 20px;
   margin-top: 19px;
   margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .formuser-contact__header {
+    text-align: center;
+  }
+  .formuser-contact__header::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: burlywood;
+  }
+  .formuser-contact__header::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: burlywood;
+  }
 }
 .formuser-impression {
   border-top: 1px solid #efefef;
@@ -1480,6 +1700,18 @@ template {
   align-items: center;
   margin-top: 12px;
   margin-bottom: 16px;
+}
+@media (min-width: 768px) {
+  .formuser-whatsee__header {
+    min-width: 767px;
+  }
+  .formuser-whatsee {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 480px;
+  }
 }
 .formuser-callback {
   font-family: PTSans;
@@ -1806,6 +2038,7 @@ body {
 }
 @media (min-width: 1280px) {
   body {
+    background: #f2f2f2;
     max-width: 1280px;
   }
 }
@@ -1888,6 +2121,11 @@ body {
   color: black;
   margin-left: 20px;
 }
+@media (min-width: 768px) {
+  .formuser-whatsee-item {
+    width: 226px;
+  }
+}
 .formuser-item {
   margin-bottom: 18px;
 }
@@ -1910,5 +2148,125 @@ body {
   color: black;
 }
 @media (min-width: 1280px) {
-  border: 1px solid teal;
+  .photo-wrap {
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: cadetblue;
+  }
+}
+.radiobutton {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 46px;
+  padding-top: 24px;
+  line-height: 26px;
+}
+.radiobutton:hover .radiobutton__lable,
+.radiobutton:hover .radiobutton__lable::after {
+  background-color: #e5e5e5;
+}
+.radiobutton:active .radiobutton__lable {
+  background-color: #e5e5e5;
+}
+.radiobutton:active .radiobutton__lable::after {
+  background-color: #e5e5e5;
+  opacity: 0.3;
+}
+.radiobutton__input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+  cursor: pointer;
+  border: none;
+}
+.radiobutton__lable {
+  display: flex;
+  height: 58px;
+  width: 58px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.radiobutton__lable::after {
+  display: block;
+  content: "";
+  height: 24px;
+  width: 24px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+}
+.radiobutton .radiobutton__input:checked + .radiobutton__lable::after {
+  background-color: black;
+}
+@media (min-width: 768px) {
+  .radiobutton {
+    height: 58px;
+    padding-top: 20px;
+  }
+}
+.checkbox {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 64px;
+  line-height: 26px;
+  padding-top: 15px;
+}
+.checkbox:hover .checkbox__lable,
+.checkbox:hover .checkbox__lable::after {
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
+}
+.checkbox:active .checkbox__lable,
+.checkbox:active .checkbox__lable::after {
+  background-color: #d5d5d5;
+  border-color: #d5d5d5;
+}
+.checkbox__input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+  cursor: pointer;
+}
+.checkbox__lable {
+  display: flex;
+  height: 53px;
+  width: 53px;
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  margin-right: 20px;
+}
+.checkbox__lable::after {
+  display: block;
+  content: "";
+  width: 25px;
+  height: 19px;
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+.checkbox .checkbox__input:checked + .checkbox__lable::after {
+  background-color: black;
+  border-color: black;
+  background: url("../img/icon-tick.svg");
+  background-size: 25px 19px;
+}
+@media (min-width: 768px) {
+  .checkbox {
+    width: 220px;
+  }
+}
+@media (min-width: 1280px) {
+  .photo-wrap {
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: white;
+  }
 }
