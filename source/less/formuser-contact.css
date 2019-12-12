@@ -30,6 +30,9 @@
   margin-bottom: 20px;
 }
 @media (min-width: 768px) {
+  .formuser-contact {
+    border: non;
+  }
   .formuser-contact__header {
     text-align: center;
   }
@@ -57,13 +60,25 @@
 @media (min-width: 768px) {
   .formuser-contact {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
   }
-  .formuser-contact__wrap {
+  .formuser-contact-imgitem__input {
+    padding: 0;
+    margin: 0;
+  }
+  .formuser-contact__wrap.formuser-contact-item .formuser-contact__wrap {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .formuser-contact-item__lable {
+    width: 100%;
+  }
+  .formuser-contact-imgitem__input {
+    width: 100%;
   }
   .formuser-contact__header {
     width: 100%;

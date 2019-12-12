@@ -22,34 +22,27 @@
   margin-bottom: 16px;
 }
 @media (min-width: 768px) {
-  .formuser-whatsee__header {
-    min-width: 767px;
-  }
   .formuser-whatsee {
+    border: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .formuser-whatsee-item {
+    width: 260px !important;
+  }
+  .formuser-whatsee__input-wrap {
+    outline: olive;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 480px;
-  }
-}
-@media (min-width: 1280px) {
-  .formuser-whatsee__header {
-    min-width: 100%;
-  }
-  .formuser-whatsee {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 280px;
     width: 100%;
   }
-  .formuser-whatsee__wrap.formuser-whatsee-item {
-    width: 230px;
-  }
-}
-@media (min-width: 1280px) and (min-width: 1280px) {
   .formuser-whatsee__header {
+    width: 100%;
     text-align: center;
   }
   .formuser-whatsee__header::before {
@@ -71,5 +64,20 @@
     width: 100px;
     height: 1px;
     background-color: burlywood;
+  }
+}
+@media (min-width: 1280px) {
+  .formuser-whatsee__header {
+    min-width: 100%;
+  }
+  .formuser-whatsee {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .formuser-whatsee__wrap.formuser-whatsee-item {
+    width: 230px;
   }
 }
