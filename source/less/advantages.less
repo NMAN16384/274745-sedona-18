@@ -118,14 +118,17 @@
   margin-bottom:00px
 }
  
-@media (min-width: 320px) and (max-width:767px)  {
-  
-    .advantage__header br, .advantage__text br{
-      display: none;
+@media (min-width: 320px) {
+  .advantage__header br, .advantage__text br{
+     display: none;
   }
 }
 
 @media (min-width: 768px) {
+
+  .advantage__header br, .advantage__text br{
+    display: inline;
+ }
 
   .advantages .advantage__header{
     font-size: 21px;
@@ -220,6 +223,22 @@
   .advantages__turist-img{
     background: url('../img/map-tablet-jpg.png')  no-repeat;
   }
-
 }
+
+@media (min-width: 1280px) {
+  .advantages__isgood{
+    height: 680px;
+  }
+
+  .advantages__turist{
+    margin-top: 7px;
+    margin-left: 371px;
+    margin-right: 371px;
+    margin-bottom: 66px;
+  }
+  .advantages__turist-img{
+    background: url('../img/map-desktop-jpg.png')  no-repeat;
+  }
+}
+
 

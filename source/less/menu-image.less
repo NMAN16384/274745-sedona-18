@@ -1,0 +1,42 @@
+@import "variable.less";
+@import "external-function.less";
+
+.menu-image{
+  height: 437px;
+  .prepare-image();
+  background: 
+    url('../img/intro-triangle-svg.png') no-repeat,
+    url('../img/sedona.svg') no-repeat,
+    url('../img/back-mobile-jpg.png') no-repeat ;
+  background-size: 
+    auto,
+    229px 239px,
+    auto;
+  background-position: center bottom,46px 231px;
+}
+
+@media (min-width: 768px) {
+  .menu-image{
+
+  background: 
+    url('../img/intro-triangle-svg.png') no-repeat,
+    url('../img/sedona.svg') no-repeat,
+    url('../img/back-desktop-jpg.png') left top no-repeat ;
+    height: 290px;
+    background-position: center bottom, 157px 90px;
+    background-size: auto, 456px 90px, auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .menu-image{
+  height: 301px;
+  .prepare-image();
+  background: 
+    url('../img/intro-triangle-svg.svg') no-repeat,
+    url('../img/sedona.svg') no-repeat,
+    url('../img/back-desktop-jpg.png') no-repeat ;
+  background-size: auto, 460px,auto;
+  background-position: center bottom,center 102px;
+  }
+}

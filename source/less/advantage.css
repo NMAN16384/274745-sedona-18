@@ -37,6 +37,9 @@
   font-size: 14px;
   line-height: 1.5;
 }
+.advantage-item .advantage-item__text br {
+  display: none;
+}
 .advantage__image--city {
   height: 260px;
   background: url('../img/photo-city-1-x.png') 50% 50% no-repeat;
@@ -166,5 +169,84 @@
     line-height: 1.71;
     text-align: center;
     color: black;
+  }
+}
+@media (min-width: 1280px) {
+  .advantages__city .advantage__number,
+  .advantages__bridge .advantage__number {
+    margin-top: 11px;
+  }
+  .advantage-item .advantage-item__text br {
+    display: inline;
+  }
+  .advantages__bridge br {
+    display: inline;
+  }
+  .advantage.advantage--city-height,
+  .advantage.advantage--bridge-height {
+    width: 400px;
+  }
+  .advantage__image--city {
+    height: 256px;
+    background-size: 800px 400px;
+    background-position: 0px -70px;
+  }
+  .advantage__image--bridge {
+    width: 800px;
+    height: 256px;
+    background: url('../img/photo-bridge-1-x.png') no-repeat;
+    background-size: 800px 400px;
+    background-position: 0px -75px;
+  }
+  .advantage__item--house {
+    background-position-x: 161px;
+    background-position-y: 30px;
+    order: 1;
+  }
+  .advantage__item--burger {
+    background-position-x: 161px;
+    background-position-y: 33px;
+    order: 2;
+  }
+  .advantage__item--gift {
+    background-position-x: 167px;
+    background-position-y: 27px;
+    order: 3;
+  }
+  .advantage__item .advantage-item__text {
+    width: 300px;
+  }
+  .advantages__cityarea,
+  .advantages__road,
+  .advantages__turistinfo {
+    width: 400px;
+  }
+  .advantages .advantage__text {
+    width: 285px;
+  }
+  .advantages__road .advantage .advantage__text {
+    width: 265px;
+  }
+  .advantage__number {
+    margin-top: 0px;
+  }
+  .advantages__isgood .advantage__text {
+    width: 100%;
+  }
+  .advantages__isgood .advantage__text br {
+    display: inline;
+  }
+  .advantages__bridge .advantage__text br {
+    display: inline;
+  }
+  .advantages__wrap .advantage__text br {
+    display: none;
+  }
+  .advantage.advantage--city-height .advantage__header,
+  .advantage.advantage--bridge-height .advantage__header {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.24;
+    padding-top: 52px;
   }
 }

@@ -49,9 +49,50 @@
   }
   .intro-5p__image {
     height: 518px;
-    background: url('../img/intro-triangle-svg@2x.png') no-repeat, url('../img/text-index-svg@2x.png') no-repeat, url('../img/back-desktop-jpg.png') 50% 50% no-repeat;
-    background-size: 99.99% 57px, 460px 350px, cover;
+    z-index: 1;
+    background: url('../img/intro-triangle-svg.svg') no-repeat, url('../img/text-index-svg.svg') no-repeat, url('../img/back-desktop-jpg.png') 50% 50% no-repeat;
+    background-size: 1199px 57px ,460px 350px, cover;
     background-position: center bottom, 50% 46%;
+  }
+  .intro-5p__blocktext {
+    height: 195px;
+    margin-top: 11px;
+    display: flex;
+    flex-direction: column;
+  }
+  .intro-5p__header {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    width: 490px;
+    line-height: 1.2;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .intro-5p__text {
+    margin-top: 2px;
+    width: 490px;
+    font-size: 14px;
+    line-height: 1.86;
+    text-align: center;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .intro-5p__decoration {
+    display: none;
+  }
+}
+@media (min-width: 1280px) {
+  .intro-5p {
+    height: 724px;
+  }
+  .intro-5p__image {
+    height: 518px;
+    z-index: 1;
+    background: url('../img/intro-triangle-svg.svg') no-repeat, url('../img/text-index-svg.svg') no-repeat, url('../img/back-desktop-jpg.png') 50% 50% no-repeat;
+    background-size: 1200px 57px ,460px 350px, cover;
+    background-position: center bottom, 50% 78px;
   }
   .intro-5p__blocktext {
     height: 195px;

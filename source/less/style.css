@@ -1634,6 +1634,9 @@ template {
   margin-bottom: 20px;
 }
 @media (min-width: 768px) {
+  .formuser-contact {
+    border: non;
+  }
   .formuser-contact__header {
     text-align: center;
   }
@@ -1658,6 +1661,33 @@ template {
     background-color: burlywood;
   }
 }
+@media (min-width: 768px) {
+  .formuser-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .formuser-contact-imgitem__input {
+    padding: 0;
+    margin: 0;
+  }
+  .formuser-contact__wrap.formuser-contact-item .formuser-contact__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .formuser-contact-item__lable {
+    width: 100%;
+  }
+  .formuser-contact-imgitem__input {
+    width: 100%;
+  }
+  .formuser-contact__header {
+    width: 100%;
+  }
+}
 .formuser-impression {
   border-top: 1px solid #efefef;
   padding-left: 13px;
@@ -1680,6 +1710,7 @@ template {
   margin-bottom: 8px;
 }
 .formuser-whatsee {
+  position: relative;
   border-top: 1px solid #efefef;
   padding-left: 13px;
   padding-right: 20px;
@@ -1702,15 +1733,63 @@ template {
   margin-bottom: 16px;
 }
 @media (min-width: 768px) {
+  .formuser-whatsee {
+    border: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .formuser-whatsee-item {
+    width: 260px !important;
+  }
+  .formuser-whatsee__input-wrap {
+    outline: olive;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 280px;
+    width: 100%;
+  }
   .formuser-whatsee__header {
-    min-width: 767px;
+    width: 100%;
+    text-align: center;
+  }
+  .formuser-whatsee__header::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: burlywood;
+  }
+  .formuser-whatsee__header::after {
+    content: "";
+    position: absolute;
+    top: 31px;
+    right: 30px;
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: burlywood;
+  }
+}
+@media (min-width: 1280px) {
+  .formuser-whatsee__header {
+    min-width: 100%;
   }
   .formuser-whatsee {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 480px;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .formuser-whatsee__wrap.formuser-whatsee-item {
+    width: 230px;
   }
 }
 .formuser-callback {
@@ -1720,6 +1799,7 @@ template {
   font-style: normal;
   letter-spacing: normal;
   text-align: center;
+  position: relative;
   border-top: 1px solid #efefef;
   padding-left: 18px;
   padding-right: 20px;
@@ -1756,6 +1836,34 @@ template {
 }
 .formuser-callback__wrap {
   display: flex;
+}
+@media (min-width: 768px) {
+  .formuser-callback {
+    border: none;
+  }
+  .formuser-callback__header {
+    text-align: center;
+  }
+  .formuser-callback__header::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: burlywood;
+  }
+  .formuser-callback__header::after {
+    content: "";
+    position: absolute;
+    top: 31px;
+    right: 30px;
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: burlywood;
+  }
 }
 .advantage {
   text-align: center;
@@ -2263,10 +2371,155 @@ body {
     width: 220px;
   }
 }
-@media (min-width: 1280px) {
-  .photo-wrap {
-    margin-left: 40px;
-    margin-right: 40px;
+.form-wrap {
+  background-color: blanchedalmond;
+}
+@media (min-width: 768px) {
+  .form-wrap {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
     background-color: white;
   }
+}
+@media (min-width: 1280px) {
+  .form-wrap {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: white;
+  }
+}
+.mainmenu2--absolute {
+  height: 387px;
+  width: 320px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.mainmenu2__image {
+  display: block;
+  position: absolute;
+}
+.mainmenu2__image--close {
+  right: 0;
+  margin-right: 20px;
+  width: 23px;
+  height: 22px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  z-index: 2;
+  background-image: url("../img/icon-cross.png");
+}
+.mainmenu2__image--open {
+  right: 0;
+  margin-right: 20px;
+  width: 23px;
+  height: 21px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: -1px;
+  background-image: url("../img/icon-menu-svg.png");
+}
+.mainmenu2__items {
+  font-family: PTSans;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  padding: 0px ;
+  margin: 0px;
+  text-transform: uppercase;
+}
+.mainmenu2__items li {
+  list-style-type: none;
+}
+.mainmenu2__items a {
+  text-decoration: none;
+}
+.mainmenu2__item {
+  height: 56px;
+}
+.mainmenu2__item:nth-child(4) {
+  height: 55px;
+}
+.mainmenu2__item,
+.mainmenu2__area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #81b3d2;
+}
+.mainmenu2__area {
+  height: 56px;
+  background-color: white;
+}
+.mainmenu2__text {
+  font-size: 1.15em;
+  font-weight: bold;
+  line-height: 2.22;
+  color: #ffffff;
+  font-weight: 800;
+}
+.mainmenu2__text::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  background-color: #9ac2db;
+}
+.mainmenu2__text::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  background-color: #678fa8;
+}
+.mainmenu2__Logo {
+  top: 0;
+  position: absolute;
+}
+@media (min-width: 768px) {
+  .mainmenu2__text::after {
+    content: none;
+  }
+}
+.logotyle-mobilesvg {
+  width: 102px;
+  height: 83px;
+  object-fit: contain;
+}
+.menu-image {
+  height: 437px;
+  z-index: -1;
+  background: url('../img/intro-triangle-svg.png') no-repeat, url('../img/sedona.svg') no-repeat, url('../img/back-mobile-jpg.png') no-repeat;
+  background-size: auto,
+      229px 39px,
+      auto;
+  background-position: center bottom,46px 231px;
+}
+.menu-image * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }

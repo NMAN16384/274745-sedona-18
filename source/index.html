@@ -5,42 +5,41 @@
     <title>CodeStyle</title>
     <link rel="stylesheet" href="css/normaize.css">
     <link rel="stylesheet" href="css/style.css">
-
   </head>
 <body>
+  <div class="photo-wrap">
   <header>
-   <nav class="mainmenu">
-    <ul class="mainmenu__items">
-      <li class="mainmenu__item mainmenu__item--o10 mainmenu__item--border-down mainmenu__item--border-top">
-          <a class="menuitem__text" href="#" >Главная</a>
-          <a class="mainmenu__image mainmenu__image--close" href="#"></a>
-      </li>
-      <li class="mainmenu__item mainmenu__item--o20 mainmenu__item--border-down mainmenu__item--border-top">
-        <a href="Photo.html" class="menuitem__text">Фото и видео</a>
-      </li>
-      <li class="mainmenu__item  mainmenu__item--o30 mainmenu__item--border-down mainmenu__item--border-top">
-        <a href="form.html" class="menuitem__text">Форма отзыва</a>
-      </li>
-      <li class="mainmenu__item mainmenu__item--o40 mainmenu__item--border-down  mainmenu__item--border-top mainmenu__item--border-gradient">
-        <a href="#" class="menuitem__text">HTML Academy</a>
-      </li>
-      <li class="mainmenu__item mainmenu__item--oLogo mainmenu__item--notactive mainmenu__item--bk-color-white">
-        <a class="mainmenu__image mainmenu__image--logo" href="#">
-          <img src="img/sedona-mobile.png" alt="Logo">
-        </a>
-        <a class="mainmenu__image mainmenu__image--open" href="#"></a>
-      </li>
-    </ul>
-  </nav>
+    <nav class="mainmenu2">
+      <ul class="mainmenu2__items">
+        <li class="mainmenu2__item">
+          <a class="mainmenu2__text" href="index.html" >Главная</a>
+          <a class="mainmenu2__image mainmenu2__image--close" href="#"></a>
+        </li>
+        <li class="mainmenu2__item">
+          <a href="Photo.html" class="mainmenu2__text">Фото и видео</a>
+        </li>
+        <li class="mainmenu2__item">
+          <a href="form.html" class="mainmenu2__text">Форма отзыва</a>
+        </li>
+        <li class="mainmenu2__item">
+          <a href="#" class="mainmenu2__text">HTML Academy</a>
+        </li>
+        <li class="mainmenu2__area">
+          <a class="mainmenu2__Logo" href="#">
+            <picture>
+              <source media="(min-width: 1280px)" srcset="img/logotype-desktop-svg.png">
+              <source media="(min-width: 768px)" srcset="img/logotype-tablet-svg.png">
+              <img class="logotyle" src="/img/logotyle-mobile-svg.png"  alt="Логотип шапки">
+            </picture>
+          </a>
+          <a class="mainmenu2__image mainmenu2__image--open" href="#"></a> -->
+        </li>
+      </ul>
+    </nav>
 </header>
-
-  <!-- в файле block-image (и не только там) вы используете вложенность,
-  но это абсолютно бессмысленно - элементы блока в любом случае будут находиться внутри него,
-  и нигде более. Так что можете с чистой совестью ее убрать. -->
   <section class="intro-5p">
     <div class="intro-5p__image">
     </div>
-
     <div class="intro-5p__blocktext">
       <h2 class="intro-5p__header">СЕДОНА &#8212; небольшой городок в АРИЗОНЕ, зАСЛУЖИвающий большего!</h2>
       <p class="intro-5p__text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
@@ -58,10 +57,6 @@
       </div>
       <div class="advantage__image advantage__image--city">
       </div>
-      <!--
-        стр. 61 и далее в элементах списка 
-        <li class="advantage__item advantage-item--house"> - модификатор не совпадает с элементом.
-      -->
       <div class="advantages__rem">
         <ul class="advantage__list">
           <li class="advantage__item advantage__item--house">
@@ -73,7 +68,7 @@
           <li class="advantage__item advantage__item--gift">
             <div class="advantage-item">
               <h2 class="advantage-item__header">СУВЕНИРЫ</h2>
-              <p class="advantage-item__text">Не только китайского, но и местного производства!</p>
+              <p class="advantage-item__text">Не только китайского,<br> но и местного производства!</p>
             </div>
           </li> 
           <li class="advantage__item advantage__item--burger">
@@ -90,7 +85,7 @@
       <div class="advantage advantage--bridge-height advantage--bk-base advantage--fk-white">
         <h2 class="advantage__header">ТАМ ЕСТЬ <br/> Мост дьявола</h2>
         <p class="advantage__number">– N2 – </p>
-        <p class="advantage__text">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+        <p class="advantage__text">Да, по нему можно пройти! <br/> Если вы осмелитесь, конечно</p>
       </div>
       <div class="advantage__image advantage__image--bridge">
       </div>
@@ -159,7 +154,8 @@
       <p class="visitsedona__dev-text">РАЗРАБОТАНО</p>
       <div  class="visitsedona__dev-academ"></div>
     </div>
-  </footer> 
+  </footer>
 
-  </body>
+  </div>
+</body>
 </html>

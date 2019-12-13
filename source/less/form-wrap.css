@@ -1,3 +1,6 @@
+.form-wrap {
+  background-color: blanchedalmond;
+}
 @media (min-width: 768px) {
   .form-wrap {
     margin-left: 0px;
@@ -11,8 +14,6 @@
   .form-wrap {
     margin-left: 40px;
     margin-right: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
     background-color: white;
   }
 }
