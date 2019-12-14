@@ -16,3 +16,8 @@
   text-align: left;
   color: black;
 }
+@media (min-width: 1280px) {
+  .formuser-item__input {
+    height: 57px;
+  }
+}

@@ -51,4 +51,7 @@
     height: 58px;
     padding-top: 20px;
   }
+  .radiobutton__lable {
+    margin-right: 20px;
+  }
 }

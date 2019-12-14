@@ -39,21 +39,29 @@
   }
 
   .formback{
-    padding-top:40px;
-    padding-left: 23px;
-    padding-right: 21px;
+    padding-top:38px;
+    padding-left: 163px;
+    padding-right: 165px;
     height:194px;
     background-color:@mb_menuitem-white ;
-    outline: 1px solid black;
   }
 
   .formback__desk{
-    width: 100%;
+    width: 441px;
+    //text-align: justify !important;
     padding-top:32px;
     height: 140px;
     font-size: 14px;
     line-height: 1.71;
     color: @c-black;
+  }
 }
-
+@media (min-width: 1280px) {
+  .formback{
+    padding-top:74px;
+    height:180px;
+  }
+  .formback__desk{
+    width: 100%;
+  }
 }

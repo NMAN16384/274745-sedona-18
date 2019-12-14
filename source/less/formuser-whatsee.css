@@ -1,6 +1,6 @@
 .formuser-whatsee {
   position: relative;
-  border-top: 1px solid #efefef;
+  border-top: 1px solid #dbdbdb;
   padding-left: 13px;
   padding-right: 20px;
   padding-bottom: 8px;
@@ -25,6 +25,9 @@
   margin-top: 18px;
   margin-bottom: 8px;
 }
+.formuser-whatsee__header br {
+  display: none;
+}
 .formuser-whatsee__wrap {
   display: flex;
   align-items: center;
@@ -34,13 +37,17 @@
 @media (min-width: 768px) {
   .formuser-whatsee {
     border: none;
+    height: 298px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .formuser-whatsee-item {
-    width: 260px !important;
+  .formuser-whatsee__input-wrap .formuser-whatsee-item {
+    width: 253px;
+  }
+  .formuser-whatsee__input-wrap .formuser-whatsee__wrap {
+    margin-bottom: 9px;
   }
   .formuser-whatsee__input-wrap {
     outline: olive;
@@ -48,46 +55,73 @@
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding-left: 280px;
-    width: 100%;
+    padding-left: 136px;
   }
   .formuser-whatsee__header {
     width: 100%;
+    margin-bottom: 31px;
+    height: 44px;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.24;
     text-align: center;
+    color: #000000;
+  }
+  .formuser-whatsee__header br {
+    display: inline;
   }
   .formuser-whatsee__header::before {
     content: "";
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 43px;
+    left: 60px;
     display: block;
-    width: 100px;
+    width: 125px;
     height: 1px;
-    background-color: burlywood;
+    background-color: #dbdbdb;
   }
   .formuser-whatsee__header::after {
     content: "";
     position: absolute;
-    top: 31px;
-    right: 30px;
+    top: 43px;
+    right: 60px;
     display: block;
-    width: 100px;
+    width: 123px;
     height: 1px;
-    background-color: burlywood;
+    background-color: #dbdbdb;
   }
 }
 @media (min-width: 1280px) {
-  .formuser-whatsee__header {
-    min-width: 100%;
-  }
   .formuser-whatsee {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    width: 100%;
+    height: 208px;
   }
-  .formuser-whatsee__wrap.formuser-whatsee-item {
-    width: 230px;
+  .formuser-whatsee__input-wrap .formuser-whatsee-item {
+    width: auto;
+  }
+  .formuser-whatsee__input-wrap {
+    padding-left: 0px;
+    width: 1010px;
+  }
+  .formuser-whatsee__wrap:nth-child(1) {
+    margin-left: 28px;
+  }
+  .formuser-whatsee__wrap:nth-child(2) {
+    margin-left: 70px;
+  }
+  .formuser-whatsee__wrap:nth-child(3) {
+    margin-left: 70px;
+  }
+  .formuser-whatsee__wrap:nth-child(4) {
+    margin-left: 67px;
+  }
+  .formuser-whatsee__header::before {
+    top: 43px;
+    left: 120px;
+    width: 281px;
+  }
+  .formuser-whatsee__header::after {
+    top: 43px;
+    right: 119px;
+    width: 281px;
   }
 }

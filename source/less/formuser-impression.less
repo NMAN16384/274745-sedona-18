@@ -38,4 +38,48 @@
   color: #000000;
 }
 
+@media (min-width: 768px) {
+  .formuser-impression{
+    position: relative;
+    border:none;
+    height: 274px;
+    width: 310px;
+  }
+  .formuser-impression__header::after{
+    content: "";
+    top:26px;
+    right: 0;
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color:@c-gray2;
+  }
+  .formuser-impression__header{
+    margin-top:21px;
+    padding-left: 5px;
+    height: 18px;
+    font-size: 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+  }
+  .formuser-impression__header{
+    margin-bottom: 46px;
+  }
+  .formuser-impression__wrap{
 
+  }
+}
+@media (min-width: 1280px) {
+  .formuser-impression{
+    width: 464px;
+  }
+  .formuser-impression__header{
+    margin-left: 77px;
+  }
+}

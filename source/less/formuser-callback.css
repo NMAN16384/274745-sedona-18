@@ -43,29 +43,95 @@
 }
 @media (min-width: 768px) {
   .formuser-callback {
+    position: relative;
     border: none;
+    padding-bottom: 91px;
   }
   .formuser-callback__header {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.24;
+    color: #000000;
     text-align: center;
   }
   .formuser-callback__header::before {
     content: "";
     position: absolute;
     top: 30px;
-    left: 30px;
+    left: 20px;
     display: block;
-    width: 100px;
+    width: 125px;
     height: 1px;
-    background-color: burlywood;
+    background-color: #efefef;
   }
   .formuser-callback__header::after {
     content: "";
     position: absolute;
-    top: 31px;
-    right: 30px;
+    top: 30px;
+    right: 20px;
     display: block;
-    width: 100px;
+    width: 125px;
     height: 1px;
-    background-color: burlywood;
+    background-color: #efefef;
+  }
+  .formuser-callback__wrap {
+    margin-top: 57px;
+    width: 651px;
+  }
+  .formuser-callback__button {
+    float: left;
+    margin-top: 7px;
+    margin-left: 2px;
+    width: 324px;
+  }
+  .formuser-callback::after {
+    content: "* \00A0 \2013 \00A0 обязательные поля";
+    position: absolute;
+    top: 337px;
+    right: 21px;
+    display: block;
+    width: 220px;
+    height: 11px;
+    font-family: PTSans;
+    font-size: 14px;
+    line-height: 1.86;
+    text-align: right;
+    text-transform: uppercase;
+    color: black;
+  }
+  .formuser-callback::after {
+    content: "* \00A0 \2013 \00A0 обязательные поля";
+    top: 337px;
+    right: 120px;
+    width: 220px;
+    height: 11px;
+    color: black;
+  }
+}
+@media (min-width: 768px) and (min-width: 1280px) {
+  .formuser-callback {
+    width: 100%;
+    padding-left: 119px;
+    padding-right: 118px;
+    height: 382px;
+  }
+  .formuser-callback__wrap {
+    width: 100%;
+  }
+  .formuser-callback__header::before {
+    top: 30px;
+    left: 120px;
+    width: 280px;
+  }
+  .formuser-callback__header::after {
+    top: 30px;
+    right: 120px;
+    width: 280px;
+  }
+  .formuser-callback__button {
+    float: left;
+    margin-top: 7px;
+    margin-left: 1px;
+    width: 480px;
   }
 }

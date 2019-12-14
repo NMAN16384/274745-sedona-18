@@ -44,30 +44,32 @@
 
 @media (min-width: 768px){
   .formuser-contact{
-    border: non;
+    border: none;
+    height: 293px;
   }
  
   .formuser-contact__header{
+    margin-top: 12px;
     text-align: center;
     &::before{
       content:"";
       position: absolute;
       top: 30px;
-      left: 30px;
+      left: 60px;
       display: block;
-      width: 100px;
+      width: 125px;
       height: 1px;
-      background-color: burlywood;
+      background-color: @c-gray;
     }
     &::after{
       content:"";
       position: absolute;
       top: 30px;
-      right: 30px;
+      right: 60px;
       display: block;
-      width: 100px;
+      width: 125px;
       height: 1px;
-      background-color: burlywood;
+      background-color: @c-gray;
     }
   }
 }
@@ -78,26 +80,84 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 100px;
   }
   .formuser-contact-imgitem__input{
     padding: 0;
     margin: 0;
   }
-  .formuser-contact__wrap.formuser-contact-item .formuser-contact__wrap{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+  .formuser-contact__wrap{
+    margin-top: 6px;
+    margin-bottom: 4px;
   }
+  // .formuser-contact__wrap.formuser-contact-item .formuser-contact__wrap{
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   width: 100%;
+  // }
   .formuser-contact-item__lable{
     width: 100%;
   }
   .formuser-contact-imgitem__input{
     width: 100%;
   }
-  .formuser-contact__header
+  .formuser-contact .formuser-contact__header
   {
+    width: 278px;
+    height: 44px;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.24;
+    letter-spacing: normal;
+    color: #000000;
+    margin-bottom: 0px;
     width: 100%;
   }
 }
+@media (min-width: 768px){
+  .formuser-contact__header{
+    margin-top: 12px;
+    text-align: center;
+    &::before{
+      content:"";
+      position: absolute;
+      top: 28px;
+      left: 120px;
+      display: block;
+      width: 279px;
+      height: 1px;
+      background-color: @c-gray;
+    }
+    &::after{
+      content:"";
+      position: absolute;
+      top: 28px;
+      right: 120px;
+      display: block;
+      width: 279px;
+      height: 1px;
+      background-color: @c-gray;
+    }
+  }
+}
+@media (min-width: 1280px){
+  .formuser-contact{
+    flex-direction: row;
+    height: 194px;
+    justify-content: space-around;
+  }
+  .formuser-contact__wrap{
+    display:flex;
+    align-items: center;
+    margin-top:43px;
+    margin-left:41px;
 
+  }
+  .formuser-contact__header{
+    margin-top: 15px;
+  }
+
+}
