@@ -1,26 +1,16 @@
-@import "variable.less";
-
-.formuser-contact-item{
-  
-}
-
-.formuser-contact-item__lable{
+.formuser-contact-item__lable {
   font-size: 14px;
   line-height: 1.86;
   text-align: left;
-  color: @c-black;
-
+  color: black;
   margin-left: 20px;
   margin-bottom: 8px;
 }
-
-.formuser-contact-item__wrap{
+.formuser-contact-item__wrap {
   display: flex;
   margin-bottom: 12px;
   margin-top: 8px;
 }
-
-.formuser-contact-imgitem__input{
+.formuser-contact-imgitem__input {
   padding-top: 0px;
 }
-

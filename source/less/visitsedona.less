@@ -13,7 +13,7 @@
 
 .visitsedona__header{
   margin-top: 0px;
-  padding-top: 36px;
+  padding-top: 35px;
 
   text-align: center;
   text-transform: uppercase;
@@ -69,6 +69,41 @@
   background:   url('../img/htmlacademy-svg.png')  no-repeat;
   background-position: center;
 }
+
+.visitsedona__image{
+  z-index: -1;
+  * {
+    .position-absolute();
+  }
+}
+.visitsedona__image--twiter{
+  position: relative;
+  height: 14px;
+  width: 18px;
+  background: url('../img/icon-twitter-svg.png')  no-repeat;
+}
+.visitsedona__image--facebook{
+  position: relative;
+  height: 18px;
+  width: 9px;
+  background: url('../img/icon-facebook-svg.png') no-repeat;
+}
+.visitsedona__image--youtube{
+  position: relative;
+  height: 14px;
+  width: 18px;
+  background: url('../img/icon-youtube-svg.png')  no-repeat;
+}
+.visitsedona__image--academ{
+  z-index: 1;
+  position: relative;
+  margin-left: 10px;
+  height: 34px;
+  width: 27px;
+  background:   url('../img/htmlacademy-svg.png')  no-repeat;
+  background-position: center;
+}
+
 
 @media (min-width: 768px) {
   .visitsedona{

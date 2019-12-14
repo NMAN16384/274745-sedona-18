@@ -1,7 +1,7 @@
 .formback {
   padding-left: 23px;
   padding-right: 21px;
-  height: 202px;
+  height: 203px;
   background-color: #ffffff;
 }
 .formback__title {
@@ -20,7 +20,7 @@
   width: 276px;
   height: 140px;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.78;
   color: black;
 }
 @media (min-width: 768px) {

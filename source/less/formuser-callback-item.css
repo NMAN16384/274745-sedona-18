@@ -1,23 +1,15 @@
-@import "variable.less";
-
-.formuser-callback-item{
-
-}
-
-.formuser-callback-item__text{
+.formuser-callback-item__text {
   flex-grow: 1;
   height: 142px;
   resize: none;
-
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
   text-align: left;
-  color: @c-black2;
-  background:@c-gray;
-  border:0;
- 
-  padding-left:22px;
+  color: black;
+  background: #efefef;
+  border: 0;
+  padding-left: 22px;
   padding-top: 16px;
   margin-bottom: 51px;
   margin-left: 1px;

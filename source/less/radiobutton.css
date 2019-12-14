@@ -3,7 +3,7 @@
   position: relative;
   align-items: center;
   height: 46px;
-  padding-top: 24px;
+  padding-top: 23px;
   line-height: 26px;
 }
 .radiobutton:hover .radiobutton__lable,
@@ -27,19 +27,19 @@
 }
 .radiobutton__lable {
   display: flex;
-  height: 58px;
-  width: 58px;
+  height: 54px;
+  width: 54px;
   background-color: #f2f2f2;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  margin-right: 20px;
+  margin-right: 24px;
 }
 .radiobutton__lable::after {
   display: block;
   content: "";
-  height: 24px;
-  width: 24px;
+  height: 21px;
+  width: 21px;
   background-color: #f2f2f2;
   border-radius: 50%;
 }

@@ -1,11 +1,9 @@
-.menu-box-shadow {
-  box-shadow: 0px 1px 0 0 rgba(1, 1, 1, 0.2), inset 0px 1px 0 0 rgba(255, 255, 255, 0.2);
-}
 .formuser-impression {
   border-top: 1px solid #efefef;
   padding-left: 13px;
   padding-right: 20px;
   padding-bottom: 18px;
+  height: 270px;
 }
 .formuser-impression__header {
   text-transform: uppercase;
@@ -15,23 +13,20 @@
   text-align: center;
   color: black;
   margin-top: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 6px;
 }
 .formuser-impression__wrap {
   display: flex;
   align-items: center;
-  margin-bottom: 8px;
-}
-.formuser-impression-item__input {
-  width: 58px;
-  height: 58px;
-  border: 0;
-}
-.formuser-impression-item__lable {
-  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-left: 8px;
+  font-family: PTSans;
   font-size: 18px;
   font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
   line-height: 1.44;
+  letter-spacing: normal;
   text-align: left;
-  color: black;
+  color: #000000;
 }
