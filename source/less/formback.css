@@ -23,6 +23,9 @@
   line-height: 1.78;
   color: black;
 }
+.formback__desk br {
+  display: none;
+}
 @media (min-width: 768px) {
   .formback__header {
     font-size: 30px;

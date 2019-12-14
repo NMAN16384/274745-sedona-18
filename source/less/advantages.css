@@ -63,15 +63,19 @@
   font-size: 21px;
   font-weight: bold;
   line-height: 1.24;
-  margin-top: 30px;
+  margin-top: 28px;
 }
 .advantages__isgood .advantage__text {
   font-size: 14px;
   line-height: 1.71;
   margin-top: 20px;
-  margin-bottom: 35px;
+  margin-bottom: 37px;
   margin-left: 20px;
   margin-right: 20px;
+}
+.advantages__wrap {
+  background-color: #efefef;
+  height: 503px;
 }
 .advantages__bridge-text {
   background-color: #81b3d2;
@@ -115,6 +119,10 @@
   }
 }
 @media (min-width: 768px) {
+  .advantages__wrap {
+    background-color: #efefef;
+    height: 256px;
+  }
   .advantage__header br,
   .advantage__text br {
     display: inline;
@@ -124,8 +132,6 @@
     font-weight: bold;
     line-height: 1.24;
     padding-top: 46px;
-  }
-  .advantages .advantage__header {
     margin-left: auto;
     margin-right: auto;
   }
@@ -175,7 +181,6 @@
     flex-direction: row-reverse;
   }
   .advantages__wrap {
-    background-color: #efefef;
     display: flex;
   }
   .advantages__wrap p.advantage__number,
