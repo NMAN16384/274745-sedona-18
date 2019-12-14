@@ -1,0 +1,308 @@
+.block-image {
+  z-index: -1;
+}
+.block-image * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.block-image--back-mobile {
+  height: 438px;
+  z-index: -1;
+  background: url('../img/intro-triangle-svg.png') no-repeat, url('../img/sedona.svg') no-repeat, url('../img/back-mobile-jpg.png') no-repeat;
+  background-size: auto,
+    229px 39px,
+    auto;
+  background-position: center bottom,46px 231px;
+}
+.block-image--back-mobile * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.block-image--like {
+  z-index: 1;
+  display: block;
+  position: relative;
+  height: 21px;
+  width: 23px;
+  background: url("../img/like-icon-svg.png") no-repeat;
+  background-size: auto;
+  background-position: center top;
+}
+.block-image--bk {
+  margin: 0;
+  height: 389px;
+  background: url('../img/back-mobile-jpg.png') 50% 50% no-repeat;
+  background-size: cover;
+}
+.block-image--whiterect {
+  margin-top: 363px;
+  height: 26px;
+  background: url('../img/intro-triangle-svg.png');
+}
+.block-image--bk-home {
+  margin-top: 0px;
+  background: url('../img/photo-city-1-x.png');
+}
+.block-image--bk-twiter {
+  position: relative;
+  height: 14px;
+  width: 18px;
+  background: url('../img/icon-twitter-svg.png') no-repeat;
+}
+.block-image--bk-facebook {
+  position: relative;
+  height: 18px;
+  width: 9px;
+  background: url('../img/icon-facebook-svg.png') no-repeat;
+}
+.block-image--bk-youtube {
+  position: relative;
+  height: 14px;
+  width: 18px;
+  background: url('../img/icon-youtube-svg.png') no-repeat;
+}
+.block-image--bk-phone {
+  z-index: 2;
+  position: relative;
+  height: 58px;
+  width: 58px;
+  background: #e6e6e6 url('../img/phone-svg.png') no-repeat;
+  background-position: center;
+}
+.block-image--bk-mail {
+  position: relative;
+  z-index: 2;
+  height: 58px;
+  width: 58px;
+  background: #e6e6e6 url('../img/mail-svg.png') no-repeat;
+  background-position: center;
+}
+.block-image--bk-academ {
+  z-index: 1;
+  position: relative;
+  margin-left: 10px;
+  height: 34px;
+  width: 27px;
+  background: url('../img/htmlacademy-svg.png') no-repeat;
+  background-position: center;
+}
+@media (min-width: 768px) {
+  .block-image--back-mobile {
+    height: 344px;
+    background-position: center bottom, 155px 90px;
+    background-size: auto, 456px 90px, auto;
+  }
+}
+@media (min-width: 1280px) {
+  .block-image--back-mobile {
+    height: 358px;
+    z-index: -1;
+    background: url('../img/intro-triangle-svg.svg') no-repeat, url('../img/sedona.svg') no-repeat, url('../img/back-desktop-jpg.png') no-repeat;
+    background-size: auto,
+      459px,
+      auto;
+    background-position: center bottom,370px 160px;
+  }
+  .block-image--back-mobile * {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+.videoplayer {
+  margin-top: 36px;
+  height: 201px;
+  z-index: -1;
+  position: relative;
+  z-index: 1;
+  background: url('../img/video-mobile@1x.jpg') no-repeat;
+  background-size: contain;
+  background-position: center top, 0px 0px;
+}
+.videoplayer * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.videoplayer__box {
+  margin-top: 156px;
+  height: 45px;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+  opacity: 0.6;
+}
+.videoplayer__volume-scale {
+  z-index: 10;
+  margin-top: 178px;
+  margin-left: 43px;
+  width: 235px;
+  height: 3px;
+  background-color: white;
+  opacity: 0.2;
+}
+.videoplayer__volume-slider {
+  z-index: 10;
+  border-radius: 50%;
+  margin-top: 175px;
+  margin-left: 78px;
+  width: 9px;
+  height: 9px;
+  background-color: white;
+}
+.videoplayer__box2 {
+  margin-top: 201px;
+  height: 66px;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+  opacity: 0.08;
+}
+.videoplayer__replay {
+  margin-left: 45px;
+  margin-top: 223px;
+  height: 20px;
+  z-index: -1;
+  background-color: #5c6870;
+  mask: url('../img/replay-svg.png') no-repeat;
+  z-index: 1;
+}
+.videoplayer__replay * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.videoplayer__subtitles {
+  margin-left: 194px;
+  margin-top: 225px;
+  height: 20px;
+  z-index: -1;
+  background-color: #5c6870;
+  mask: url('../img/icon-video-subtitles.svg') no-repeat;
+  z-index: 1;
+}
+.videoplayer__subtitles * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.videoplayer__fullscreen {
+  margin-left: 257px;
+  margin-top: 224px;
+  height: 20px;
+  z-index: -1;
+  background-color: #5c6870;
+  mask: url('../img/fullscreen-svg.svg') no-repeat;
+  z-index: 1;
+}
+.videoplayer__fullscreen * {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+@media (min-width: 768px) {
+  .videoplayer {
+    background: url('../img/video-tablet-jpg.png') no-repeat;
+    height: 500px;
+    margin-top: 74px;
+  }
+  .videoplayer__box {
+    margin-top: auto;
+    height: 93px;
+    width: 100%;
+  }
+  .videoplayer__volume-scale {
+    width: 389px;
+    margin-top: 452px;
+    margin-left: 93px;
+  }
+  .videoplayer__volume-slider {
+    margin-top: 449px;
+    margin-left: 206px;
+    background-color: white;
+  }
+  .videoplayer__replay {
+    z-index: 1;
+    margin-top: 442px;
+    margin-left: 35px;
+    background-color: white;
+  }
+  .videoplayer__subtitles {
+    z-index: 1;
+    margin-top: 443px;
+    margin-left: 524px;
+    background-color: white;
+  }
+  .videoplayer__fullscreen {
+    z-index: 1;
+    margin-top: 443px;
+    margin-left: 587px;
+    background-color: white;
+  }
+}
+@media (min-width: 1280px) {
+  .videoplayer {
+    background: url('../img/video-desktop-jpg.png') no-repeat;
+    background-position-x: center;
+    height: 500px;
+    margin-top: 71px;
+  }
+  .videoplayer__box {
+    margin-top: auto;
+    height: 93px;
+    width: 800px;
+  }
+  .videoplayer__volume-scale {
+    width: 540px;
+    margin-top: 452px;
+    margin-left: 292px;
+  }
+  .videoplayer__volume-slider {
+    margin-top: 449px;
+    margin-left: 405px;
+    background-color: white;
+  }
+  .videoplayer__replay {
+    z-index: 1;
+    margin-top: 442px;
+    margin-left: 234px;
+    background-color: white;
+  }
+  .videoplayer__subtitles {
+    z-index: 1;
+    margin-top: 443px;
+    margin-left: 874px;
+    background-color: white;
+  }
+  .videoplayer__fullscreen {
+    z-index: 1;
+    margin-top: 443px;
+    margin-left: 937px;
+    background-color: white;
+  }
+}

@@ -31,7 +31,7 @@
   padding-left: 2px;
   width: 31px;
   height: 11px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
   line-height: 1.71;
   text-align: left;
@@ -58,6 +58,12 @@
 @media (min-width: 768px) {
   .photoinfo div.photo-card {
     border-top: none;
+  }
+  .photoinfo div.photo-card {
+    border-top: none;
+  }
+  .photoinfo .photo-card:not(:first-child) {
+    height: 347px;
   }
   .photoinfo .photo-card {
     background: #f2f2f2;

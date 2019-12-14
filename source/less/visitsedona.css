@@ -136,6 +136,9 @@
   }
 }
 @media (min-width: 1280px) {
+  .visitsedona {
+    padding-bottom: 30px;
+  }
   .visitsedona__header {
     position: absolute;
     left: 0;

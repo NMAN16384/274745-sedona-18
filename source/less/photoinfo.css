@@ -44,7 +44,7 @@
     padding-right: 60px;
   }
   .photoinfo__desc {
-    height: 247px;
+    height: 248px;
     width: 100%;
   }
   .photoinfo .photoinfo__header {
@@ -65,7 +65,7 @@
     padding-right: 110px;
   }
   .photoinfo__video {
-    height: 812px;
+    height: 814px;
     border: none;
   }
   .photoinfo__video .photoinfo__header {
@@ -77,11 +77,18 @@
   }
 }
 @media (min-width: 1280px) {
+  .photoinfo div.photo-card:not(:first-child) {
+    height: 268px;
+  }
+  .photoinfo div.photo-card:nth-child(2) {
+    height: 400px;
+  }
   .photoinfo__desc {
-    height: 286px;
+    height: 248px;
     width: 100%;
   }
   .photoinfo {
+    margin-top: 38px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -100,7 +107,7 @@
     border: none;
   }
   .photoinfo__video .photoinfo__header {
-    margin-top: 34px;
+    margin-top: 35px;
     font-size: 30px;
     font-weight: bold;
     line-height: 0.87;
