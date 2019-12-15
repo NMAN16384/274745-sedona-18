@@ -1,3 +1,7 @@
+.padding-margin-0 {
+  padding: 0px;
+  margin: 0px;
+}
 .advantages__city {
   height: 870px;
 }
@@ -61,15 +65,20 @@
 }
 .advantages__isgood .advantage__header {
   font-size: 21px;
+  line-height: 1.4;
   font-weight: bold;
-  line-height: 1.24;
-  margin-top: 28px;
+  text-align: center;
+  color: black;
+  margin-top: 26px;
 }
 .advantages__isgood .advantage__text {
   font-size: 14px;
   line-height: 1.71;
+  font-weight: normal;
+  text-align: center;
+  color: black;
   margin-top: 20px;
-  margin-bottom: 37px;
+  margin-bottom: 36px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -93,16 +102,17 @@
   background-color: #81b3d2;
   color: #ffffff;
   align-items: center;
-  text-align: center;
   text-transform: uppercase;
-  font-size: 21px;
-  font-weight: bold;
-  line-height: 1.24;
   height: 58px;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 02px;
+  margin-top: 2px;
   margin-bottom: 49px;
+  font-size: 21px;
+  line-height: 1.24;
+  font-weight: bold;
+  text-align: center;
+  color: white;
 }
 .advantages__turist-img {
   height: 350px;
@@ -112,11 +122,9 @@
   background-position: center top, 0px 0px;
   margin-bottom: 0px;
 }
-@media (min-width: 320px) {
-  .advantage__header br,
-  .advantage__text br {
-    display: none;
-  }
+.advantage__header br,
+.advantage__text br {
+  display: none;
 }
 @media (min-width: 768px) {
   .advantages__wrap {
@@ -129,18 +137,19 @@
   }
   .advantages .advantage__header {
     font-size: 21px;
-    font-weight: bold;
     line-height: 1.24;
+    font-weight: bold;
     padding-top: 46px;
     margin-left: auto;
     margin-right: auto;
   }
   .advantages .advantage__number {
-    margin-top: 9px;
     font-size: 14px;
     line-height: 1.5;
+    font-weight: normal;
     text-align: center;
     color: white;
+    margin-top: 9px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -148,6 +157,7 @@
     width: 162px;
     font-size: 14px;
     line-height: 1.5;
+    font-weight: normal;
     text-align: center;
     color: white;
     margin-top: 20px;
@@ -161,7 +171,7 @@
     height: auto;
   }
   .advantages__city .advantage--city-height {
-    height: 256px !important;
+    height: 256px;
     width: 256px;
   }
   .advantage__image--city {
@@ -169,7 +179,6 @@
     flex-grow: 1;
   }
   .advantages__rem {
-    outline: violet;
     height: 330px;
     width: 100%;
   }
@@ -194,7 +203,8 @@
     height: 256px;
   }
   .advantages__isgood {
-    height: 668px;
+    padding-top: 4px;
+    height: 694px;
   }
   .advantages__isgood .advantages__isgood--height {
     height: 170px;
@@ -210,7 +220,7 @@
 }
 @media (min-width: 1280px) {
   .advantages__isgood {
-    height: 680px;
+    height: 707px;
   }
   .advantages__turist {
     margin-top: 7px;

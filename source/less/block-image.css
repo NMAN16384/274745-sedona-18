@@ -1,3 +1,7 @@
+.padding-margin-0 {
+  padding: 0px;
+  margin: 0px;
+}
 .block-image {
   z-index: -1;
 }
@@ -16,7 +20,7 @@
   background-size: auto,
     229px 39px,
     auto;
-  background-position: center bottom,46px 231px;
+  background-position: center bottom, 46px 231px;
 }
 .block-image--back-mobile * {
   display: block;
@@ -109,7 +113,7 @@
     background-size: auto,
       459px,
       auto;
-    background-position: center bottom,370px 160px;
+    background-position: center bottom, 370px 160px;
   }
   .block-image--back-mobile * {
     display: block;

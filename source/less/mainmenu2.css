@@ -3,6 +3,12 @@ p {
   margin: 0;
   padding: 0;
 }
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
 body {
   font-family: 'PTSans';
   padding: 0;
@@ -14,7 +20,7 @@ body {
   letter-spacing: normal;
   outline: 1px solid lightgray;
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) {
   body {
     max-width: 320px;
   }
@@ -29,6 +35,10 @@ body {
     background: #f2f2f2;
     max-width: 1280px;
   }
+}
+.padding-margin-0 {
+  padding: 0px;
+  margin: 0px;
 }
 .mainmenu2--absolute {
   height: 387px;
@@ -75,15 +85,9 @@ body {
   font-style: normal;
   letter-spacing: normal;
   text-align: center;
-  padding: 0px ;
+  padding: 0px;
   margin: 0px;
   text-transform: uppercase;
-}
-.mainmenu2__items li {
-  list-style-type: none;
-}
-.mainmenu2__items a {
-  text-decoration: none;
 }
 .mainmenu2__item {
   height: 56px;
@@ -100,6 +104,7 @@ body {
 .mainmenu2__item:nth-child(4) {
   height: 55px;
   order: 40;
+  background: linear-gradient(to top, #6c96b0 0%, #81b3d2 7%);
 }
 .mainmenu2__item,
 .mainmenu2__area {
@@ -115,11 +120,11 @@ body {
   background-color: white;
 }
 .mainmenu2__text {
-  font-size: 1.15em;
-  font-weight: bold;
+  font-size: 18px;
   line-height: 2.22;
-  color: #ffffff;
-  font-weight: 800;
+  font-weight: bold;
+  text-align: center;
+  color: white;
 }
 .mainmenu2__text::before {
   content: "";
@@ -135,8 +140,8 @@ body {
   content: "";
   display: block;
   position: absolute;
-  bottom: 0px;
   left: 0px;
+  bottom: 0px;
   width: 100%;
   height: 1px;
   background-color: #678fa8;
@@ -159,10 +164,10 @@ body {
   }
   .mainmenu2__text {
     font-size: 14px;
-    font-weight: bold;
     line-height: 1.86;
+    font-weight: bold;
     text-align: center;
-    color: #000000;
+    color: black;
   }
   .mainmenu2__item,
   .mainmenu2__area {
@@ -198,6 +203,7 @@ body {
   .mainmenu2__item:nth-child(4) {
     margin-left: 13px;
     width: 123px;
+    background: white;
   }
 }
 @media (min-width: 1280px) {

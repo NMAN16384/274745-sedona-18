@@ -1,3 +1,7 @@
+.padding-margin-0 {
+  padding: 0px;
+  margin: 0px;
+}
 .menu-image {
   height: 437px;
   z-index: -1;
@@ -5,7 +9,7 @@
   background-size: auto,
     229px 239px,
     auto;
-  background-position: center bottom,46px 231px;
+  background-position: center bottom, 46px 231px;
 }
 .menu-image * {
   display: block;
@@ -28,8 +32,8 @@
     height: 301px;
     z-index: -1;
     background: url('../img/intro-triangle-svg.svg') no-repeat, url('../img/sedona.svg') no-repeat, url('../img/back-desktop-jpg.png') no-repeat;
-    background-size: auto, 460px,auto;
-    background-position: center bottom,center 102px;
+    background-size: auto, 460px, auto;
+    background-position: center bottom, center 102px;
   }
   .menu-image * {
     display: block;

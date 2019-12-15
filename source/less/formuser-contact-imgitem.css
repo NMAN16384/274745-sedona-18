@@ -1,36 +1,27 @@
-@import "../less/variable";
-
-@height-item: 54px;
-
 .formuser-contact-imgitem {
-  height: @height-item;
+  height: 54px;
 }
-
 .formuser-contact-imgitem__input {
   width: 100%;
   border: 0;
-  background-color: @c-gray-light;
+  background-color: #f2f2f2;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
   text-align: left;
-  color: @c-black2;
-
+  color: black;
   padding-left: 22px;
 }
-
 .formuser-contact-imgitem__image {
-  min-width: @height-item;
-  height: @height-item;
+  min-width: 54px;
+  height: 54px;
   position: relative;
   z-index: 2;
 }
-
 .formuser-contact-imgitem__image--phone {
   background: #e6e6e6 url('../img/phone-svg.png') no-repeat;
   background-position: center;
 }
-
 .formuser-contact-imgitem__image--email {
   background: #e6e6e6 url('../img/mail-svg.png') no-repeat;
   background-position: center;

@@ -1,250 +1,247 @@
 @import "variable.less";
 @import "external-function.less";
 
-.advantages{
-  
+.advantages__city {
+  height: 870px;
 }
-.advantages__city{
-  height:870px;
-}
-.advantages__city,.advantages__bridge{
-  .advantage__header{
-    padding-top:61px-20px;
-    margin:0px;    
+
+.advantages__city,
+.advantages__bridge {
+  .advantage__header {
+    padding-top: 61px-20px;
+    margin: 0px;
   }
-  .advantage__number{
+
+  .advantage__number {
     margin-top: 10px;
     margin-bottom: 15px;
   }
-  .advantage__text{
+
+  .advantage__text {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 
-.advantages__bridge{
+.advantages__bridge {
   text-transform: uppercase;
-  .advantage__header{
-    padding-top:40px;
+
+  .advantage__header {
+    padding-top: 40px;
     font-size: 18px;
   }
-  .advantage__number{
+
+  .advantage__number {
     padding-bottom: 0px;
   }
-  .advantage__text{
+
+  .advantage__text {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 
-.advantages__cityarea,.advantages__road, .advantages__turistinfo{
+.advantages__cityarea,
+.advantages__road,
+.advantages__turistinfo {
   text-transform: uppercase;
-  .advantage__header{
+
+  .advantage__header {
     padding-top: 25px;
-    margin-bottom:9px;
+    margin-bottom: 9px;
   }
-  .advantage__number{
+
+  .advantage__number {
     font-size: 15.4px;
     line-height: 1.5;
-    margin-bottom:14px;
+    margin-bottom: 14px;
   }
-  .advantage__text{
+
+  .advantage__text {
     padding-left: 35px;
     padding-right: 35px;
-    margin-top:2px;
+    margin-top: 2px;
     margin-bottom: 14px;
   }
 }
 
-.advantages__isgood{
+.advantages__isgood {
   text-transform: uppercase;
 
-  .advantage__header{
-    font-size: 21px;
-    font-weight: bold;
-    line-height: 1.24;
-    margin-top: 28px;
+  .advantage__header {
+    .cfont(21px, 1.4, bold, center, @c-black);
+    margin-top: 26px;
   }
 
-  .advantage__text{
-    font-size: 14px;
-    line-height: 1.71;
-    
+  .advantage__text {
+    .cfont(14px, 1.71, normal, center, @c-black);
     margin-top: 20px;
-    margin-bottom: 37px;
+    margin-bottom: 36px;
     margin-left: 20px;
     margin-right: 20px;
   }
 }
 
-.advantages__wrap{
-  background-color:@c-gray;
+.advantages__wrap {
+  background-color: @c-gray;
   height: 503px;
 }
 
-.advantages__bridge-text{
-  background-color:@mb_menuitem-bk;
-  height:191px;
+.advantages__bridge-text {
+  background-color: @mb_menuitem-bk;
+  height: 191px;
 }
 
-.advantages__road{
+.advantages__road {
   height: 168px;
 }
-.advantages__turistinfo{
+
+.advantages__turistinfo {
   height: 167px;
 }
 
-.advantages__turist{
+.advantages__turist {
   display: flex;
   justify-content: center;
   background-color: @mb_menuitem-bk;
   color: @mb_menuitem-fk-white;
   align-items: center;
-
-  text-align: center;
   text-transform: uppercase;
-  font-size: 21px;
-  font-weight: bold;
-  line-height: 1.24;
-
   height: 58px;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 02px;
-  margin-bottom:49px;
+  margin-top: 2px;
+  margin-bottom: 49px;
+  .cfont(21px, 1.24, bold, center, white);
 }
 
-.advantages__turist-img{
+.advantages__turist-img {
   height: 350px;
   position: relative;
-  background: url('../img/map-mobile-jpg.png')  no-repeat;
+  background: url('../img/map-mobile-jpg.png') no-repeat;
   background-size: cover;
   background-position: center top, 0px 0px;
-  margin-bottom:00px
+  margin-bottom: 0px
 }
- 
-@media (min-width: 320px) {
-  .advantage__header br, .advantage__text br{
-     display: none;
-  }
+
+.advantage__header br,
+.advantage__text br {
+  display: none;
 }
 
 @media (min-width: 768px) {
-
-  .advantages__wrap{
-    background-color:@c-gray;
+  .advantages__wrap {
+    background-color: @c-gray;
     height: 256px;
   }
 
-  .advantage__header br, .advantage__text br{
+  .advantage__header br,
+  .advantage__text br {
     display: inline;
- }
+  }
 
-  .advantages .advantage__header{
-    font-size: 21px;
-    font-weight: bold;
-    line-height: 1.24;
-    padding-top:46px;
+  .advantages .advantage__header {
+    .cfont(21px, 1.24, bold);
+    padding-top: 46px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .advantages .advantage__number{
+  .advantages .advantage__number {
+    .cfont(14px, 1.5, normal, center, @c-white);
     margin-top: 9px;
-    font-size: 14px;
-    line-height: 1.5;
-    text-align: center;
-    color: @c-white;
     margin-left: auto;
     margin-right: auto;
   }
-  .advantages .advantage__text{
+
+  .advantages .advantage__text {
     width: 162px;
-    font-size: 14px;
-    line-height: 1.5;
-    text-align: center;
-    color: @c-white;
+    .cfont(14px, 1.5, normal, center, @c-white);
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .advantages__city{
+  .advantages__city {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     height: auto;
-    .advantage--city-height{
-      height: 256px !important;
+
+    .advantage--city-height {
+      height: 256px;
       width: 256px;
     }
   }
 
-  .advantage__image--city{
+  .advantage__image--city {
     min-width: 200px;
     flex-grow: 1;
   }
 
-  .advantages__rem{
-    outline: violet;
+  .advantages__rem {
     height: 330px;
     width: 100%;
-    .advantage__list{
+
+    .advantage__list {
       display: flex;
     }
   }
 
-  .advantages__bridge{
+  .advantages__bridge {
     display: flex;
     flex-direction: row-reverse;
   }
 
-
-  .advantages__wrap{
+  .advantages__wrap {
     display: flex;
   }
 
-  .advantages__wrap p.advantage__number, .advantages__wrap p.advantage__text{
-    color:@c-black2;
+  .advantages__wrap p.advantage__number,
+  .advantages__wrap p.advantage__text {
+    color: @c-black2;
   }
 
-  .advantages__cityarea, .advantages__road, .advantages__turistinfo{
+  .advantages__cityarea,
+  .advantages__road,
+  .advantages__turistinfo {
     width: 256px;
     height: 256px;
   }
 
-  .advantages__isgood{
-    height: 668px;
-    .advantages__isgood--height{
+  .advantages__isgood {
+    padding-top: 4px;
+    height: 694px;
+
+    .advantages__isgood--height {
       height: 170px;
     }
   }
 
-  .advantages__turist{
+  .advantages__turist {
     margin-left: 155px;
     margin-right: 155px;
     margin-bottom: 58px;
   }
 
-  .advantages__turist-img{
-    background: url('../img/map-tablet-jpg.png')  no-repeat;
+  .advantages__turist-img {
+    background: url('../img/map-tablet-jpg.png') no-repeat;
   }
 }
 
 @media (min-width: 1280px) {
-  .advantages__isgood{
-    height: 680px;
+  .advantages__isgood {
+    height: 707px;
   }
 
-  .advantages__turist{
+  .advantages__turist {
     margin-top: 7px;
     margin-left: 371px;
     margin-right: 371px;
     margin-bottom: 66px;
   }
-  .advantages__turist-img{
-    background: url('../img/map-desktop-jpg.png')  no-repeat;
+
+  .advantages__turist-img {
+    background: url('../img/map-desktop-jpg.png') no-repeat;
   }
 }
-
-

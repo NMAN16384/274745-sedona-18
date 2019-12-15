@@ -1,9 +1,9 @@
 @import "variable.less";
-@height-item:58px;
+@height-item: 58px;
 
-.formuser-whatsee{
+.formuser-whatsee {
   position: relative;
-  border-top:1px solid @c-gray;
+  border-top: 1px solid @c-gray;
   padding-left: 13px;
   padding-right: 20px;
   padding-bottom: 8px;
@@ -20,47 +20,49 @@
   color: #000000;
 }
 
-.formuser-whatsee__header{
+.formuser-whatsee__header {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
   text-align: center;
-  color:@c-black2;
+  color: @c-black2;
   margin-top: 18px;
   margin-bottom: 8px;
 
-  br{
+  br {
     display: none;
   }
 }
 
-.formuser-whatsee__wrap{
+.formuser-whatsee__wrap {
   display: flex;
   align-items: center;
   margin-top: 12px;
   margin-bottom: 16px;
 }
 
- @media (min-width: 768px) {
+@media (min-width: 768px) {
 
-  .formuser-whatsee{
-    border:none;
+  .formuser-whatsee {
+    border: none;
     height: 298px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .formuser-whatsee__input-wrap .formuser-whatsee-item{
+
+  .formuser-whatsee__input-wrap .formuser-whatsee-item {
 
     width: 253px;
   }
 
-   .formuser-whatsee__input-wrap .formuser-whatsee__wrap {
-     margin-bottom: 9px;
-   }
-  .formuser-whatsee__input-wrap{
+  .formuser-whatsee__input-wrap .formuser-whatsee__wrap {
+    margin-bottom: 9px;
+  }
+
+  .formuser-whatsee__input-wrap {
     outline: olive;
     display: flex;
     flex-direction: row;
@@ -69,7 +71,7 @@
     padding-left: 136px;
   }
 
-  .formuser-whatsee__header{
+  .formuser-whatsee__header {
     width: 100%;
     text-align: center;
     margin-bottom: 31px;
@@ -81,13 +83,13 @@
     text-align: center;
     color: #000000;
 
-    br{
+    br {
       display: inline;
     }
 
 
-    &::before{
-      content:"";
+    &::before {
+      content: "";
       position: absolute;
       top: 43px;
       left: 60px;
@@ -96,8 +98,9 @@
       height: 1px;
       background-color: @c-gray;
     }
-    &::after{
-      content:"";
+
+    &::after {
+      content: "";
       position: absolute;
       top: 43px;
       right: 60px;
@@ -110,35 +113,43 @@
 }
 
 @media (min-width: 1280px) {
-  .formuser-whatsee{
+  .formuser-whatsee {
     height: 208px;
   }
-  .formuser-whatsee__input-wrap .formuser-whatsee-item{
+
+  .formuser-whatsee__input-wrap .formuser-whatsee-item {
     width: auto;
   }
+
   .formuser-whatsee__input-wrap {
     padding-left: 0px;
     width: 1010px;
   }
-  .formuser-whatsee__wrap:nth-child(1){
+
+  .formuser-whatsee__wrap:nth-child(1) {
     margin-left: 28px;
   }
-  .formuser-whatsee__wrap:nth-child(2){
+
+  .formuser-whatsee__wrap:nth-child(2) {
     margin-left: 70px;
   }
-  .formuser-whatsee__wrap:nth-child(3){
+
+  .formuser-whatsee__wrap:nth-child(3) {
     margin-left: 70px;
   }
-  .formuser-whatsee__wrap:nth-child(4){
+
+  .formuser-whatsee__wrap:nth-child(4) {
     margin-left: 67px;
   }
-  .formuser-whatsee__header{
-    &::before{
+
+  .formuser-whatsee__header {
+    &::before {
       top: 43px;
       left: 120px;
       width: 281px;
     }
-    &::after{
+
+    &::after {
       top: 43px;
       right: 119px;
       width: 281px;

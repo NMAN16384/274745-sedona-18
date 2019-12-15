@@ -1,3 +1,7 @@
+.padding-margin-0 {
+  padding: 0px;
+  margin: 0px;
+}
 .advantage {
   text-align: center;
   position: relative;
@@ -26,17 +30,19 @@
 .advantage__header {
   display: block;
   font-size: 18px;
-  font-weight: bold;
   line-height: 1.44;
+  font-weight: bold;
 }
 .advantage__number {
   font-size: 14px;
   line-height: 1.5;
+  font-weight: normal;
 }
 .advantage__text {
   display: block;
   font-size: 14px;
   line-height: 1.5;
+  font-weight: normal;
 }
 .advantage-item .advantage-item__text br {
   display: none;
@@ -95,11 +101,11 @@
 }
 .advantages__isgood .advantage__header::after {
   content: "";
-  z-index: 1;
-  top: 420px;
-  left: 146px;
   display: block;
   position: absolute;
+  z-index: 1;
+  top: 422px;
+  left: 146px;
   height: 17px;
   width: 17px;
   border-radius: 50%;
@@ -107,6 +113,9 @@
   border: 5px solid white;
 }
 @media (min-width: 768px) {
+  .advantages__bridge .advantage__text br {
+    display: none;
+  }
   .advantage--cityarea-height {
     height: 256px;
   }
@@ -175,20 +184,22 @@
   .advantages__isgood .advantage__header {
     padding-top: 26px;
     font-size: 30px;
-    font-weight: bold;
     line-height: 0.87;
-    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    color: black;
   }
   .advantages__isgood .advantage__text {
     padding-top: 11px;
     width: 100%;
     font-size: 14px;
     line-height: 1.71;
+    font-weight: normal;
     text-align: center;
     color: black;
   }
   .advantages__isgood .advantage__header::after {
-    top: 454px;
+    top: 452px;
     left: 370px;
   }
 }

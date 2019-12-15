@@ -1,17 +1,17 @@
 @import "variable.less";
 @import "external-function.less";
 
-.visitsedona{
+.visitsedona {
   .font-base();
   height: 233px;
   background-color: white;
 }
 
-.visitsedona__buttons--bk{
-  background-color:#81b3d2;
+.visitsedona__buttons--bk {
+  background-color: #81b3d2;
 }
 
-.visitsedona__header{
+.visitsedona__header {
   margin-top: 0px;
   padding-top: 36px;
 
@@ -24,8 +24,7 @@
   color: @c-black;
 }
 
-.visitsedona__buttons
-{
+.visitsedona__buttons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +32,7 @@
   margin-bottom: 40px;
 }
 
-.visitsedona__button{
+.visitsedona__button {
   background-color: @c-base;
   display: flex;
   justify-content: center;
@@ -45,7 +44,7 @@
   height: 48px;
 }
 
-.visitsedona__dev{
+.visitsedona__dev {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,63 +54,69 @@
   color: @c-black;
 }
 
-.visitsedona__dev-academ{
+.visitsedona__dev-academ {
   * {
     .position-absolute();
   }
+
   z-index: 1;
-  
+
   position: relative;
   margin-left: 8px;
   margin-top: 0px;
   height: 34px;
   width: 27px;
-  background:   url('../img/htmlacademy-svg.png')  no-repeat;
+  background: url('../img/htmlacademy-svg.png') no-repeat;
   background-position: center;
 }
 
-.visitsedona__image{
+.visitsedona__image {
   z-index: -1;
+
   * {
     .position-absolute();
   }
 }
-.visitsedona__image--twiter{
+
+.visitsedona__image--twiter {
   position: relative;
   height: 14px;
   width: 18px;
-  background: url('../img/icon-twitter-svg.png')  no-repeat;
+  background: url('../img/icon-twitter-svg.png') no-repeat;
 }
-.visitsedona__image--facebook{
+
+.visitsedona__image--facebook {
   position: relative;
   height: 18px;
   width: 9px;
   background: url('../img/icon-facebook-svg.png') no-repeat;
 }
-.visitsedona__image--youtube{
+
+.visitsedona__image--youtube {
   position: relative;
   height: 14px;
   width: 18px;
-  background: url('../img/icon-youtube-svg.png')  no-repeat;
+  background: url('../img/icon-youtube-svg.png') no-repeat;
 }
-.visitsedona__image--academ{
+
+.visitsedona__image--academ {
   z-index: 1;
   position: relative;
   margin-left: 10px;
   height: 34px;
   width: 27px;
-  background:   url('../img/htmlacademy-svg.png')  no-repeat;
+  background: url('../img/htmlacademy-svg.png') no-repeat;
   background-position: center;
 }
 
-.visitsedona__dev-text{
+.visitsedona__dev-text {
   padding-top: 2px;
   padding-right: 4px;
-  padding-bottom: 2px ;
+  padding-bottom: 2px;
 }
 
 @media (min-width: 768px) {
-  .visitsedona{
+  .visitsedona {
     position: relative;
     height: 60px;
     display: flex;
@@ -119,89 +124,89 @@
     justify-content: stretch;
   }
 
-  .visitsedona__dev-text{
+  .visitsedona__dev-text {
     padding-right: 4px;
-    padding-bottom: 2px ;
+    padding-bottom: 2px;
   }
 
-  .visitsedona__dev-academ{
+  .visitsedona__dev-academ {
     * {
       .position-absolute();
     }
+
     z-index: 1;
-    
+
     position: relative;
     margin-left: 8px;
     margin-top: 0px;
     height: 34px;
     width: 27px;
-    background:   url('../img/htmlacademy-svg.png')  no-repeat;
+    background: url('../img/htmlacademy-svg.png') no-repeat;
     background-position: center;
   }
 
-  
-  .visitsedona__header{
+
+  .visitsedona__header {
     flex-grow: 0;
     text-align: left;
     padding-top: 16px;
     padding-left: 28px;
     width: 180px;
   }
-  .visitsedona div.visitsedona__buttons{
+
+  .visitsedona div.visitsedona__buttons {
     height: 0px;
     margin-top: 30px;
     left: 0;
     right: 0;
   }
-  .visitsedona__dev{
+
+  .visitsedona__dev {
     flex-grow: 0;
     text-align: left;
     padding-left: 28px;
     width: 180px;
   }
-  
 }
 
 @media (min-width: 768px) {
-  .visitsedona__header{
-  }
-  .visitsedona__buttons{
+
+  .visitsedona__buttons {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
   }
-  .visitsedona__header{
+
+  .visitsedona__header {
     position: absolute;
     left: 0;
     margin-left: 32px;
-    margin-top:1px
+    margin-top: 1px;
   }
-  .visitsedona__buttons{
-  }
-  .visitsedona__dev{
+  .visitsedona__dev {
     position: absolute;
     right: 0;
     margin-right: 34px;
-    margin-top:13px
+    margin-top: 13px;
   }
 }
 
 @media (min-width: 1280px) {
-  .visitsedona{
+  .visitsedona {
     padding-bottom: 30px;
   }
-  .visitsedona__header{
+
+  .visitsedona__header {
     position: absolute;
     left: 0;
     margin-left: 92px;
-    margin-top:1px
+    margin-top: 1px;
   }
-  .visitsedona__buttons{
-  }
-  .visitsedona__dev{
+
+  .visitsedona__dev {
     position: absolute;
     right: 0;
     margin-right: 94px;
-    margin-top:13px
+    margin-top: 13px;
   }
 }

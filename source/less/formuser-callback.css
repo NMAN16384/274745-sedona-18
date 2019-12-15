@@ -1,3 +1,7 @@
+.padding-margin-0 {
+  padding: 0px;
+  margin: 0px;
+}
 .formuser-callback {
   font-family: PTSans;
   font-weight: normal;
@@ -82,13 +86,14 @@
     float: left;
     margin-top: 7px;
     margin-left: 2px;
+    padding-right: 18px;
     width: 324px;
   }
   .formuser-callback::after {
     content: "* \00A0 \2013 \00A0 обязательные поля";
     position: absolute;
     top: 337px;
-    right: 21px;
+    left: 449px;
     display: block;
     width: 220px;
     height: 11px;
@@ -102,7 +107,7 @@
   .formuser-callback::after {
     content: "* \00A0 \2013 \00A0 обязательные поля";
     top: 337px;
-    right: 120px;
+    left: 860px;
     width: 220px;
     height: 11px;
     color: black;
@@ -133,5 +138,6 @@
     margin-top: 7px;
     margin-left: 1px;
     width: 480px;
+    padding-right: 6px;
   }
 }

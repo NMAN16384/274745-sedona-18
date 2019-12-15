@@ -1,3 +1,7 @@
+.padding-margin-0 {
+  padding: 0px;
+  margin: 0px;
+}
 .photo-card {
   height: 414px;
   border-top: 1px solid #dcdcdc;

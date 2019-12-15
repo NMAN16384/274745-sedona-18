@@ -3,6 +3,12 @@ p {
   margin: 0;
   padding: 0;
 }
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
 body {
   font-family: 'PTSans';
   padding: 0;
@@ -14,7 +20,7 @@ body {
   letter-spacing: normal;
   outline: 1px solid lightgray;
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) {
   body {
     max-width: 320px;
   }
