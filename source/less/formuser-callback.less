@@ -1,17 +1,18 @@
 @import "variable.less";
 @import "external-function";
 
-@height-item:58px;
+@height-item: 58px;
 
-.formuser-callback{
+.formuser-callback {
   .font-base();
-  border-top:1px solid @c-gray;
+  position: relative;
+  border-top: 1px solid @c-gray;
   padding-left: 18px;
   padding-right: 20px;
   padding-bottom: 38px;
 }
 
-.formuser-callback__button{
+.formuser-callback__button {
   .font-base();
   text-transform: uppercase;
   font-size: 21px;
@@ -20,26 +21,140 @@
   text-align: center;
   color: @c-white;
 
-  width: 100%;
+  width: 280px;
   height: @height-item;
   background-color: @c-base;
   border: none;
-  margin-left: 1px;
-  margin-right: 1px;
 }
 
-.formuser-callback__header{
+.formuser-callback__header {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
   text-align: center;
-  color:@c-black2;
+  color: @c-black2;
 
   margin-top: 18px;
   margin-bottom: 18px;
 }
 
-.formuser-callback__wrap{
+.formuser-callback__wrap {
   display: flex;
+}
+
+@media (min-width: 768px) {
+
+  .formuser-callback {
+    position: relative;
+    border: none;
+    padding-bottom: 91px;
+  }
+
+  .formuser-callback__header {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.24;
+    text-align: center;
+    color: #000000;
+
+    text-align: center;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 30px;
+      left: 20px;
+      display: block;
+      width: 125px;
+      height: 1px;
+      background-color: @c-gray;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 30px;
+      right: 20px;
+      display: block;
+      width: 125px;
+      height: 1px;
+      background-color: @c-gray;
+    }
+  }
+
+  .formuser-callback__wrap {
+    margin-top: 57px;
+    width: 651px;
+  }
+
+  .formuser-callback__button {
+    float: left;
+    margin-top: 7px;
+    margin-left: 2px;
+    padding-right: 18px;
+    width: 324px;
+  }
+
+  .formuser-callback::after {
+    content: "* \00A0 \2013 \00A0 обязательные поля";
+    position: absolute;
+    top: 337px;
+    left: 449px;
+    display: block;
+
+    width: 220px;
+    height: 11px;
+    font-family: PTSans;
+    font-size: 14px;
+    line-height: 1.86;
+    text-align: right;
+    text-transform: uppercase;
+    color: @c-black;
+  }
+
+  @media (min-width: 1280px) {
+    .formuser-callback {
+      width: 100%;
+      padding-left: 119px;
+      padding-right: 118px;
+      height: 382px;
+
+    }
+
+    .formuser-callback__wrap {
+      width: 100%;
+    }
+
+    .formuser-callback__header {
+      &::before {
+        top: 30px;
+        left: 120px;
+        width: 280px;
+      }
+
+      &::after {
+        top: 30px;
+        right: 120px;
+        width: 280px;
+      }
+    }
+
+    .formuser-callback__button {
+      float: left;
+      margin-top: 7px;
+      margin-left: 1px;
+      width: 480px;
+      padding-right: 6px;
+    }
+  }
+
+  .formuser-callback::after {
+    content: "* \00A0 \2013 \00A0 обязательные поля";
+    top: 337px;
+    left:  860px;
+    width: 220px;
+    height: 11px;
+    color: @c-black;
+  }
 }

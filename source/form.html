@@ -1,163 +1,196 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>CodeStyle</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/normaize.css">
-  </head>
-  <body>
-    <header class="base-header-form">
-      <nav class="mainmenu mainmenu--absolute mainmenu--closed1">
-        <ul class="mainmenu__items">
-          <li class="mainmenu__item mainmenu__item--border-down">
-            <a class="menuitem__text" href="index.html" >Главная</a>
-            <a class="mainmenu__image mainmenu__image--close" href="#"></a>
-          </li>
-          <li class="mainmenu__item mainmenu__item--border-down mainmenu__item--border-top">
-            <a href="photo.html" class="menuitem__text">Фото и видео</a>
-          </li>
-          <li class="mainmenu__item mainmenu__item--border-down mainmenu__item--border-top">
-            <a href="#" class="menuitem__text">Форма отзыва</a>
-          </li>
-          <li class="mainmenu__item mainmenu__item--border-down  mainmenu__item--border-top mainmenu__item--border-gradient">
-            <a href="#" class="menuitem__text">HTML Academy</a>
-          </li>
-          <li class="mainmenu__item mainmenu__item--notactive mainmenu__item--bk-color-white">
-            <a class="mainmenu__image--logo" href="#">
-              <img src="img/sedona-mobile.png" alt="Logo">
-            </a>
-            <a class="mainmenu__image mainmenu__image--open" href="#"></a>
-          </li>
-        </ul>
-      </nav>
-      <!--
-        В меню опять одинокие модификаторы class="block-image--back-mobile"
-      -->
-      <div class="block-image block-image--back-mobile">
-      </div>
-    </header>
+
+<head>
+  <meta charset="utf-8">
+  <title>CodeStyle</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normaize.css">
+</head>
+
+<body>
+  <div class="body-wrap">
+
+    <nav class="mainmenu2 mainmenu2--absolute">
+      <ul class="mainmenu2__items">
+        <li class="mainmenu2__item">
+          <a class="mainmenu2__text" href="index.html">Главная</a>
+          <a class="mainmenu2__image mainmenu2__image--close" href="#"></a>
+        </li>
+        <li class="mainmenu2__item">
+          <a href="Photo.html" class="mainmenu2__text">Фото и видео</a>
+        </li>
+        <li class="mainmenu2__item">
+          <a href="form.html" class="mainmenu2__text">Форма отзыва</a>
+        </li>
+        <li class="mainmenu2__item">
+          <a href="#" class="mainmenu2__text">HTML Academy</a>
+        </li>
+        <li class="mainmenu2__area">
+          <a class="mainmenu2__Logo" href="#">
+            <picture>
+              <source media="(min-width: 1280px)" srcset="img/logotype-desktop-svg.png">
+              <source media="(min-width: 768px)" srcset="img/logotype-tablet-svg.png">
+              <img src="/img/logotyle-mobile-svg.png" alt="Логотип шапки">
+            </picture>
+          </a>
+          <a class="mainmenu2__image mainmenu2__image--open" href="#"></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="menu-image">
+    </div>
+
     <main class="">
 
       <section class="formback">
         <div class="formback__title">
-          <h2 class="formback__header">Оставте свой отзыв</h2>
-          <p class="formback__desk">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+          <h2 class="formback__header">Оставьте свой отзыв</h2>
+          <p class="formback__desk">Помогите нашим отелям стать лучше! Оставьте отзыв о них, <br />а также о посещенных
+            вами достопримечательностях</p>
         </div>
       </section>
-    <section class="form-back-userdata">
+      <section class="form-back-userdata">
 
-      <form class="form-back" action="https://echo.htmlacademy.ru" method="GET">
-        <div class="formuser">
-          <h2 class="formuser__header">Представтесь:</h2>
-
-          <!--
-            В форме - не исправлена ошибка с лейблами - нужно использовать теги label для описания инпутов. Клик по описанию должен вызывать клик по соответствующему ему инпуту.
-          Те надписи внутри полей что в макете - нужно делать тегом placeholder а не value.
-          -->
-          <div class="formuser__wrap formuser-item">
-            <label class="formuser-item__lable" for="user-name">Имя*:</label>
-            <input class="formuser-item__input formuser-item__input--name" id="user-name" type="text" placeholder="Петр" name="value-username">
-          </div>
-
-          <div class="formuser__wrap formuser-item">
-            <label class="formuser-item__lable" for="user-family">Фамилия*:</label>
-            <input class="formuser-item__input formuser-item__input--family" id="user-family" type="text" placeholder="Иванов" name="value-family">
-          </div>
-
-          <div class="formuser__wrap formuser-item">
-            <label class="formuser-item__lable" for="user-name2">Отчество:</label>
-            <input class="formuser-item__input formuser-item__input--name2" id="user-name2" type="text" placeholder="Александрович" name="value-name2">
-          </div>
-        </div>
-
-        <div class="formuser-contact">
-          <h2 class="formuser-contact__header">Контактная информация:</h2>
-          <div class="formuser-contact__wrap formuser-contact-item">
-            <label class="formuser-contact-item__lable" for="user-phone">Контактный телефон*:</label>
-            <div class="formuser-contact-item__wrap formuser-contact-imgitem">
-              <input class="formuser-contact-imgitem__input" id="user-phone" type="text"  placeholder="Введите телефон" name="value-phone">
-              <div class="formuser-contact-imgitem__image formuser-contact-imgitem__image--phone"></div>
+        <form class="form-back" action="https://echo.htmlacademy.ru" method="GET">
+          <div class="formuser">
+            <h2 class="formuser__header">Представьтесь:</h2>
+            <div class="formuser__wrap formuser-item">
+              <label class="formuser-item__lable" for="user-name">Имя*:</label>
+              <input class="formuser-item__input formuser-item__input--name" id="user-name" type="text"
+                placeholder="Петр" name="value-username">
+            </div>
+            <div class="formuser__wrap formuser-item">
+              <label class="formuser-item__lable" for="user-family">Фамилия*:</label>
+              <input class="formuser-item__input formuser-item__input--family" id="user-family" type="text"
+                placeholder="Иванов" name="value-family">
+            </div>
+            <div class="formuser__wrap formuser-item">
+              <label class="formuser-item__lable" for="user-name2">Отчество:</label>
+              <input class="formuser-item__input formuser-item__input--name2" id="user-name2" type="text"
+                placeholder="Александрович" name="value-name2">
             </div>
           </div>
 
-          <div class="formuser-contact__wrap formuser-contact-item">
-            <label class="formuser-contact-item__lable" for="user-email">Электронная почта*:</label>
-            <div class="formuser-contact-item__wrap formuser-contact-imgitem">
-              <input class="formuser-contact-imgitem__input" id="user-email" type="text" placeholder="Введите e-mail" name="value-email">
-              <div class="formuser-contact-imgitem__image formuser-contact-imgitem__image--email"></div>
+          <div class="formuser-contact">
+            <h2 class="formuser-contact__header">Контактная информация:</h2>
+            <div class="formuser-contact__wrap formuser-contact-item">
+              <label class="formuser-contact-item__lable" for="user-phone"><span>Контактный</span> телефон*:</label>
+              <div class="formuser-contact-item__wrap formuser-contact-imgitem">
+                <input class="formuser-contact-imgitem__input" id="user-phone" type="text" placeholder="Введите телефон"
+                  name="value-phone">
+                <div class="formuser-contact-imgitem__image formuser-contact-imgitem__image--phone"></div>
+              </div>
+            </div>
+            <div class="formuser-contact__wrap formuser-contact-item">
+              <label class="formuser-contact-item__lable" for="user-email">Электронная почта*:</label>
+              <div class="formuser-contact-item__wrap formuser-contact-imgitem">
+                <input class="formuser-contact-imgitem__input" id="user-email" type="text" placeholder="Введите e-mail"
+                  name="value-email">
+                <div class="formuser-contact-imgitem__image formuser-contact-imgitem__image--email"></div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="formuser-impression">
-          <h2 class="formuser-impression__header">Ваше общее впечатление*:</h2>
-          
-          <div class="formuser-impression__wrap formuser-impression-item">
-            <input class="formuser-impression-item__input" id="v1" type="radio" name="gr" checked value="v1">
-            <label class="formuser-impression-item__lable" for="v1">Скорее положительное</label>
-          </div>
-          
-          <div class="formuser-impression__wrap formuser-impression-item">
-            <input class="formuser-impression-item__input" id="v2" type="radio" name="gr" value="v2">
-            <label class="formuser-impression-item__lable" for="v2">Скорее отрицательное</label>
-          </div>
-          
-          <div class="formuser-impression__wrap formuser-impression-item">
-            <input class="formuser-impression-item__input" id="v3" type="radio" name="gr" value="v3">
-            <label class="formuser-impression-item__lable" for="v3">Затрудняюсь ответить</label>
-          </div>
-        </div>
-      
-        <div class="formuser-whatsee">
-          <h2 class="formuser-whatsee__header">Посещенные достопримечательности:</h2>
-          <div class="formuser-whatsee__wrap formuser-whatsee-item">
-            <input class="formuser-whatsee-item__input" id="ch1" type="checkbox" name="ch1">
-            <label class="formuser-whatsee-item__lable" for="ch1">Мост дьявола</label>
-          </div>
-          <div class="formuser-whatsee__wrap formuser-whatsee-item">
-            <input class="formuser-whatsee-item__input"  id="ch2" type="checkbox" name="ch2">
-            <label class="formuser-whatsee-item__lable" for="ch2">Гора-Колокол</label>
-          </div>
-          <div class="formuser-whatsee__wrap formuser-whatsee-item">
-            <input class="formuser-whatsee-item__input" id="ch3" type="checkbox" name="ch3">
-            <label class="formuser-whatsee-item__lable" for="ch3" >Слайд-парк</label>
-          </div>
-          <div class="formuser-whatsee__wrap formuser-whatsee-item">
-            <input class="formuser-whatsee-item__input" id="ch4" type="checkbox" name="ch4">
-            <label class="formuser-whatsee-item__lable" for="ch4">Красные скалы</label>
-          </div>
-        </div>
+          <div class="formuser-impression">
+            <h2 class="formuser-impression__header">Ваше общее впечатление:</h2>
 
-        <div class="formuser-callback">
-          <h2 class="formuser-callback__header">Опишите свои эмоции:</h2>
-          <div class="formuser-callback__wrap formuser-callback-item">
-            <textarea class="formuser-callback-item__text" name="usertext">Опишите подробно все свои восторги</textarea>
-          </div>
-          <input class="formuser-callback__button" type="submit" value="Отправить отзыв">
-        </div>
+            <div class="formuser-impression__wrap formuser-impression-item">
+              <label class="radiobutton" for="v1">
+                <input class="radiobutton__input" type="radio" id="v1" name="gr" value="v1" checked>
+                <span class="radiobutton__lable"></span>
+                Скорее положительные
+              </label>
+            </div>
 
-      </form> 
-    </section>
-   </main>
+            <div class="formuser-impression__wrap formuser-impression-item">
+              <label class="radiobutton" for="v2">
+                <input class="radiobutton__input" type="radio" id="v2" name="gr" value="v2" checked>
+                <span class="radiobutton__lable"></span>
+                Скорее отрицательное
+              </label>
+            </div>
+
+            <div class="formuser-impression__wrap formuser-impression-item">
+              <label class="radiobutton" for="v3">
+                <input class="radiobutton__input" type="radio" id="v3" name="gr" value="v3" checked>
+                <span class="radiobutton__lable"></span>
+                Затрудняюсь ответить
+              </label>
+            </div>
+          </div>
+          <div class="formuser-whatsee">
+            <h2 class="formuser-whatsee__header">Посещенные <br />достопримечательности:</h2>
+            <div class="formuser-whatsee__input-wrap">
+              <div class="formuser-whatsee__wrap formuser-whatsee-item">
+                <label class="checkbox">
+                  <input class="checkbox__input" type="checkbox" name="ch1" checked>
+                  <span class="checkbox__lable"></span>
+                  Мост Дьявола
+                </label>
+              </div>
+              <div class="formuser-whatsee__wrap formuser-whatsee-item">
+                <label class="checkbox">
+                  <input class="checkbox__input" type="checkbox" name="ch2">
+                  <span class="checkbox__lable"></span>
+                  Гора-Колокол
+                </label>
+              </div>
+              <div class="formuser-whatsee__wrap formuser-whatsee-item">
+                <label class="checkbox">
+                  <input class="checkbox__input" type="checkbox" name="ch3">
+                  <span class="checkbox__lable"></span>
+                  Слайд-парк
+                </label>
+              </div>
+              <div class="formuser-whatsee__wrap formuser-whatsee-item">
+                <label class="checkbox">
+                  <input class="checkbox__input" type="checkbox" name="ch4">
+                  <span class="checkbox__lable"></span>
+                  Красные скалы
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="formuser-callback">
+            <h2 class="formuser-callback__header">Опишите свои эмоции:</h2>
+            <div class="formuser-callback__wrap formuser-callback-item">
+              <textarea class="formuser-callback-item__text" name="usertext"
+                placeholder="Опишите подробно все свои восторги"></textarea>
+            </div>
+            <input class="formuser-callback__button" type="submit" value="Отправить отзыв">
+          </div>
+
+        </form>
+
+      </section>
+
+    </main>
 
     <footer class="visitsedona">
+
       <h2 class="visitsedona__header">#visitsedona</h2>
       <div class="visitsedona__buttons">
         <div class="visitsedona__button">
-          <a class="block-image block-image--bk-twiter"></a>
+          <a class="block-image visitsedona__image--twiter"></a>
         </div>
         <div class="visitsedona__button">
-          <a class="block-image block-image--bk-facebook"></a>
+          <a class="visitsedona__image visitsedona__image--facebook"></a>
         </div>
         <div class="visitsedona__button">
-          <a class="block-image block-image--bk-youtube"></a>
+          <a class="visitsedona__image visitsedona__image--youtube"></a>
         </div>
       </div>
-      <div class="visitsedona__dev" >
+      <div class="visitsedona__dev">
         <p class="visitsedona__dev-text">РАЗРАБОТАНО</p>
-        <div  class="block-image block-image--bk-academ"></div>
+        <div class="visitsedona__image visitsedona__image--academ"></div>
       </div>
+
     </footer>
-  </body>
+
+
+  </div>
+
+</body>
+
 </html>

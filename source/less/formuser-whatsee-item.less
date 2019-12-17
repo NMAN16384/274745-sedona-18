@@ -1,20 +1,29 @@
 @import "variable.less";
-@height-item:58px;
+@height-item: 58px;
 
-.formuser-whatsee-item{
+.formuser-whatsee-item {}
 
+.formuser-whatsee__wrap {
+  margin-left: 6px;
+  margin-top: 15px;
 }
 
-.formuser-whatsee-item__input{
+.formuser-whatsee-item__input {
   height: @height-item;
   width: @height-item;
 }
 
-.formuser-whatsee-item__lable{
+.formuser-whatsee-item__lable {
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
   text-align: left;
   color: @c-black2;
   margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+  .formuser-whatsee-item {
+    width: 226px;
+  }
 }

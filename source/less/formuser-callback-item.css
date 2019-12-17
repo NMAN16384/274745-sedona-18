@@ -1,0 +1,17 @@
+.formuser-callback-item__text {
+  flex-grow: 1;
+  height: 142px;
+  resize: none;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.44;
+  text-align: left;
+  color: black;
+  background: #efefef;
+  border: 0;
+  padding-left: 22px;
+  padding-top: 16px;
+  margin-bottom: 51px;
+  margin-left: 1px;
+  margin-right: 2px;
+}

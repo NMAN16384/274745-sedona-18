@@ -1,0 +1,19 @@
+.form-wrap {
+  background-color: blanchedalmond;
+}
+@media (min-width: 768px) {
+  .form-wrap {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: white;
+  }
+}
+@media (min-width: 1280px) {
+  .form-wrap {
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: white;
+  }
+}

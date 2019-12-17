@@ -1,0 +1,21 @@
+.formuser-whatsee__wrap {
+  margin-left: 6px;
+  margin-top: 15px;
+}
+.formuser-whatsee-item__input {
+  height: 58px;
+  width: 58px;
+}
+.formuser-whatsee-item__lable {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.44;
+  text-align: left;
+  color: black;
+  margin-left: 20px;
+}
+@media (min-width: 768px) {
+  .formuser-whatsee-item {
+    width: 226px;
+  }
+}

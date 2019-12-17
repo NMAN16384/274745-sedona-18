@@ -1,29 +1,75 @@
 @import "../less/variable";
 @import "../less/external-function.less";
 
-.formback{
+.formback {
   padding-left: 23px;
   padding-right: 21px;
-  height:202px;
-  background-color:@mb_menuitem-white ;
+  height: 203px;
+  background-color: @mb_menuitem-white;
 }
 
-.formback__title{
+.formback__title {
   text-align: center;
-  padding-top:37px;
-  text-transform: uppercase;    
+  padding-top: 37px;
+  text-transform: uppercase;
 }
-.formback__header{
+
+.formback__header {
   font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
   color: @c-black;
 }
-.formback__desk{
-    padding-top:28px;
-    width: 276px;
+
+.formback__desk {
+  padding-top: 28px;
+  width: 276px;
+  height: 140px;
+  font-size: 14px;
+  line-height: 1.78;
+  color: @c-black;
+
+  br {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .formback__header {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0.87;
+    color: #000000;
+  }
+
+  .formback {
+    padding-top: 38px;
+    padding-left: 163px;
+    padding-right: 165px;
+    height: 194px;
+    background-color: @mb_menuitem-white ;
+  }
+
+  .formback__desk {
+    width: 440px;
+    padding-top: 32px;
     height: 140px;
     font-size: 14px;
     line-height: 1.71;
     color: @c-black;
+  }
+}
+
+@media (min-width: 1280px) {
+  .formback {
+    padding-top: 74px;
+    height: 180px;
+  }
+
+  .formback__desk {
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

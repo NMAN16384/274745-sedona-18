@@ -1,19 +1,19 @@
 @import "variable.less";
 
-.formuser-item{
-  margin-bottom: 18px;
+.formuser-item {
+  //  margin-bottom: 18px;
 }
 
-.formuser-item__lable{
+.formuser-item__lable {
   font-size: 14px;
   line-height: 1.86;
   text-align: left;
 }
 
-.formuser-item__input{
+.formuser-item__input {
   width: 100%;
-  margin-left: 16px;
-  height: @height-item;
+  margin-left: 15px;
+  height: 56px;
   padding-left: 22px;
   border: 0;
   background-color: @c-gray-light;
@@ -25,6 +25,12 @@
   color: @c-black2;
 }
 
-.formuser-item__input--name{
+.formuser-item__input--name {}
 
+@media (min-width: 768px) {}
+
+@media (min-width: 1280px) {
+  .formuser-item__input {
+    height: 57px;
+  }
 }

@@ -1,61 +1,162 @@
-.menu-box-shadow {
-  box-shadow: 0px 1px 0 0 rgba(1, 1, 1, 0.2), inset 0px 1px 0 0 rgba(255, 255, 255, 0.2);
+::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: black;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: black;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: black;
 }
 .formuser-contact {
+  position: relative;
   text-transform: uppercase;
   border-top: 1px solid #efefef;
   padding-left: 21px;
   padding-right: 20px;
   padding-bottom: 15px;
 }
+.formuser-contact__wrap {
+  margin-top: 0px;
+}
 .formuser-contact__header {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: bold;
   line-height: 1.44;
   text-align: left;
   color: black;
   padding-left: 20px;
   padding-right: 20px;
-  margin-top: 19px;
+  margin-top: 18px;
   margin-bottom: 20px;
 }
-.formuser-contact-item__lable {
-  font-size: 14px;
-  line-height: 1.86;
-  text-align: left;
-  color: black;
-  margin-left: 20px;
-  margin-bottom: 8px;
+@media (min-width: 768px) {
+  .formuser-contact {
+    border: none;
+    height: 293px;
+  }
+  .formuser-contact__header {
+    margin-top: 12px;
+    text-align: center;
+  }
+  .formuser-contact__header::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    display: block;
+    width: 125px;
+    height: 1px;
+    background-color: #efefef;
+  }
+  .formuser-contact__header::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: 60px;
+    display: block;
+    width: 125px;
+    height: 1px;
+    background-color: #efefef;
+  }
 }
-.formuser-contact-item__wrap {
-  display: flex;
-  margin-bottom: 12px;
+@media (min-width: 768px) {
+  .formuser-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 100px;
+  }
+  .formuser-contact-imgitem__input {
+    padding: 0;
+    margin: 0;
+  }
+  .formuser-contact__wrap {
+    margin-top: 6px;
+    margin-bottom: 4px;
+  }
+  .formuser-contact-item__lable {
+    width: 100%;
+  }
+  .formuser-contact-imgitem__input {
+    width: 100%;
+  }
+  .formuser-contact .formuser-contact__header {
+    width: 278px;
+    height: 44px;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.24;
+    letter-spacing: normal;
+    color: #000000;
+    margin-bottom: 0px;
+    width: 100%;
+  }
 }
-.formuser-contact-imgitem {
-  height: 58px;
+@media (min-width: 768px) {
+  .formuser-contact__header {
+    margin-top: 12px;
+    text-align: center;
+  }
+  .formuser-contact__header::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    display: block;
+    width: 125px;
+    height: 1px;
+    background-color: #dbdbdb;
+  }
+  .formuser-contact__header::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: 60px;
+    display: block;
+    width: 125px;
+    height: 1px;
+    background-color: #dbdbdb;
+  }
 }
-.formuser-contact-imgitem__input {
-  width: 100%;
-  border: 0;
-  background-color: #f2f2f2;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.44;
-  text-align: left;
-  color: black;
-  padding-left: 22px;
-}
-.formuser-contact-imgitem__image {
-  min-width: 58px;
-  height: 58px;
-  position: relative;
-  z-index: 2;
-}
-.formuser-contact-imgitem__image--phone {
-  background: #e6e6e6 url('../img/phone-svg.png') no-repeat;
-  background-position: center;
-}
-.formuser-contact-imgitem__image--email {
-  background: #e6e6e6 url('../img/mail-svg.png') no-repeat;
-  background-position: center;
+@media (min-width: 1280px) {
+  .formuser-contact {
+    flex-direction: row;
+    height: 194px;
+    justify-content: space-around;
+  }
+  .formuser-contact__wrap {
+    display: flex;
+    align-items: center;
+    margin-top: 43px;
+    margin-left: 41px;
+  }
+  .formuser-contact__header {
+    margin-top: 15px;
+  }
+  .formuser-contact__header::before {
+    content: "";
+    position: absolute;
+    top: 28px;
+    left: 120px;
+    display: block;
+    width: 279px;
+    height: 1px;
+    background-color: #efefef;
+  }
+  .formuser-contact__header::after {
+    content: "";
+    position: absolute;
+    top: 28px;
+    right: 120px;
+    display: block;
+    width: 279px;
+    height: 1px;
+    background-color: #efefef;
+  }
 }

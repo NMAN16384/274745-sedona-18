@@ -1,0 +1,83 @@
+.advantage__item--house .advantage-item__header {
+  padding-top: 8px;
+  padding-left: 48px;
+}
+.advantage__item--house .advantage-item__text {
+  margin-top: 12px;
+  padding-top: 0px;
+  padding-left: 48px;
+}
+.advantage__item--gift .advantage-item__header {
+  padding-top: 10px;
+  padding-left: 44px;
+}
+.advantage__item--gift .advantage-item__text {
+  margin-top: 12px;
+  padding-left: 44px;
+}
+.advantage__item--burger .advantage-item__header {
+  padding-top: 4px;
+  padding-left: 51px;
+}
+.advantage__item--burger .advantage-item__text {
+  margin-top: 12px;
+  padding-left: 51px;
+}
+.advantage-item__header {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.44;
+  padding-bottom: 4px;
+}
+.advantage-item__text {
+  font-size: 14px;
+  line-height: 1.5;
+  padding-right: 30px;
+  padding-right: 20px;
+}
+@media (min-width: 768px) {
+  .advantage-item {
+    text-align: center;
+  }
+  .advantage-item__header {
+    margin: 0px;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.24;
+  }
+  .advantage-item__text {
+    display: inline-block;
+    min-width: 156px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: black;
+    margin-top: 16px;
+    width: 156px;
+  }
+  .advantage__item--house .advantage-item__header {
+    margin-top: 121px;
+    margin-right: 50px;
+  }
+  .advantage__item--house .advantage-item__text {
+    margin-top: 17px;
+    margin-right: 50px;
+  }
+  .advantage__item--burger .advantage-item__header {
+    margin-top: 125px;
+    margin-right: 50px;
+  }
+  .advantage__item--burger .advantage-item__text {
+    padding: 0;
+    margin-top: 17px;
+  }
+  .advantage__item--gift .advantage-item__header {
+    margin-top: 119px;
+    padding-left: 0px;
+  }
+  .advantage__item--gift .advantage-item__text {
+    width: 70%;
+    margin-top: 17px;
+    padding: 0px;
+  }
+}
