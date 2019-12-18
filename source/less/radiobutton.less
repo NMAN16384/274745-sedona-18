@@ -1,5 +1,6 @@
 @import "variable";
 @hover-color: #e5e5e5;
+@active-color:#d5d5d5;
 
 .radiobutton {
   display: flex;
@@ -15,11 +16,11 @@
   }
 
   &:active .radiobutton__lable {
-    background-color: @hover-color;
+    background-color: @active-color
   }
 
   &:active .radiobutton__lable::after {
-    background-color: @hover-color;
+    background-color: @c-black;
     opacity: 0.3;
   }
 }
