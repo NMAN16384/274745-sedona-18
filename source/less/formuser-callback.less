@@ -147,14 +147,16 @@
       width: 480px;
       padding-right: 6px;
     }
+
+    .formuser-callback::after {
+      content: "* \00A0 \2013 \00A0 обязательные поля";
+      top: 337px;
+      left:  860px;
+      width: 220px;
+      height: 11px;
+      color: @c-black;
+    }
   }
 
-  .formuser-callback::after {
-    content: "* \00A0 \2013 \00A0 обязательные поля";
-    top: 337px;
-    left:  860px;
-    width: 220px;
-    height: 11px;
-    color: @c-black;
-  }
+
 }

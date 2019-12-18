@@ -17,11 +17,7 @@
 
   text-align: center;
   text-transform: uppercase;
-  font-size: 21px;
-  font-weight: bold;
-  line-height: 1.24;
-  text-align: center;
-  color: @c-black;
+  .cfont(21px, 1.24,bold,center,@c-black);
 }
 
 .visitsedona__buttons {
@@ -47,20 +43,14 @@
 .visitsedona__dev {
   display: flex;
   justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  line-height: 1.86;
-  text-align: center;
-  color: @c-black;
+  .cfont(14px, 1.86,bold,center,@c-black);
 }
 
 .visitsedona__dev-academ {
   * {
     .position-absolute();
   }
-
   z-index: 1;
-
   position: relative;
   margin-left: 8px;
   margin-top: 0px;
@@ -69,36 +59,30 @@
   background: url('../img/htmlacademy-svg.png') no-repeat;
   background-position: center;
 }
-
 .visitsedona__image {
   z-index: -1;
-
   * {
     .position-absolute();
   }
 }
-
 .visitsedona__image--twiter {
   position: relative;
   height: 14px;
   width: 18px;
   background: url('../img/icon-twitter-svg.png') no-repeat;
 }
-
 .visitsedona__image--facebook {
   position: relative;
   height: 18px;
   width: 9px;
   background: url('../img/icon-facebook-svg.png') no-repeat;
 }
-
 .visitsedona__image--youtube {
   position: relative;
   height: 14px;
   width: 18px;
   background: url('../img/icon-youtube-svg.png') no-repeat;
 }
-
 .visitsedona__image--academ {
   z-index: 1;
   position: relative;
@@ -108,14 +92,12 @@
   background: url('../img/htmlacademy-svg.png') no-repeat;
   background-position: center;
 }
-
 .visitsedona__dev-text {
   padding-top: 2px;
   padding-right: 4px;
   padding-bottom: 2px;
 }
-
-@media (min-width: 768px) {
+@media (min-width: @r768px) {
   .visitsedona {
     position: relative;
     height: 60px;
@@ -123,19 +105,15 @@
     flex-direction: row;
     justify-content: stretch;
   }
-
   .visitsedona__dev-text {
     padding-right: 4px;
     padding-bottom: 2px;
   }
-
   .visitsedona__dev-academ {
     * {
       .position-absolute();
     }
-
     z-index: 1;
-
     position: relative;
     margin-left: 8px;
     margin-top: 0px;
@@ -169,7 +147,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: @r768px) {
 
   .visitsedona__buttons {
     position: absolute;
@@ -191,7 +169,7 @@
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: @r1280px) {
   .visitsedona {
     padding-bottom: 30px;
   }
