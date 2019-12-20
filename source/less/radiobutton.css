@@ -11,10 +11,10 @@
   background-color: #e5e5e5;
 }
 .radiobutton:active .radiobutton__lable {
-  background-color: #e5e5e5;
+  background-color: #d5d5d5;
 }
 .radiobutton:active .radiobutton__lable::after {
-  background-color: #e5e5e5;
+  background-color: black;
   opacity: 0.3;
 }
 .radiobutton__input {

@@ -114,6 +114,13 @@
   text-align: center;
   color: white;
 }
+.advantages__turist:hover {
+  background-color: #669ec0;
+}
+.advantages__turist:active {
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
+}
 .advantages__turist-img {
   height: 350px;
   position: relative;

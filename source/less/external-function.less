@@ -1,5 +1,11 @@
 @import "variable.less";
 
+.block-image(){
+  z-index: -1;
+  * {
+     .position-absolute();
+  }
+}
 
 .font-base() {
   font-family: PTSans;
@@ -28,6 +34,13 @@
   font-weight: @font-weight;
   text-align: @text-align;
   color: @color;
+}
+
+.cfont(@size, @line-height, @font-weight, @text-align) {
+  font-size: @size;
+  line-height: @line-height;
+  font-weight: @font-weight;
+  text-align: @text-align;
 }
 
 .cfont(@size, @line-height, @font-weight) {

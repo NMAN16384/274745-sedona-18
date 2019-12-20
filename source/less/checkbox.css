@@ -15,6 +15,11 @@
   background-color: #d5d5d5;
   border-color: #d5d5d5;
 }
+.checkbox:active .checkbox__input:not(:checked) + .checkbox__lable::after {
+  background: rgba(51, 51, 51, 0.3);
+  mask: url("../img/icon-tick.svg") no-repeat;
+  background-size: 25px 19px;
+}
 .checkbox__input {
   position: absolute;
   opacity: 0;
