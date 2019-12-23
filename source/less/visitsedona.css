@@ -91,13 +91,13 @@
   position: relative;
   height: 18px;
   width: 9px;
-  background: url('../img/icon-facebook-svg.png') no-repeat;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="white" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="8.672px" height="18.944px" viewBox="0 0 8.672 18.944" enable-background="new 0 0 8.672 18.944" xml:space="preserve"><path d="M6.275,3.356c0.799,0,1.599,0,2.398,0c0-1.119,0-2.237,0-3.356c-0.959,0-1.92,0-2.878,0C2.656,0.181,1.54,2.387,1.948,6.114 H0v3.518h1.959c0,3.104,0,6.208,0,9.312c1.279,0,2.559,0,3.837,0c0-3.104,0-6.208,0-9.312h2.857V6.114H5.787 C5.765,5.069,5.75,3.709,6.275,3.356z"/></svg>');
 }
 .visitsedona__image--youtube {
   position: relative;
   height: 14px;
-  width: 18px;
-  background: url('../img/icon-youtube-svg.png') no-repeat;
+  width: 20px;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="white" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="19.979px" height="14.015px" viewBox="0 0 19.979 14.015" enable-background="new 0 0 19.979 14.015" xml:space="preserve"> <path d="M17.145,0H2.835C1.275,0,0,1.275,0,2.835v8.345c0,1.56,1.275,2.835,2.835,2.835h14.31c1.56,0,2.835-1.275,2.835-2.835V2.835 C19.979,1.275,18.704,0,17.145,0z M7.036,10.392V3.623l6.769,3.384L7.036,10.392z"/> </svg>');
 }
 .visitsedona__image--academ {
   z-index: 1;
@@ -107,6 +107,18 @@
   width: 27px;
   background: url('../img/htmlacademy-svg.png') no-repeat;
   background-position: center;
+}
+.visitsedona__button:hover {
+  background-color: #669ec0;
+}
+.visitsedona__button:active {
+  background-color: #5496bd;
+}
+.visitsedona__button:active .visitsedona__image--youtube {
+  background-image: url('data:image/svg+xml;utf8,<svg fill="rgba(255,255,255,0.3)" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="19.979px" height="14.015px" viewBox="0 0 19.979 14.015" enable-background="new 0 0 19.979 14.015" xml:space="preserve"> <path d="M17.145,0H2.835C1.275,0,0,1.275,0,2.835v8.345c0,1.56,1.275,2.835,2.835,2.835h14.31c1.56,0,2.835-1.275,2.835-2.835V2.835 C19.979,1.275,18.704,0,17.145,0z M7.036,10.392V3.623l6.769,3.384L7.036,10.392z"/> </svg>');
+}
+.visitsedona__button:active .visitsedona__image--facebook {
+  background-image: url('data:image/svg+xml;utf8,<svg fill="rgba(255,255,255,0.3)" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="8.672px" height="18.944px" viewBox="0 0 8.672 18.944" enable-background="new 0 0 8.672 18.944" xml:space="preserve"><path d="M6.275,3.356c0.799,0,1.599,0,2.398,0c0-1.119,0-2.237,0-3.356c-0.959,0-1.92,0-2.878,0C2.656,0.181,1.54,2.387,1.948,6.114 H0v3.518h1.959c0,3.104,0,6.208,0,9.312c1.279,0,2.559,0,3.837,0c0-3.104,0-6.208,0-9.312h2.857V6.114H5.787 C5.765,5.069,5.75,3.709,6.275,3.356z"/></svg>');
 }
 .visitsedona__dev-text {
   padding-top: 2px;
