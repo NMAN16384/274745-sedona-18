@@ -1,0 +1,81 @@
+.padding-margin-0 {
+  padding: 0px;
+  margin: 0px;
+}
+.error-opps {
+  font-family: PTSans;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  box-shadow: 0px 7px 15px 0 rgba(70, 70, 70, 0.15);
+  background-color: #ffffff;
+  height: 280px;
+}
+.error-opps .error-opps__header {
+  padding-top: 60px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.44;
+}
+.error-opps .error-opps__text {
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  color: black;
+  padding-top: 20px;
+  text-transform: uppercase;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.error-opps .error-opps__button {
+  margin-top: 20px;
+  border: none;
+  height: 58px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: #81b3d2;
+  color: white;
+}
+.error-opps .error-opps__button:hover {
+  background-color: #669ec0;
+}
+.error-opps .error-opps__button:active {
+  background-color: #5496bd;
+}
+@media (min-width: 768px) {
+  .error-opps {
+    height: 347px;
+    width: 400px;
+  }
+  .error-opps .error-opps__header {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.33;
+    color: #000000;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .error-opps .error-opps__text {
+    font-family: PTSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+  }
+  .error-opps .error-opps__button {
+    margin-top: 36px;
+    width: 272px;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.24;
+    text-align: center;
+    color: #ffffff;
+  }
+}

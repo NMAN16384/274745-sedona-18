@@ -1,0 +1,94 @@
+.padding-margin-0 {
+  padding: 0px;
+  margin: 0px;
+}
+.error-ok {
+  font-family: PTSans;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  position: relative;
+  height: 323px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  box-shadow: 0px 7px 15px 0 rgba(70, 70, 70, 0.15);
+}
+.error-ok .error-ok__header {
+  padding-top: 49px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.44;
+  color: #000000;
+}
+.error-ok .error-ok__text {
+  padding-top: 20px;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  color: black;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 38px;
+}
+.error-ok .error-ok__wrap {
+  height: 79px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f2f2f2;
+}
+.error-ok .error-ok__wrap .error-ok__btn {
+  height: 58px;
+  width: 100%;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  background-color: #81b3d2;
+}
+.error-ok .error-ok__wrap .error-ok__btn:hover {
+  background-color: #669ec0;
+}
+.error-ok .error-ok__wrap .error-ok__btn:active {
+  background-color: #5496bd;
+}
+@media (min-width: 768px) {
+  .error-ok {
+    height: 347px;
+    width: 640px;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    box-shadow: 0px 7px 15px 0 rgba(70, 70, 70, 0.15);
+  }
+  .error-ok .error-ok__header {
+    font-size: 30px;
+    padding-top: 64px;
+    font-weight: bold;
+    line-height: 0.87;
+    color: #000000;
+  }
+  .error-ok .error-ok__text {
+    padding-top: 32px;
+    padding-left: 112px;
+    padding-right: 112px;
+  }
+  .error-ok .error-ok__wrap {
+    height: 147px;
+    position: absolute;
+    padding-top: 0px;
+    width: 100%;
+    bottom: 0;
+  }
+  .error-ok .error-ok__wrap .error-ok__btn {
+    width: 458px;
+    margin-top: 44px;
+  }
+  .error-ok .error-ok__btn {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.24;
+    text-align: center;
+    color: #ffffff;
+  }
+}
